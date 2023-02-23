@@ -1,0 +1,23 @@
+,Source,AnimalID_Std.x,AnimalID_Std.y,dist,MiguelCheck,Comments
+1,Mathias_Duplicated_AnimalID_MiguelCorrected_20220111.csv,Babypann2019,Babypann2017,0.055555556,,asked in email
+2,Mathia_NameCorrection_20211118.csv,Donwnlip,Downlip,0.089285714,,Typo in Mathias file
+3,Mathia_NameCorrection_20211118.csv,Ertjies/Ja,Ertjies,0.1,,Ertjies
+4,Mathia_NameCorrection_20211118.csv,F10,Foei,0.472222222,,F10 second name
+5,Mathia_NameCorrection_20211118.csv,F10,Fudu,0.472222222,,F10 second name
+6,Mathia_NameCorrection_20211118.csv,F10,Fiji,0.472222222,,F10 second name
+7,Mathia_NameCorrection_20211118.csv,Goli,Gelosi,0.194444444,Yes,"Not found in LifeHistory, "
+8,Mathia_NameCorrection_20211118.csv,Littlejackie,Littleskollie,0.185897436,,Old name
+9,Mathia_NameCorrection_20211118.csv,Mbulali,Mvula,0.20952381,Yes,"Not found in LifeHistory, "
+10,Mathia_NameCorrection_20211118.csv,Mbulali,Mbila,0.20952381,Yes,"Not found in LifeHistory, "
+11,Mathia_NameCorrection_20211118.csv,Negroni,Nyoni,0.20952381,Yes,"Not found in LifeHistory, "
+12,Mathia_NameCorrection_20211118.csv,Ntokozo,Ncoko,0.20952381,Yes,"Not found in LifeHistory, "
+13,Mathia_NameCorrection_20211118.csv,Ooo,Oom,0.222222222,Yes,"Not found in LifeHistory, "
+14,Mathia_NameCorrection_20211118.csv,Prague,Pale,0.25,Yes,"Not found in LifeHistory, "
+15,Mathia_NameCorrection_20211118.csv,Puol,Puolka,0.111111111,Yes,"Is Puol, Puolka?"
+16,Mathia_NameCorrection_20211118.csv,Reenbog,Reenboog,0.041666667,Yes,What is the correct spelling?
+17,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,Sko,Skollie,0.19047619,Yes,Can you confirm that Sko come from a mistake in the corrected csv file you sent me and where there is a row for Sko and Skollie. I assume Sko and Skollie are the same animal correct?
+18,Mathia_NameCorrection_20211118.csv,Socotora,Bogota,0.277777778,Yes,"Not found in LifeHistory, "
+19,Mathia_NameCorrection_20211118.csv,Tha,Thames,0.166666667,Yes,I assume Tha is the same as Thames? Or different animals?
+20,Mathia_NameCorrection_20211118.csv,The,Thames,0.166666667,Yes,"Not found in LifeHistory, "
+21,Mathia_NameCorrection_20211118.csv,Unk1yo,Umnak,0.3,,
+22,Mathia_NameCorrection_20211118.csv,Yellowstone,Yelowstone,0.03030303,,Typo

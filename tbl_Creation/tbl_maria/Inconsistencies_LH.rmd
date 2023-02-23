@@ -1,0 +1,10 @@
+---
+title: "Inconsistencies in Life history"
+output: html_document
+---
+
+- Liffey has no end date for his time in Noha. Brain was extracted in: 20.08.2022, I will approximate to 5 days before as approx of End_Date in NH.
+- Liffey date as an adult, he migrated as an adult Individual’s Age (state if estimated): at least 7 years, but already seen as an adult. So probably 11 years
+or more.
+- No ages for IFam for adulthood
+- "Babyrenn2020" inconsistent between DOB and First seen

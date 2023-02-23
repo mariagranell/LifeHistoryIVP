@@ -1,0 +1,13 @@
+AnimalCode,AnimalID,Source,BabyName,Count_AnimalID,Remove
+Hand,Handi,Mathia_NameCorrection_20211118.csv,No,2,yes
+Han,Handi,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,no
+Iggy,Iggy,Mathia_NameCorrection_20211118.csv,No,2,yes
+Igg,Iggy,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,no
+Little Z,Little Z,Mathia_NameCorrection_20211118.csv,No,2,no
+NA,Little Z,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,yes
+Mock,Mokcha,Mathia_NameCorrection_20211118.csv,No,2,yes
+Mokc,Mokcha,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,no
+Nco,Ncoko,Mathia_NameCorrection_20211118.csv,No,2,yes
+Ncok,Ncoko,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,no
+Ndi,Ndiki,Mathias_Duplicated_AnimalCode_MiguelCorrected_20220111.csv,No,2,yes
+Ndik,Ndiki,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,no

@@ -1,0 +1,36 @@
+AnimalCode,AnimalID,Source,BabyName,Count_AnimalCode,Remove,
+Bin,Bin,Mathias_Duplicated_AnimalCode_MiguelCorrected_20220111.csv,No,2,yes,
+Bin,Bingo,Mathia_NameCorrection_20211118.csv,No,2,no,
+Enge,Engel,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,no,Also named in the past Chouchou and JC
+Enge,Engels,Mathia_NameCorrection_20211118.csv,No,2,yes,
+Fen,Feniks,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,yes,
+Fen,Fenix,Mathia_NameCorrection_20211118.csv,No,2,no,
+Gabi,Gabillou,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,no,
+Gabi,Gabilou,Mathia_NameCorrection_20211118.csv,No,2,yes,
+Jac,Jack,Mathias_Duplicated_AnimalCode_MiguelCorrected_20220111.csv,No,2,yes,
+Jac,Jackie,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,no,Also named in the past Little Jackie and JD
+Kom,Kom,Mathias_Duplicated_AnimalCode_MiguelCorrected_20220111.csv,No,2,yes,
+Kom,Kommunis,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,no,Also named in the past Bin/Kom
+LBlind,Lblind,Mathias_Duplicated_AnimalID_MiguelCorrected_20220111.csv,No,2,yes,
+LBlind,LBlind,Mathias_Duplicated_AnimalCode_MiguelCorrected_20220111.csv,No,2,no,
+Mat,Mathimula,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,no,
+Mat,Matimula,Mathia_NameCorrection_20211118.csv,No,2,yes,
+Ndi,Ndiki,Mathias_Duplicated_AnimalCode_MiguelCorrected_20220111.csv,No,2,yes,short name for this individual is Ndik
+Ndi,Ndiza,Mathias_Duplicated_AnimalCode_MiguelCorrected_20220111.csv,No,2,no,"this name is OK, they are different individuals Ndi and Ndik"
+Oerw,Oerwood,Mathia_NameCorrection_20211118.csv,No,2,no,
+Oerw,Oerwoud,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,yes,
+Oku,Okucane,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,yes,
+Oku,Okuncane,Mathia_NameCorrection_20211118.csv,No,2,no,
+Pik,Pik,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,yes,
+Pik,Pikito,Mathia_NameCorrection_20211118.csv,No,2,no,
+Poff,Pofferthie,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,yes,
+Poff,Poffertjie,Mathia_NameCorrection_20211118.csv,No,2,no,
+Pro,Propiano,Mathia_NameCorrection_20211118.csv,No,2,yes,
+Pro,Propriano,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,no,
+Skem,Skem,Mathia_NameCorrection_20211118.csv,No,2,yes,
+Skem,Skemer,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,no,
+Snor,Snorretjie,Mathia_NameCorrection_20211118.csv,No,2,no,
+Snor,Snortjie,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,yes,
+Ura,Uranium,Mathia_NameCorrection_20211118.csv,No,2,no,
+Ura,Uranium City,LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,2,yes,
+NA,New male (look like Rio),LH_AnimalIDCodes_MiguelCorrected_20220111.csv,No,28,no,"no idea who this is, but there may be more than one, in case there is one perhaps worth keeping as Newm as AnimalID code"
