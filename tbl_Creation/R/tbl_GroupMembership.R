@@ -34,8 +34,8 @@ d <- tbl_Sex %>%
                    ImmigrationDate4, ImmigrationGroup4, LastDate4
                   ),
             by = c("AnimalID" = "AnimalID_Std")) %>%
-  mutate(Sex = as.factor(Sex))
-
+  mutate(Sex = as.factor(Sex)) %>%
+  mutate(ImmigrationDate1 = as.factor(ImmigrationDate1))
 
 # I want to create a table that melts down all the info of individuals. So only 4 columns:
 # Animal_ID, Start_date, Last_date, Group
@@ -49,7 +49,12 @@ View(d %>%
 )
 d <- d[d$AnimalID != "Babyrenn2020",]
 
-# make all empy spaces into NA
+# I will remove the LastSeen2, ImmigrationGp3 and DateImmigration3 for Kom. The supossed gap it had in BD
+# does not make sense, so I will ignore it because I know that until today 1 Mar he's still in BD
+d[d$AnimalID == "Kommunis", "LastDate2"] <- "2021-12-14"
+
+# remove LastSeen1 for some individuals of IFam because we are following them now
+d[d$AnimalID == "Inhlanhla", "LastDate1"] <- NA
 
 # 2. From birth to last seen, if last seen is empty i´ll asume today date ----------------------
 todaydate <- as.character(Sys.Date())
@@ -70,6 +75,24 @@ ceroGP <- d%>%
   # if it dosen´t have a last seen date must be they are still in the group
   mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
   select(AnimalID, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
+
+# 2.1 group slpits ----------------------------------------------------------------------
+# some are still not resolved becuase there is no immigration date. You can check this ->
+# View(d %>% filter(!is.na(ImmigrationGroup1) & is.na(ImmigrationDate1))) or this ->
+# View(d %>% filter(!is.na(ImmigrationGroup1) & is.na(ImmigrationDate1) & !is.na(BirthGroup)))
+
+gpsplits <- d %>%
+  filter(!is.na(ImmigrationGroup1) & is.na(ImmigrationDate1) & !is.na(BirthGroup) & !is.na(EmigrationNatalDate)) %>%
+  mutate(
+    StartDate_mb = EmigrationNatalDate,
+    EndDate_mb = LastDate1,
+    Group_mb = ImmigrationGroup1,
+    Tenure_type = "GroupSplit"
+  ) %>%
+   # if it dosen´t have a last immigration date must be they are still in the group
+  mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
+  select(AnimalID, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
+
 
 
 # 3. when they emigrated. how long they stayed in their natal group ----------------------
@@ -144,7 +167,8 @@ tbl_GroupMembership <- fourthimmi %>%
   bind_rows(.,firstimmi) %>%
   bind_rows(.,thirdimmi) %>%
   bind_rows(.,emigrated) %>%
-  bind_rows(.,ceroGP)
+  bind_rows(.,ceroGP) %>%
+  bind_rows(.,gpsplits)
 
 # Manual data cleaning --------------------------
 View(tbl_GroupMembership%>%

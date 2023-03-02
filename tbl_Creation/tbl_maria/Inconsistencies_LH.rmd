@@ -8,3 +8,5 @@ output: html_document
 or more.
 - No ages for IFam for adulthood
 - "Babyrenn2020" inconsistent between DOB and First seen
+- Kom LastDate2 should be 2021-12-14 instead of 2022-12-14
+- Change LastDate1 date for Inhl, the last seen date was done for when we were not following IFam anymore, but now that we do we should remove those "last obs"
