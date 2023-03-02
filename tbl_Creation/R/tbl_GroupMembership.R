@@ -83,6 +83,9 @@ ceroGP <- d%>%
 
 gpsplits <- d %>%
   filter(!is.na(ImmigrationGroup1) & is.na(ImmigrationDate1) & !is.na(BirthGroup) & !is.na(EmigrationNatalDate)) %>%
+  # if they are KB,CR,BD,NH,AK or LT they are for sure not splits, So we have to remove those entries
+  # the \\b \\b makes sure it only matches that particular patter
+  filter(!grepl('\\bCR\\b|\\bLT\\b|\\bAK\\b|\\bBD\\b|\\bKB\\b|\\bNH\\b', ImmigrationGroup1)) %>%
   mutate(
     StartDate_mb = EmigrationNatalDate,
     EndDate_mb = LastDate1,
@@ -91,8 +94,8 @@ gpsplits <- d %>%
   ) %>%
    # if it dosen´t have a last immigration date must be they are still in the group
   mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
-  select(AnimalID, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
-
+  select(AnimalID, Group_mb,StartDate_mb, EndDate_mb, Tenure_type) %>%
+  mutate(Group_mb = str_replace_all(Group_mb, pattern = c("Ifamily"), replacement = "IFamily"))
 
 
 # 3. when they emigrated. how long they stayed in their natal group ----------------------
