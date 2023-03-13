@@ -9,4 +9,11 @@ or more.
 - No ages for IFam for adulthood
 - "Babyrenn2020" inconsistent between DOB and First seen
 - Kom LastDate2 should be 2021-12-14 instead of 2022-12-14
-- Change LastDate1 date for Inhl, the last seen date was done for when we were not following IFam anymore, but now that we do we should remove those "last obs"
+- Change LastDate1 date for Inhl, the last seen date was done for when we were not following IFam anymore, but now that we do we should remove those "last obs".
+-  Ass End Date is wrong. He is described in the bges of 2022-06-07 and 2022-12-08 between
+- Apa, by the description of BGE seems like the start date in BD is wrong. He was described to have bge 3 days before the start day in BD. Apa described as active individual in an ecounter happening the 2022-07-26. And his start date is the 2022-07-27.
+
+
+--------
+# things Nokubonga can+t do anything about
+- Ass Bon Dan Gaa Med Pit Sel SMA Uva Yst have no emigrationNatalDate or ImmigrationDate1 but they changed group.... I guess we would need to check the first entries of these individuals in the database.

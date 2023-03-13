@@ -17,6 +17,10 @@
  # I will create new data coluns in where there will not be data loss when appliying ymd(). However some data will
  # be approximated. I will still work with a ymd() format or the closest to that. I will include a column statisng if the data is approximated
 
+ # change manual entries od dates like "Still present" to the current date.
+ todaydate <- as.character(format(Sys.Date(), "%d/%m/%Y"))
+ IVP_LH[] <- lapply(IVP_LH, gsub, pattern = "Still present", replacement = todaydate)
+
  a <-IVP_LH %>%
    summarize(DOB = sum(is.na(DOB)),
           FirstRecorded = sum(is.na(FirstRecorded)),
@@ -155,23 +159,16 @@ LH%>%
           LastDate4 = sum(is.na((LastDate4))))
 
 
- view(LH %>%
-        filter(LH_AnimalID == "Ermelo") %>%
-        pull(ImmigrationGroup1))
+ #view(LH %>% filter(LH_AnimalID == "Ermelo") %>% pull(ImmigrationGroup1))
 
- view(LH %>%
-        filter(AnimalID_Std %in% c("Aathabasca", "Athabasca")))
+ #view(LH %>% filter(AnimalID_Std %in% c("Aathabasca", "Athabasca")))
  #Kenneth and Joe and Liam may be the same animals, this will be sent by Miguel to the project manager and we will see how to solve this
 
  # Duplicated ID -----------------------------------------------------------
  #Should be one entry per animalID
 
- LH_DuplicatedID <- LH %>%
-   group_by(LH_AnimalID) %>%
-   mutate(n=n()) %>%
-   ungroup() %>%
-   filter(n1)
- view(LH_DuplicatedID)
+ #LH_DuplicatedID <- LH %>% group_by(LH_AnimalID) %>% mutate(n=n()) %>% ungroup() %>% filter(n1)
+ #view(LH_DuplicatedID)
  #Seems that different animals may have been named the same
  #Goose and Zanzibar seems to have been assigned 2x
  #Removed entries based on Miguel advice

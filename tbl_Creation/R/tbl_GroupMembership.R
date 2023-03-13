@@ -34,19 +34,18 @@ d <- tbl_Sex %>%
                    ImmigrationDate4, ImmigrationGroup4, LastDate4
                   ),
             by = c("AnimalID" = "AnimalID_Std")) %>%
-  mutate(Sex = as.factor(Sex)) %>%
-  mutate(ImmigrationDate1 = as.factor(ImmigrationDate1))
+  mutate(Sex = as.factor(Sex)) #%>%
+  #mutate(ImmigrationDate1 = as.factor(ImmigrationDate1))
 
 # I want to create a table that melts down all the info of individuals. So only 4 columns:
 # Animal_ID, Start_date, Last_date, Group
 
 # I will tackle this in cases
 
-# 1. Check to confirm First Date is a consensus between DOB and FirstDate ------------------
+# 1. Data cleaning ------------------
+## Check to confirm First Date is a consensus between DOB and FirstDate
 # I remove Babyrenn2020 becuase is very unreliable
-View(d %>%
-  filter (DOB != FirstDate & !is.na(DOB))
-)
+#View(d %>% filter (DOB != FirstDate & !is.na(DOB)))
 d <- d[d$AnimalID != "Babyrenn2020",]
 
 # I will remove the LastSeen2, ImmigrationGp3 and DateImmigration3 for Kom. The supossed gap it had in BD
@@ -55,6 +54,14 @@ d[d$AnimalID == "Kommunis", "LastDate2"] <- "2021-12-14"
 
 # remove LastSeen1 for some individuals of IFam because we are following them now
 d[d$AnimalID == "Inhlanhla", "LastDate1"] <- NA
+
+## some individuals don't have An ImmigrationDate1 but have an ImmigrationGroup1. Here I will just add invidiuals
+# that have an EmigrationNatalDate and approximate the entry date a day after they left
+# their natal groups. I will also filter for only the main groups
+# a<-d %>%filter(is.na(ImmigrationDate1) & !is.na(LastDate1) & !is.na(EmigrationNatalDate)) %>%filter(grepl('\\bCR\\b|\\bLT\\b|\\bAK\\b|\\bBD\\b|\\bKB\\b|\\bNH\\b', ImmigrationGroup1)) %>% mutate(ImmigrationDate1 = as.character(as.Date(EmigrationNatalDate) + 1))
+# I'll make the changes manually since is only two cases
+d[d$AnimalID == "Asseblief", "ImmigrationDate1"] <- as.character(as.Date(d[d$AnimalID == "Asseblief", "EmigrationNatalDate"]) + 1)
+d[d$AnimalID == "Gaaf", "ImmigrationDate1"] <- as.character(as.Date(d[d$AnimalID == "Gaaf", "EmigrationNatalDate"]) + 1)
 
 # 2. From birth to last seen, if last seen is empty i´ll asume today date ----------------------
 todaydate <- as.character(Sys.Date())
@@ -111,6 +118,7 @@ emigrated <- d%>%
   select(AnimalID, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
 
 # 4. first inmigration ----------------------
+
 firstimmi <- d%>%
   filter ( !is.na(ImmigrationDate1)) %>%
   mutate(
@@ -122,6 +130,8 @@ firstimmi <- d%>%
    # if it dosen´t have a last immigration date must be they are still in the group
   mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
   select(AnimalID, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
+
+
 
 # 5. second immigration ------------------
 secondimmi <- d%>%
