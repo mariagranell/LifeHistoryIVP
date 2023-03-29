@@ -23,12 +23,11 @@ View(tbl_LifeHistory)
 
 # tbl_AnimalID ------------------------------------------------------------
 tbl_AnimalID <- tbl_LifeHistory %>% 
-  arrange(AnimalID_Std) %>% 
-  select(AnimalID_Std) %>% 
+  arrange(AnimalID_Std) %>%
+  select(AnimalID_Std) %>%
   rename(AnimalID = AnimalID_Std)
 View(tbl_AnimalID)
 #Zanzibar and Goose re duplicated because they duplicated in LHF
-
 
 #write csv
 write.csv(tbl_AnimalID,output_fullpath,row.names = FALSE)

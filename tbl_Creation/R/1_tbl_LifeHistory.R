@@ -36,6 +36,7 @@
           LastDate4 = sum(is.na(LastSeen4)))
 
  #IVP_LH$DOB <- as.Date(format(as.POSIXct(IVP_LH$DOB, format = "%d/%m/%Y"), "%Y-%m-%d"))
+ { # remodel the format of the columns
  IVP_LH$FirstRecorded <- as.Date(format(as.POSIXct(IVP_LH$FirstRecorded, format = "%d/%m/%Y"), "%Y-%m-%d"))
  IVP_LH$DepartureNatalGp <- as.Date(format(as.POSIXct(IVP_LH$DepartureNatalGp,format = "%d/%m/%Y"), "%Y-%m-%d"))
  IVP_LH$DateImmigration1 <- as.Date(format(as.POSIXct(IVP_LH$DateImmigration1,format = "%d/%m/%Y"), "%Y-%m-%d"))
@@ -46,7 +47,7 @@
  IVP_LH$LastSeen3 <- as.Date(format(as.POSIXct(IVP_LH$LastSeen3, format = "%d/%m/%Y"), "%Y-%m-%d"))
  IVP_LH$DateImmigration4 <- as.Date(format(as.POSIXct(IVP_LH$DateImmigration4,format = "%d/%m/%Y"), "%Y-%m-%d"))
  IVP_LH$LastSeen4 <- as.Date(format(as.POSIXct(IVP_LH$LastSeen4, format = "%d/%m/%Y"), "%Y-%m-%d"))
-
+ }
 
  # tblLifeHistory ----------------------------------------------------------
 
@@ -98,7 +99,8 @@
    #DEAL WITH DUPLICATED ANIMALID
    filter(!(LH_AnimalID == "Goose" & FirstDate == "2021-05-25"),
           !(LH_AnimalID == "Zanzibar" & is.na(DOB)),
-          !(LH_AnimalID == "Aathabasca")) %>% #Athabasca had two rows with different spelling
+          !(LH_AnimalID == "Athabasca")) %>% # Athabasca had two rows with different spelling
+          # I will delete Athabasca but include Ath in the nicknames of Aat
 
 
    #ANIMALID MANUAL CORRECTION
@@ -108,10 +110,15 @@
                                   LH_AnimalID == "Snortjie"~ "Snorretjie",
                                   TRUE ~ LH_AnimalID)) %>%
 
+   #ANIMALCODE MANUAL CORRECTION
+   mutate(LH_AnimalCode = case_when(LH_AnimalID == "Ryan" ~ "Rya",
+                                    LH_AnimalID == "BigEars" ~ "BigEars",
+                                    TRUE ~ LH_AnimalCode)) %>%
 
    #OLD NAMES CORRECTION
    rename(OtherID = Nicknames) %>%
    mutate(OtherID = case_when(LH_AnimalID == "Propriano" ~ "Prague",
+                              LH_AnimalID == "Aathabasca" ~ "Ath",
                               TRUE ~ OtherID)) %>%
 
    #BIRTH GROUP CORRECTION

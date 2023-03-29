@@ -2,7 +2,7 @@
 
 # General -----------------------------------------------------------------
 #Once the table is generated, it will have to be corrected here on its own 
-
+setwd("/Users/mariagranell/Repositories/phllipe_vulloid/tbl_Creation/tbl_maria/")
 
 #To generate the first table, it does not matter whether AnimalID_Std is taken from tbl_AnimalID or from tbl_LifeHistory as they were at that time the same 
 #However, the question will arise later on 
@@ -12,25 +12,14 @@
 
 # Paths ------------------------------------------------------------------
 
-# input file is wither animalID, animalCode
-input_path <- "/Users/mariagranell/Repositories/phllipe_vulloid/tbl_Creation/tbl_maria/"
-
-
-output_path <- input_path
-output_table <- "tbl_DOB.csv"
-output_fullpath <- gsub(" ", "", paste(output_path, output_table))
-
+# input file is with animalID, animalCode
 
 # tbl_AnimalID ------------------------------------------------------------
-input_table <- "tbl_AnimalID.csv"
-input_fullpath <- gsub(" ", "",paste(input_path,input_table))
-tbl_AnimalID <- read.csv(input_fullpath)
+tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
 head(tbl_AnimalID)
 
 # tbl_LifeHistory ---------------------------------------------------------
-input_table <- "tbl_LifeHistory.csv"
-input_fullpath <- gsub(" ", "",paste(input_path,input_table))
-tbl_LifeHistory <- read.csv(input_fullpath)
+tbl_LifeHistory <- read.csv("tbl_LifeHistory.csv")
 str(tbl_LifeHistory)
 
 # Join AnimalID and LH Info -----------------------------------------------
@@ -340,15 +329,4 @@ nrow(tbl_DOB)
 
 # write csv tbl -----------------------------------------------------------
 
-write.csv(tbl_DOB,output_fullpath,row.names = FALSE)
-
-
-
-
-
-
-
-
-
-
-
+write.csv(tbl_DOB,"tbl_DOB.csv",row.names = FALSE)

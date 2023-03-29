@@ -2,7 +2,14 @@
 title: "Inconsistencies in Life history"
 output: html_document
 ---
+Issues not sent yet:
+1. Goose has two entries and are a bit of a mess.
+2. Apa leaving date from LT should be changed. Apa was seen in LT an encounter with BD the 2022-7-26. So I suggest the
+LastSeen1 to be 2022-7-26, instead of 2022-7-25.
 
+
+
+I have sent This to nokubonga 28/mar/2023 working on an older file:
 - Liffey has no end date for his time in Noha. Brain was extracted in: 20.08.2022, I will approximate to 5 days before as approx of End_Date in NH.
 - Liffey date as an adult, he migrated as an adult Individual’s Age (state if estimated): at least 7 years, but already seen as an adult. So probably 11 years
 or more.
@@ -12,6 +19,7 @@ or more.
 - Change LastDate1 date for Inhl, the last seen date was done for when we were not following IFam anymore, but now that we do we should remove those "last obs".
 -  Ass End Date is wrong. He is described in the bges of 2022-06-07 and 2022-12-08 between
 - Apa, by the description of BGE seems like the start date in BD is wrong. He was described to have bge 3 days before the start day in BD. Apa described as active individual in an ecounter happening the 2022-07-26. And his start date is the 2022-07-27.
+- I don't have the entries of the following monkeys: Dak (from NH), Haw (from CR), Kno (from BD), NewMale090622 (from CR), Pand (from IF) and PlainJohn (which I am not sure if is a type of PlainJane
 
 
 --------

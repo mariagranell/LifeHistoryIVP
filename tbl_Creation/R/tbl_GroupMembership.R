@@ -44,7 +44,7 @@ d <- tbl_Sex %>%
 
 # 1. Data cleaning ------------------
 ## Check to confirm First Date is a consensus between DOB and FirstDate
-# I remove Babyrenn2020 becuase is very unreliable
+# I remove Babyrenn2020 because is very unreliable
 #View(d %>% filter (DOB != FirstDate & !is.na(DOB)))
 d <- d[d$AnimalID != "Babyrenn2020",]
 
@@ -187,6 +187,9 @@ tbl_GroupMembership <- fourthimmi %>%
 View(tbl_GroupMembership%>%
   left_join(.,tbl_LifeHistory %>%
   select(AnimalID_Std, Fate_probable), by = c("AnimalID" = "AnimalID_Std")), "Unreliable data")
+
+# change Apa LT end date to 2022-07-26
+tbl_GroupMembership[70,4] <- "2022-07-26"
 
 # remove duplicates
 tbl_GroupMembership <- tbl_GroupMembership %>% distinct(., .keep_all = TRUE)
