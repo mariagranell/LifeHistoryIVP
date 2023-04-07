@@ -45,9 +45,6 @@ AnimalIDDOB <- tbl_AnimalID %>%
   mutate(DOB_Year = year(DOB),
          FirstDate_Year = year(FirstDate))
 
-View(AnimalIDDOB)
-
-
 # Missing DOB -------------------------------------------------------------
 
 #Animals that have a mother should have a date of birth
@@ -58,6 +55,8 @@ Mother_NoDOB <- AnimalIDDOB %>%
 nrow(Mother_NoDOB)
 #155 entries
 
+#view(AnimalIDDOB %>% filter(is.na(FirstDate)))
+
 
 #Animals that have a mother should have a firstdate
 #Mother no FirstDate 
@@ -65,7 +64,7 @@ Mother_NoFirstDate <- AnimalIDDOB %>%
   filter(!is.na(LH_MotherID),
          is.na(FirstDate))
 nrow(Mother_NoFirstDate)
-#15 animals that supposedly have a mother have no first date and no DOB
+#4 animals that supposedly have a mother have no first date and no DOB
 #These should be checked
 
 
@@ -156,7 +155,7 @@ Mother_NoDOB <- AnimalIDDOB %>%
                            "LT")) %>% 
   arrange(BirthGroup,
           FirstDate)
-View(Mother_NoDOB)
+nrow(Mother_NoDOB)
 #146 entries if no restriction on first date
 #100 entries if restiction on first date 
 #64 entries if considering only group of interets 
@@ -184,7 +183,7 @@ nrow(Mother_NoDOB_AssignDOB)
 
 
 #Mother no FirstDate 
-Mother_NoFirstDate_ToRemove <- AnimalIDDOB %>% 
+Mother_NoFirstDate_ToRemove <- AnimalIDDOB %>%
   filter(!is.na(LH_MotherID),
          is.na(FirstDate)) %>% 
   select(AnimalID)

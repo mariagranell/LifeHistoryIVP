@@ -2,6 +2,34 @@
 title: "Inconsistencies in Life history"
 output: html_document
 ---
+
+Lastest file:
+1. Heelal has the wrong format in Departure date put this instead: 2023-01-20
+2. Alcatraz has JAcaranda in Dateimmigration1 instead of ImmigrationGP1
+3. BBDian22 2022 instead 222 in LastSeen1.
+4. Alabama and BBHera22 have their dates in wrong format for first recorded, "2022-10-31" and "2023-01-18" respectively
+5. "BBDian22" IN "LastSeen1" it is "2022-11-10" instead of 222
+6. "Spek" in "LastSeen1" format change to "2022-11-31"
+7. "Vladivostok" in "LastSeen2" change to "2023-02-04"
+8. "Primavera" change the "yes" to "ReliableData" instead of LastSeen4
+9. "Goose" has a duplicated entry, I deleted the one that had FirstDate == "2021-05-25" and Included CrazyEyes to the other one
+10. "Zanzibar" has a duplicated entry, I deleted the one that did not had DOB
+11. Individual  "Baby Pann 2017" to "Baby Pannekoekie 2017" to be consistent
+12. "Yelowstone" to "Yellowstone", to spell it correct
+13. "Baby Kodiak 2020" birthgroup is "CR"
+14. Miguel corrected  "Mvula" DepartureNatalGp as "2015-06-13"
+15. Miguel corrected "Halfy" LastSeen1 to "2015-07-09"
+16. This animals: "Delux","Nora", "Gangtok" Have Na instead of NA in ImmigrationGroup1.
+17. From comments. LastDate2 for Kommunis is wrong. 2021 instead 2022. Good LastDate2 == "2021-12-14"
+18. Lif date of brain extraction: "2022-08-15", But the end date in NH is 2022-09-12. One of those two are wrong.
+19. wes and pun cannot have a DOB if they don+t have a BirthGroup
+20. Mention in comments, in which age state the females and males of IF were. For individuals, Athe. Circ, Frey, Hera, Medu, Pand and Pers. For example: Medu was an adult when first seen. Or pers was a juvenile when first seen
+21. Ryan and Japan have a later FirstSeen than ImmigrationDate1
+22.
+
+
+
+
 Issues not sent yet:
 1. Goose has two entries and are a bit of a mess.
 2. Apa leaving date from LT should be changed. Apa was seen in LT an encounter with BD the 2022-7-26. So I suggest the

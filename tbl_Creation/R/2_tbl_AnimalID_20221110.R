@@ -7,27 +7,20 @@
 #Every change in LH_AnimalID will require tbl_AnimalID to be re-generated alongside all other tbl
 
 # Paths ------------------------------------------------------------------
-input_path <- "/Users/mariagranell/Repositories/phllipe_vulloid/tbl_Creation/tbl_maria/"
-input_table <- "tbl_LifeHistory.csv"
-input_fullpath <- gsub(" ", "", paste(input_path, input_table))
-
-output_path <- input_path
-output_table <- "tbl_AnimalID.csv"
-output_fullpath <- gsub(" ", "", paste(output_path, output_table))
+setwd("/Users/mariagranell/Repositories/phllipe_vulloid/tbl_Creation/tbl_maria")
 
 # tbl_LifeHistory ---------------------------------------------------------
-tbl_LifeHistory <- read.csv(input_fullpath)
-View(tbl_LifeHistory)
+tbl_LifeHistory <- read.csv("tbl_LifeHistory.csv")
+str(tbl_LifeHistory)
 
 
 
 # tbl_AnimalID ------------------------------------------------------------
 tbl_AnimalID <- tbl_LifeHistory %>% 
-  arrange(AnimalID_Std) %>%
-  select(AnimalID_Std) %>%
-  rename(AnimalID = AnimalID_Std)
-View(tbl_AnimalID)
-#Zanzibar and Goose re duplicated because they duplicated in LHF
+  arrange(LH_AnimalCode) %>%
+  select(AnimalID_Std, LH_AnimalCode) %>%
+  rename(AnimalID = AnimalID_Std, AnimalCode = LH_AnimalCode)
+
 
 #write csv
-write.csv(tbl_AnimalID,output_fullpath,row.names = FALSE)
+write.csv(tbl_AnimalID,"tbl_AnimalID.csv",row.names = FALSE)

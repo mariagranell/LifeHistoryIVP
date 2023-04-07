@@ -41,8 +41,8 @@ std_AnimalID <- function(df, animalID = AnimalID) {
 #add age if I have already BirthDate available
 # modifications by maria, added Date as Sys.Date and added a pull(unit) so we don´t get the
 # whole dataframe but just the desired column
-add_age <- Date <- Sys.Date()function(data, birthdate = DOB , date = Date, unit = NULL ){
-
+add_age <- function(data, birthdate = DOB , date = Date, unit = NULL ){
+  Date <- Sys.Date()
   if (unit == "Months"){
     data %>%
       mutate(Age_Months = round(as.integer({{date}} - {{birthdate}})/30.4375,digits = 2)) %>%

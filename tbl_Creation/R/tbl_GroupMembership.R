@@ -15,8 +15,6 @@ setwd("/Users/mariagranell/Repositories/phllipe_vulloid/tbl_Creation/tbl_maria")
 
 # tbl_AnimalID
 tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
-# tbl_AnimalCode
-tbl_AnimalCode <- read.csv("tbl_AnimalCode.csv")
 # tbl_Sex
 tbl_Sex <- read.csv("tbl_Sex.csv")
 # tbl_LifeHistory
@@ -45,15 +43,11 @@ d <- tbl_Sex %>%
 # 1. Data cleaning ------------------
 ## Check to confirm First Date is a consensus between DOB and FirstDate
 # I remove Babyrenn2020 because is very unreliable
-#View(d %>% filter (DOB != FirstDate & !is.na(DOB)))
 d <- d[d$AnimalID != "Babyrenn2020",]
 
-# I will remove the LastSeen2, ImmigrationGp3 and DateImmigration3 for Kom. The supossed gap it had in BD
-# does not make sense, so I will ignore it because I know that until today 1 Mar he's still in BD
+# From comments. LastDate2 for Kommunis is worng. 2021 instead 2022
 d[d$AnimalID == "Kommunis", "LastDate2"] <- "2021-12-14"
 
-# remove LastSeen1 for some individuals of IFam because we are following them now
-d[d$AnimalID == "Inhlanhla", "LastDate1"] <- NA
 
 ## some individuals don't have An ImmigrationDate1 but have an ImmigrationGroup1. Here I will just add invidiuals
 # that have an EmigrationNatalDate and approximate the entry date a day after they left
@@ -181,21 +175,20 @@ tbl_GroupMembership <- fourthimmi %>%
   bind_rows(.,thirdimmi) %>%
   bind_rows(.,emigrated) %>%
   bind_rows(.,ceroGP) %>%
-  bind_rows(.,gpsplits)
+  bind_rows(.,gpsplits) %>%
+  unique(.)
 
 # Manual data cleaning --------------------------
 View(tbl_GroupMembership%>%
   left_join(.,tbl_LifeHistory %>%
-  select(AnimalID_Std, Fate_probable), by = c("AnimalID" = "AnimalID_Std")), "Unreliable data")
+  select(AnimalID_Std, Fate_probable), by = c("AnimalID" = "AnimalID_Std")) %>%
+  filter(!is.na(Fate_probable)), "Unreliable data")
 
-# change Apa LT end date to 2022-07-26
-tbl_GroupMembership[70,4] <- "2022-07-26"
-
-# remove duplicates
-tbl_GroupMembership <- tbl_GroupMembership %>% distinct(., .keep_all = TRUE)
+# change Apa LT end date to 2022-07-26 becuase data in BGE
+tbl_GroupMembership[73,4] <- "2022-07-26"
 
 # lif date of brain extraction: 20.08.2022, 5 days before as approx of End_Date in NH
-tbl_GroupMembership[34,4] <- "2022-08-15"
+tbl_GroupMembership[35,4] <- "2022-08-15"
 
 # write the csv -----------------------------
 write.csv(tbl_GroupMembership,"tbl_GroupMembership.csv",row.names = FALSE)

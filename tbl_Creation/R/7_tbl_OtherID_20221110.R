@@ -3,6 +3,7 @@
 # General -----------------------------------------------------------------
 #Once the table is generated, it will have to be corrected here on its own 
 
+source("/Users/mariagranell/Repositories/phllipe_vulloid/Vervet_Functions_20221107.R")
 
 #To generate the first table, it does not matter whether AnimalID_Std is taken from tbl_AnimalID or from tbl_LifeHistory as they were at that time the same 
 #However, the question will arise later on 
@@ -10,13 +11,9 @@
 setwd("/Users/mariagranell/Repositories/phllipe_vulloid/tbl_Creation/tbl_maria")
 
 # tbl_AnimalID ------------------------------------------------------------
-
 tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
-View(tbl_AnimalID)
-
 
 # tbl_LifeHistory ---------------------------------------------------------
-
 tbl_LifeHistory <- read.csv("tbl_LifeHistory.csv")
 
 
@@ -58,8 +55,6 @@ AnimalIDOtherID_StdID <- AnimalIDOtherID %>%
 #Put in long format
 AnimalIDOtherID_StdID_Long <- AnimalIDOtherID_StdID %>% 
   pivot_longer(cols = OtherID_1_Std:OtherID_2_Std, names_to = "OtherID_Count", values_to = "OtherID")
-  
-View(AnimalIDOtherID_StdID_Long )
 
 # Generate tbl_OtherID ----------------------------------------------------
 
