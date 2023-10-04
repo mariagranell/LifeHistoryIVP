@@ -4,6 +4,11 @@ Author: Phillipe Vulloid
 
 Commentator: Maria Granell Ruiz 14/02/2023
 
+# TODO:
+explain that DOB_estimate is only for Age_class calculation and that people should be careful at calculating full
+age from it.
+Explain the creation of factchecked_LH
+
 ## Get started
 
 The first step is to read the ```Vervet_Funtions_20221107.R``` file, there you can find the functions add_age and 

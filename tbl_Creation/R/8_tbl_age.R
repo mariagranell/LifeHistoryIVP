@@ -3,6 +3,7 @@
 # Author: Maria Granell Ruiz (based on the code by Phillipe Vulloid)
 # Date: 14 Feb 2023
 # Goal: Create a table that contains the approximate age of LH entries, if possible add specific age in years.
+# Goal2: check with descriptive statistics some data about age.
 # ---------------
 
 # Criteria:
@@ -117,9 +118,7 @@ d <- d%>%
             TRUE ~ DOB_estimate))
 
 sum(is.na(d$DOB_estimate))
-View(d%>%
-filter(is.na(DOB_estimate) & tbl_sex == "M" & !is.na(BirthGroup) & !is.na(EmigrationNatalDate))
-  , "diff")
+View(d%>% filter(is.na(DOB_estimate) & tbl_sex == "M" & !is.na(BirthGroup) & !is.na(EmigrationNatalDate)), "diff")
 
 # Males with no BirthGroup ----------------
 
@@ -191,3 +190,5 @@ AnimalID_Age_Sex <- AnimalID_DOB_FD %>%
 AnimalID_Age_Sex %>%
   select(AnimalID,AnimalCode, DOB, FirstDate, DOB_estimate, Age_yr, Age_class)%>%
   write.csv(.,"tbl_Age.csv",row.names = FALSE)
+
+#

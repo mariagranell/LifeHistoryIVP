@@ -2,7 +2,7 @@
 # Title: Export tables
 # Date: 7 April 2023
 # Author: mgranellruiz
-# Goal: Put together the msore useful lh tables that were created in these scripts
+# Goal: Put together the more useful lh tables that were created in these scripts
 # to give to master students and colleagues
 # ---------------
 
