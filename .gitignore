@@ -4,7 +4,7 @@
 # Ignore Archive folders
 
 Archive*/
-tbl_Current/
+*.idea*
 tbl_Creation/.idea/
 
 ### macOS ###

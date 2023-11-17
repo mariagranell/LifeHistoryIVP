@@ -87,7 +87,7 @@ Groups <- Immigration_RawInfo %>%
   mutate(Split = "") %>% 
   mutate(Followed = "")
 
-#CSV for Miguel 
+#Source_files for Miguel
 #write.csv(Groups,"Groups_ForMiguelToCheck_20221111.csv",row.names = FALSE)
 
 #Bring back Miguel files

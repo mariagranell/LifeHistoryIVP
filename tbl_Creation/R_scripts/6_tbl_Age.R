@@ -17,7 +17,7 @@
 # Package -----------------------------------------------------------------
 library(tidyverse)
 library(lubridate)
-source("/Users/mariagranell/Repositories/male_services_index/functions.R")
+source("/Users/mariagranell/Repositories/data/life_history/Vervet_Functions.R")
 
 # create a table with: AnimalName, AnimalCode, OtherID, Sex, DOB
 # Path ------------------------------------------------------------------

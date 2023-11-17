@@ -4,7 +4,7 @@
  library(dplyr)
  library(lubridate)
  library(testthat)
- source("/Users/mariagranell/Repositories/data/life_history/Vervet_Functions_20221107.R")
+ source("/Vervet_Functions.R")
 
 
  # Life History -------------------------------------------------------------

@@ -1,0 +1,903 @@
+"LH_RowNumber","LH_AnimalName","LH_AnimalCode","OtherID","Sex","EarMark","DOB","FirstDate","DateAdult","CurrentGroup","BirthGroup","LH_MotherID","LH_FatherID","EmigrationNatalDate","ImmigrationGroup1","ImmigrationDate1","LastDate1","ImmigrationGroup2","ImmigrationDate2","LastDate2","ImmigrationGroup3","ImmigrationDate3","LastDate3","ImmigrationGroup4","ImmigrationDate4","LastDate4","ReliableData","Comments","Fate_probable"
+"1","Afrikaans","Afr",NA,"M",NA,"2010-10-19","2010-10-19",NA,NA,"BD","Asis",NA,"2015-06-25","AK","2015-06-29","2016-02-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"2","Pompon",NA,NA,"M",NA,NA,"2010-10-26",NA,NA,"RC",NA,NA,"2011-11-01",NA,NA,"2011-11-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Probably born in 2009",NA
+"3","Niese","Nies",NA,"F","30","2010-10-31","2010-10-31",NA,NA,"BD","Numbies",NA,NA,NA,NA,"2014-12-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"4","Gugu","Gugu",NA,"F",NA,"2010-11-02","2010-11-02",NA,NA,"AK","Gagasa",NA,NA,NA,NA,"2021-03-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Body found floating on the second dam on the 18/03/2021","dead"
+"5","Hibe","Hib",NA,"M","12","2010-11-02","2010-11-02",NA,NA,"AK","Hamba","Sanbonani","2015-05-15",NA,NA,"2015-05-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"6","Ifu","Ifu",NA,"M",NA,"2010-11-02","2010-11-02",NA,NA,"AK","Isilonda",NA,"2015-03-30",NA,NA,"2015-03-30",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"7","Mvula","Mvu",NA,"M",NA,"2010-11-02","2010-11-02",NA,NA,"AK","Mamoobi","Sanbonani","2015-06-13","BD","2015-06-13","2016-12-17","CR","2016-12-29","2018-02-23",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"8","Guyaquil","Guy",NA,"M",NA,"2010-11-05","2010-11-05",NA,NA,"NH","Geneva",NA,"2015-04-22",NA,NA,"2015-04-22",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"9","2nd MJ",NA,NA,"M",NA,NA,"2010-11-08",NA,NA,NA,NA,NA,NA,"RC",NA,"2010-11-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"10","Dublin","Dub",NA,"M",NA,NA,"2010-11-08",NA,NA,NA,NA,NA,NA,"NH","2010-11-08","2012-10-27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Seen once more in NH on 2013/01/25, unclear if error or not, date of immigration is likely just first seen date","migrated"
+"11","Milano","Mil",NA,"M","4",NA,"2010-11-08",NA,NA,NA,NA,NA,NA,"NH","2010-11-08","2011-03-30","NH","2011-10-20","2013-09-30","BD","2014-04-28","2015-05-02",NA,NA,NA,NA,"Not seen at noha for 5 months then returned, date of immigration is likely just first seen date, seen in BD v infrequently in months before final seen date","migrated"
+"12","Napoli","Nap",NA,"M",NA,NA,"2010-11-08",NA,NA,NA,NA,NA,NA,"NH","2010-11-08","2011-01-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"13","Paris","Pari",NA,"F","20",NA,"2010-11-08",NA,NA,"NH",NA,NA,NA,NA,NA,"2015-08-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"dead body found on 18/08/15","dead"
+"14","Roma","Roma",NA,"F","60",NA,"2010-11-08",NA,NA,"NH",NA,NA,NA,NA,NA,"2021-02-17",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"UNK birth date 17-02-18 to 23-02-18 roma missing ; Found weak but alive with massive injuries on the 8th of feb 2021, seen once since then.",NA
+"15","Troia","Troi",NA,"F",NA,NA,"2010-11-08",NA,NA,"NH",NA,NA,"2016-04-13","Iceland",NA,"2016-07-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"UNK birth date + Split group",NA
+"16","Uppsala","Upps",NA,"F","1",NA,"2010-11-08",NA,"NH","NH",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"17","Zara","Zara",NA,"F","2",NA,"2010-11-08",NA,NA,"NH",NA,NA,"2016-05-25","Zfamily",NA,"2016-05-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Went in Split group Zfamily not followed",NA
+"18","Adonis","Ado",NA,"M",NA,NA,"2010-11-09",NA,NA,NA,NA,NA,NA,"BD","2010-11-09","2011-02-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Unclear if immigration date is just first seen date, seen regularly until 31-12-10 and then seen once on last seen date","migrated"
+"19","Babelas","Bab","M30","M","30",NA,"2010-11-09",NA,NA,"BD",NA,NA,"2014-05-15","NH","2014-05-19","2016-04-19","LT","2019-06-24","2021-04-07","LT","2022-06-17","2022-06-30",NA,NA,NA,NA,"Born in 2009. He was captured and collared 21/06/2022 in Lemon Tree. ",NA
+"20","Boks","Bok",NA,"M",NA,NA,"2010-11-09",NA,NA,NA,NA,NA,NA,"BD","2010-11-09","2010-12-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Unclear if immigration date is just first seen date","migrated"
+"21","Foei","Foei",NA,"F",NA,NA,"2010-11-09",NA,NA,"BD",NA,NA,NA,NA,NA,"2011-04-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fate unknown - split gp?",NA
+"22","Kaiki","Kaik",NA,"F",NA,NA,"2010-11-09",NA,NA,"BD",NA,NA,"2012-11-15","InBetweeners",NA,"2014-08-30",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Formed new group Inbetweeners",NA
+"23","Lekker","Lek",NA,"M",NA,NA,"2010-11-09",NA,NA,NA,NA,NA,NA,"BD","2010-11-09","2012-04-23","NH","2012-04-28","2012-05-18","BD","2012-05-19","2015-02-12",NA,NA,NA,NA,"Some days in May-June 2012 where he is back and forth between NH and BD",NA
+"24","Little Skollie",NA,NA,"M",NA,NA,"2010-11-09",NA,NA,"BD",NA,NA,"2014-05-15","NH","2014-05-19","2015-06-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in 2009, seen with unhabituated group in NH sleep1 short time (~weeks-months) after departure from NH",NA
+"25","Mooi","Mooi",NA,"F",NA,NA,"2010-11-09",NA,NA,"BD",NA,NA,NA,NA,NA,"2015-05-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen looking almost ""drugged"", vey weak, presumed dead. Recorded a few times after last seen date, but likely errors","dead"
+"26","Numbies","Numb",NA,"F","20",NA,"2010-11-09",NA,NA,"BD",NA,NA,NA,NA,NA,"2023-04-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"27","Oulik","Ouli",NA,"F","2",NA,"2010-11-09",NA,"BD","BD",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"28","Pik","Pik",NA,"M",NA,NA,"2010-11-09",NA,NA,NA,NA,NA,NA,"BD","2010-11-09","2012-09-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Unclear if immigration date is just first seen date","migrated"
+"29","Prinses","Prin",NA,"F","1",NA,"2010-11-09",NA,NA,"BD",NA,NA,NA,NA,NA,"2017-05-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Recorded twice after official last seen but likely a mistake",NA
+"30","Skollie","Sko",NA,"M",NA,NA,"2010-11-09",NA,NA,NA,NA,NA,NA,"BD","2010-11-09","2010-12-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Unclear if immigration date is just first seen date","migrated"
+"31","Feekie","Feek",NA,"F",NA,NA,"2010-11-10",NA,NA,"BD","Foei",NA,"2012-11-13","InBetweeners",NA,"2013-02-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in 2008/2009?. Formed new group Inbetweeners",NA
+"32","Nkosikasi","Nkos",NA,"F","3",NA,"2010-11-11",NA,"AK","AK",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born between 2005-2006",NA
+"33","Xoxocotla","Xox",NA,"M",NA,"2010-11-15","2010-11-15",NA,NA,"NH","XaiXai",NA,"2014-02-24",NA,NA,"2014-02-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"dead - unclear if body found","dead"
+"34","Heerlik","Heer",NA,"F",NA,NA,"2010-11-16",NA,"BD","BD","Hakie","Auckland",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DOB unconfirmed",NA
+"35","Mielies","Miel",NA,"F",NA,NA,"2010-11-16",NA,"BD","BD","Mooi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DOB unconfirmed",NA
+"36","Yster","Yst",NA,"M",NA,NA,"2010-11-17",NA,NA,NA,NA,NA,NA,"BD",NA,"2011-02-12","AK","2011-08-17","2013-12-18",NA,NA,NA,NA,NA,NA,"No","Possibly not Yster in AK but BD male. ",NA
+"37","Jinka","Jink",NA,"F","1","2010-11-22","2010-11-22",NA,NA,"NH","Jakarta",NA,"2016-04-13","Iceland",NA,"2016-07-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Split group",NA
+"38","Xai","Xai",NA,"M",NA,NA,"2010-11-22",NA,NA,"RC",NA,NA,"2011-11-01",NA,NA,"2011-11-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Name conflicts with XaiXai NH",NA
+"39","Beminde","Bemi",NA,"F",NA,NA,"2010-11-23",NA,NA,"BD",NA,NA,"2014-01-05","Intaka",NA,"2016-06-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2007, formed IN with Wiet, Vrou",NA
+"40","Hakie","Haki",NA,"F","3",NA,"2010-11-23",NA,NA,"BD",NA,NA,NA,NA,NA,"2014-02-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fate unknown",NA
+"41","Kies","Kie",NA,"M",NA,"2010-11-23","2010-11-23",NA,NA,"BD","Kaiki",NA,"2015-07-17","AK","2015-07-20","2015-12-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Seen once more in AK the Jan after leaving",NA
+"42","Tannie","Tann",NA,"F",NA,NA,"2010-11-26",NA,NA,"BD",NA,NA,NA,NA,NA,"2010-12-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fate unknown - split gp?",NA
+"43","Dwergie","Dwe",NA,"M",NA,NA,"2010-12-01",NA,NA,"BD","Dagga","Auckland","2016-01-19","AK","2016-01-26","2016-03-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in 2010, Seen in AK twice after leaving date (approx 1 and 2 months after)",NA
+"44","Pannekoekie","Pann",NA,"F","10",NA,"2010-12-01",NA,"BD","BD","Snortjie",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in 2010, mistakenly assumed Princes was mother (hence P name), but genetics shows Snor is mother",NA
+"45","Wolfie","Wol",NA,"M",NA,NA,"2010-12-01",NA,NA,"BD","Wietnie",NA,"2015-07-17","AK","2015-07-20","2018-05-24","NH","2018-05-29","2018-12-19",NA,NA,NA,NA,NA,NA,NA,"Born in 2010",NA
+"46","Xai-Xai","Xaix",NA,"F",NA,NA,"2010-12-03",NA,NA,"NH",NA,NA,NA,NA,NA,"2015-10-27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"dead body found 27/10/15","dead"
+"47","Little Napoli",NA,NA,"M",NA,NA,"2010-12-04",NA,NA,NA,NA,NA,NA,"RC",NA,"2010-12-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"48","Gigolo","Gig",NA,"M",NA,NA,"2010-12-07",NA,NA,NA,NA,NA,NA,"BD","2010-12-07","2010-12-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Individual seen just once",NA
+"49","Michael Jackson","Mic",NA,"M",NA,NA,"2010-12-08",NA,NA,NA,NA,NA,NA,"RC",NA,"2010-12-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"50","Mfolozi","Mfo","Hunchback","M",NA,NA,"2010-12-12",NA,NA,"AK","Mamoobi",NA,"2012-05-02","LT","2012-05-16","2014-10-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born in 2007; described as ""hunchback"" or ""hunchback juv"" early on in records",NA
+"51","Black tits",NA,NA,"F",NA,NA,"2010-12-13",NA,NA,"RC",NA,NA,NA,NA,NA,"2010-12-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"52","Drew","Drew",NA,"F",NA,NA,"2010-12-13",NA,NA,"RC",NA,NA,NA,NA,NA,"2011-11-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Probably born in 2008",NA
+"53","Little Balls",NA,NA,"M",NA,NA,"2010-12-13",NA,NA,NA,NA,NA,NA,"RC",NA,"2010-12-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Only recorded once",NA
+"54","Mini MJ",NA,NA,"F",NA,NA,"2010-12-13",NA,NA,"RC",NA,NA,NA,NA,NA,"2011-11-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Probably born in 2009",NA
+"55","Pink","Pink",NA,"F","20",NA,"2010-12-13",NA,NA,"RC",NA,NA,NA,NA,NA,"2011-11-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"56","Radja","Rad",NA,"M",NA,NA,"2010-12-13",NA,NA,"RC",NA,NA,"2011-11-25",NA,NA,"2011-11-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"57","Skin","Skin",NA,"F",NA,NA,"2010-12-13",NA,NA,"RC",NA,NA,NA,NA,NA,"2010-12-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"58","Istanbul","Ist",NA,"M",NA,NA,"2010-12-15",NA,NA,"NH",NA,NA,"2012-01-09",NA,NA,"2012-01-09",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"59","Quito","Qui","Santiago","M",NA,NA,"2010-12-15",NA,NA,"NH",NA,"Rusk","2011-11-19","LT","2011-11-19","2015-11-12","AK","2012-05-08","2013-10-28","LT","2014-02-25","2015-11-12","LTsplit","2016-02-04",NA,NA,"Left AK between march and april 2013.",NA
+"60","Guns and Roses","Gun",NA,"M",NA,NA,"2010-12-18",NA,NA,NA,NA,NA,NA,"RC",NA,"2010-12-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Only recorded once",NA
+"61","Hamba","Hamb",NA,"F",NA,NA,"2010-12-18",NA,NA,"AK",NA,NA,NA,NA,NA,"2015-08-22",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Disappeared - body not found","dead"
+"62","Isilonda","Isil",NA,"F",NA,NA,"2010-12-18",NA,NA,"AK",NA,NA,"2016-02-29","IFamily","2016-04-29","2017-04-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"29.02.2016 Last time w/ rest of AK, 07.04.2017 = last recorded date of Ifamily",NA
+"63","SMA","SMA",NA,"M",NA,NA,"2010-12-18",NA,NA,"AK",NA,NA,NA,"BD",NA,"2012-01-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Probably born in 2006, fate unknown",NA
+"64","Ulaka","Ulak",NA,"F","2",NA,"2010-12-18",NA,NA,"AK",NA,NA,NA,NA,NA,"2013-09-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born between 2006-2007, Presumed dead, no body found","dead"
+"65","Elvis Presley","Elv",NA,"M",NA,NA,"2010-12-24",NA,NA,NA,NA,NA,NA,"RC",NA,"2011-11-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"66","Gino","Gin",NA,"M",NA,NA,"2010-12-24",NA,NA,"RC",NA,NA,"2011-11-25",NA,NA,"2011-11-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Probably born in 2007",NA
+"67","Jimmy Hendricks","Jim",NA,"M","3",NA,"2010-12-24",NA,NA,NA,NA,NA,NA,"RC",NA,"2011-11-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"68","Karen Zoid","Kare",NA,"F",NA,NA,"2010-12-24",NA,NA,"RC",NA,NA,NA,NA,NA,"2010-12-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"69","Oom","Oom",NA,"M",NA,NA,"2010-12-24",NA,NA,NA,NA,NA,NA,"BD","2010-12-24","2012-11-19","InBetweeners",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Formed new group Inbetweeners with three BD females",NA
+"70","Pat Lansky","Pat",NA,"M",NA,NA,"2010-12-28",NA,NA,NA,NA,NA,NA,"RC",NA,"2011-11-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"71","Geneva","Gene",NA,"F","1",NA,"2011-01-13",NA,NA,"NH",NA,NA,NA,NA,NA,"2019-07-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"UNK birth date",NA
+"72","Bryan","Bry",NA,"M",NA,NA,"2011-01-16",NA,NA,NA,NA,NA,NA,"LT","2011-01-16","2012-05-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Only seen twice after Sept 2011",NA
+"73","Gagasa","Gaga",NA,"F",NA,NA,"2011-01-18",NA,NA,"AK",NA,NA,NA,NA,NA,"2016-03-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Died in BGE/by poaching dog (see BGE/alarm forms)","dead"
+"74","Jakarta","Jaka",NA,"F","1",NA,"2011-01-18",NA,NA,"NH",NA,NA,"2016-04-14","Iceland",NA,"2016-04-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"UNK birth date + Split group",NA
+"75","Mamoobi","Mamo",NA,"F",NA,NA,"2011-01-18",NA,NA,"AK",NA,NA,NA,NA,NA,"2019-04-30",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead, body not found, in logbook as seen on 09/05/19 but likely a mistake","dead"
+"76","Okucane","Oku","Dot","M",NA,NA,"2011-01-18",NA,NA,"AK",NA,"Sanbonani","2013-02-15","BD","2013-02-19","2014-09-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born in 2007",NA
+"77","Yaounde","Yaou",NA,"F",NA,NA,"2011-01-18",NA,NA,"NH",NA,NA,NA,NA,NA,"2015-02-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"UNK birth date + dead","dead"
+"78","Queen","Quee",NA,"F","1",NA,"2011-01-19",NA,NA,"RC",NA,NA,NA,NA,NA,"2011-01-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Probably born between 2005-2006",NA
+"79","William","Wil",NA,"M",NA,NA,"2011-01-19",NA,NA,NA,NA,NA,NA,"LT","2011-01-19","2012-02-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Seen once on 2012/05/17 in LT after official departure date",NA
+"80","James","Jam",NA,"M","21",NA,"2011-01-28",NA,NA,NA,NA,NA,NA,"LT","2011-01-28","2012-06-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"81","Lizz","Lizz",NA,"F","1",NA,"2011-01-28",NA,"LT","LT",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"82","Asis","Asis",NA,"F","22",NA,"2011-02-19",NA,NA,"BD",NA,NA,NA,NA,NA,"2023-03-27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"83","Diana","Dian",NA,"F",NA,NA,"2011-02-19",NA,"LT","LT",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"84","Venezia","Vene",NA,"F",NA,NA,"2011-02-19",NA,NA,"NH",NA,NA,NA,NA,NA,"2010-10-31",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"85","Bogota","Bogo",NA,"F","30",NA,"2011-03-05",NA,NA,"NH",NA,NA,"2016-04-13","Iceland",NA,"2016-07-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"UNK birth date + Split group",NA
+"86","Lausanne","Laus",NA,"F","1",NA,"2011-03-05",NA,NA,"NH",NA,NA,NA,NA,NA,"2014-01-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen during BGE, by BD observers",NA
+"87","Little Blind",NA,"JL","F",NA,NA,"2011-03-24",NA,NA,"BD",NA,NA,NA,NA,NA,"2021-03-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in 2009, last seen in BD on 12/03/2021, presumed dead.","dead"
+"88","Dagga","Dagg",NA,"F","11",NA,"2011-04-07",NA,NA,"BD",NA,NA,"2012-11-29","InBetweeners",NA,"2013-12-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Formed new group IB. Found dead 23/12/2013","dead"
+"89","Donsig","Don",NA,"M",NA,NA,"2011-04-07",NA,NA,"BD","Dagga","Pik","2015-01-15","LT","2015-04-03","2018-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born in 2009, seen twice in LT in March 2019",NA
+"90","Engel","Enge","Chouchou;JC","F","14",NA,"2011-04-07",NA,"BD","BD",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in 2009",NA
+"91","Ertjies","Ert","JA;Small balls","M",NA,NA,"2011-04-07",NA,NA,"BD",NA,NA,"2012-04-26","NH","2012-04-26","2015-12-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"92","Grote","Gro","JI;Big balls","M",NA,NA,"2011-04-07",NA,NA,"BD",NA,NA,"2012-03-21","NH","2012-05-01","2013-01-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"93","Nam nam","Namn",NA,"F","20",NA,"2011-04-07",NA,NA,"BD","Numbies","Pik",NA,NA,NA,"2013-08-22",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in 2009, likely died from miscarriage 2 weeks earlier","dead"
+"94","Gesels","Gese","Little boks;JG","F","15",NA,"2011-04-12",NA,"BD","BD",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in 2009",NA
+"95","Snortjie","Snor",NA,"F",NA,NA,"2011-04-19",NA,NA,"BD",NA,NA,NA,NA,NA,"2019-11-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Disappeared during big draughts. Probably dead. Collar or carcas never found.","dead"
+"96","Bingo","Bin","JM","M",NA,NA,"2011-04-25",NA,NA,"BD",NA,NA,"2015-01-15",NA,NA,"2015-01-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Probably born in 2009 - confused with another AK male  - kommunis big mess but not the same monkey - write here whether other form data has been affected",NA
+"97","Rissiepit","Riss",NA,"F",NA,NA,"2011-04-26",NA,"BD","BD",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2006",NA
+"98","Tipies","Tipi",NA,"F","20",NA,"2011-04-26",NA,NA,"BD",NA,NA,"2012-11-13","InBetweeners",NA,"2013-01-31",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2007. Formed new group Inbetweeners",NA
+"99","Vroutjie","Vrou",NA,"F",NA,NA,"2011-04-26",NA,NA,"BD",NA,NA,"2014-01-05","Intaka",NA,"2016-06-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Formed IN with Wiet, Bemi",NA
+"100","Wietnie","Wiet",NA,"F",NA,NA,"2011-05-09",NA,NA,"BD",NA,NA,"2014-01-05","Intaka",NA,"2016-06-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Formed IN with Bemi, Vrou",NA
+"101","Hamlet","Ham","SMA","M","20",NA,"2011-05-14",NA,NA,"LT",NA,NA,"2013-05-07","AK","2013-05-24","2014-05-14","BD","2014-05-28","2015-05-26","CR","2015-08-18","2015-10-24",NA,NA,NA,NA,"Probably born in 2007, left AK between 14th March and 20th April 2014, seen once more in CR in Jan 2016",NA
+"102","Suzy","Suzy",NA,"F",NA,NA,"2011-06-01",NA,NA,"LT",NA,NA,"2015-03-10","FirstLTsplinter",NA,"2015-09-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Seen in splinter group in september 2015",NA
+"103","Rusk","Rus",NA,"M",NA,NA,"2011-06-04",NA,NA,NA,NA,NA,NA,"BD","2011-06-06","2013-12-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Recorded one more time in BD 11/03/2014, unclear if mistake or not",NA
+"104","Elton","Elt","SMB","M","13",NA,"2011-06-09",NA,NA,"LT",NA,NA,"2012-02-04","AK","2012-01-28","2016-01-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born in 2006, recorded 12/6/12 in LT, unclear if error or not, seen once more in AK on 27/02/16, after first sighting in AK not sighted again until 08/5/12",NA
+"105","Harry","Har",NA,"M",NA,NA,"2011-06-09",NA,NA,NA,NA,NA,NA,"LT","2011-06-09","2012-08-28",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"First noted in LT logbook 11/06/09",NA
+"106","Tunis","Tun",NA,"M",NA,NA,"2011-06-25",NA,NA,"NH","Troia",NA,"2011-11-26",NA,NA,"2011-11-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"107","Newton","New",NA,"M",NA,NA,"2011-07-09",NA,NA,NA,NA,NA,NA,"LT","2011-07-09","2014-01-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Only seen twice since Nov 2013",NA
+"108","Jackie","Jac","Little Jackie;JD","M",NA,NA,"2011-08-03",NA,NA,"LT",NA,NA,"2014-06-20",NA,NA,"2014-06-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born in 2009;fate unknown",NA
+"109","Merlin","Mer","Little Merlin;JF","M",NA,NA,"2011-08-03",NA,NA,"LT",NA,NA,"2014-12-11",NA,NA,"2014-12-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Probably born in 2009, fate unknown…. Mixed with Mercury?",NA
+"110","Mousse","Mou","JG","M",NA,NA,"2011-08-03",NA,NA,"LT",NA,NA,"2014-06-03",NA,NA,"2014-06-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born in 2009, fate unknown. Maybe seen once more on 20.06.14 but maybe error?",NA
+"111","Theodore","The",NA,"M","21",NA,"2011-08-09",NA,NA,NA,NA,NA,NA,"LT","2011-08-09","2012-02-09","AK","2012-04-17","2013-01-18",NA,NA,NA,NA,NA,NA,NA,"Seen 3 times in LT in June 2012, noted first time in LT logbook on 2011/08/09, seen once in AK in March 2012",NA
+"112","Hwahwaza","Hwa",NA,"M",NA,"2011-09-16","2011-09-16",NA,NA,"AK","Hamba","Sanbonani","2016-06-04","BD","2016-06-08","2017-12-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen once more in BD in Jan 2018",NA
+"113","Amy Winehouse","Amyw",NA,"F",NA,NA,"2011-09-29",NA,NA,"RC",NA,NA,NA,NA,NA,"2011-11-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"114","Bruce Springsteen","Bru",NA,"M",NA,NA,"2011-09-29",NA,NA,NA,NA,NA,NA,"RC",NA,"2011-09-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Only one record of him",NA
+"115","SF1",NA,NA,"F",NA,NA,"2011-09-29",NA,NA,"RC",NA,NA,NA,NA,NA,"2011-10-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"116","Spotted","Spo",NA,"M",NA,NA,"2011-09-29",NA,NA,"RC",NA,NA,"2011-11-25",NA,NA,"2011-11-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Probably born in 2008",NA
+"117","Vasco Rossi","Vas",NA,"M","2",NA,"2011-09-29",NA,NA,NA,NA,NA,NA,"RC",NA,"2011-11-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"118","Vincent","Vin","Darkface","M",NA,NA,"2011-10-01",NA,NA,"LT","Victoria","Voldemort","2016-12-22","BD","2017-02-13","2018-11-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in Oct 2011",NA
+"119","Giya","Giy",NA,"M",NA,"2011-10-07","2011-10-07",NA,NA,"AK","Gagasa","Sanbonani","2013-09-18",NA,NA,"2013-09-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably dead","dead"
+"120","Spook","Spo",NA,"M",NA,NA,"2011-10-18",NA,NA,"BD","Snortjie","Pik","2016-06-16","CR","2016-06-23","2018-04-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DOB unconfirmed",NA
+"121","Cindy Lauper","Cind",NA,"F",NA,NA,"2011-10-26",NA,NA,"RC",NA,NA,NA,NA,NA,"2011-11-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"122","Noktober","Nok",NA,"M",NA,"2011-10-26","2011-10-26",NA,NA,"BD","Numbies","Pik","2016-06-11","CR","2016-06-15","2017-01-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Disappeared from CR, probably migrated, ","migrated"
+"123","Lome","Lom",NA,"M",NA,"2011-10-27","2011-10-27",NA,NA,"NH","Lausanne",NA,"2016-05-31","5males","2016-07-14","2016-07-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen 14/07/2016 in gp of 5 sub males",NA
+"124","Upside down",NA,NA,"M",NA,NA,"2011-10-28",NA,NA,"RC",NA,NA,"2011-10-31",NA,NA,"2011-10-31",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"125","Modjadji","Modj",NA,"F",NA,"2011-10-31","2011-10-31",NA,NA,"AK","Mamoobi",NA,NA,NA,NA,"2012-11-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably dead, in logbook 2 months later but probably an error","dead"
+"126","Bamako","Bam",NA,"M",NA,"2011-11-01","2011-11-01",NA,NA,"NH","Bogota",NA,"2013-02-21",NA,NA,"2013-02-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"127","Evanescence","Evan",NA,"F",NA,NA,"2011-11-01",NA,NA,"RC",NA,NA,NA,NA,NA,"2011-11-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"128","Ogies","Ogi",NA,"M","22","2011-11-02","2011-11-02",NA,NA,"BD","Oulik","Lekker","2016-06-03","CR","2016-06-10","2018-07-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Recorded a few more times in BD months after official dept date, but maybe errors, seen on last day CR followed 2018/07/20",NA
+"129","Arthur","Art",NA,"M",NA,NA,"2011-11-03",NA,NA,NA,NA,NA,NA,"LT","2011-11-03","2012-02-14","AK","2012-04-19","2012-04-30","BD","2012-07-25","2014-05-20",NA,NA,NA,NA,"Immigrated from LT to AK between 14/02/2012-20/04, seen in LT on 22/05/12 & 02/07/12, was only officially recorded in AK twice…","migrated"
+"130","Nil","Nil",NA,"M","2",NA,"2011-11-05",NA,NA,NA,NA,NA,NA,"KB","2011-11-05","2014-11-17",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"131","Akkedis","Akk",NA,"M",NA,"2011-11-07","2011-11-07",NA,NA,"BD","Asis","Lekker","2016-05-28","CR","2016-06-10","2018-07-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen on last day CR followed 2018/07/20",NA
+"132","Idwala","Idwa",NA,"F",NA,"2011-11-10","2011-11-10",NA,NA,"AK","Isilonda","Sanbonani","2016-02-29","IFamily",NA,"2016-06-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen with Ifamily",NA
+"133","Poeding","Poe",NA,"M",NA,"2011-11-11","2011-11-11",NA,NA,"BD","Prinses","Lekker","2016-06-11","CR","2016-06-15","2018-07-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Recordmany times in BD after dept date, unclear if errors (almost all by same observer), seen on last day CR followed 2018/07/20",NA
+"134","Gaya","Gaya",NA,"F",NA,"2011-11-14","2011-11-14",NA,"NH","NH","Geneva",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"135","Vakie","Vak",NA,"M",NA,"2011-11-17","2011-11-17",NA,NA,"BD","Vroutjie",NA,"2017-03-11",NA,NA,"2017-03-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"136","Juneau","Jun",NA,"M",NA,"2011-11-20","2011-11-20",NA,NA,"NH","Jakarta",NA,"2016-04-12","Ifamily","2016-04-14","2016-10-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen in Ifamily, no data on exactly when he left, but before April 2017",NA
+"137","Byron","Byr","SMC;Mini-Elton","M",NA,NA,"2011-11-21",NA,NA,"LT",NA,NA,"2013-10-22",NA,NA,"2013-10-22",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born in 2007",NA
+"138","Charles","Cha","Little Charles;JB","M",NA,NA,"2011-11-21",NA,NA,"LT",NA,NA,"2013-12-09",NA,NA,"2013-12-09",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born in 2008",NA
+"139","Reva","Reva",NA,"F",NA,"2011-11-21","2011-11-21",NA,NA,"NH","Roma","Milano",NA,"Rfamily",NA,"2021-02-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Disappeared with Rennes, Roslin and Lima",NA
+"140","Ububhibhi","Ubu",NA,"M",NA,"2011-11-21","2011-11-21",NA,NA,"AK","Ulaka",NA,"2016-05-24","BD","2016-05-28","2020-06-06","CR","2020-06-16",NA,NA,NA,NA,NA,NA,NA,NA,"He was recorded in Cr on the 16/06/2020 (not sure about the exact immigration date into cr because cr was not followed regularly","migrated"
+"141","Baby Hak 2011","BHak11",NA,"M",NA,"2011-11-22","2011-11-22",NA,NA,"BD","Hakie",NA,"2011-12-05",NA,NA,"2011-12-05",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"142","Ngubu","Ngu",NA,"M",NA,"2011-11-26","2011-11-26",NA,NA,"AK","Nkosikasi",NA,"2013-07-06",NA,NA,"2013-07-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably dead","dead"
+"143","Xeres","Xer",NA,"M",NA,"2011-11-29","2011-11-29",NA,NA,"NH","XaiXai",NA,"2016-04-07",NA,NA,"2016-04-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"144","Ulundi","Ulu",NA,"M",NA,"2011-12-01","2011-12-01",NA,NA,"NH","Uppsala",NA,"2016-05-14","5males","2016-07-14","2016-07-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen 14/07/2016 in gp of 5 sub males",NA
+"145","Zion","Zio",NA,"M","1","2011-12-02","2011-12-02",NA,NA,"NH","Zara",NA,"2016-02-24",NA,NA,"2016-02-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"146","Talinn","Tal",NA,"M","20","2011-12-04","2011-12-04",NA,NA,"NH","Troia","Milano","2016-04-21","Iceland",NA,"2016-04-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Split group",NA
+"147","Rooikat","Roo",NA,"M",NA,"2011-12-05","2011-12-05",NA,NA,"BD","Rissiepit",NA,"2017-04-27","CR","2017-05-10","2018-07-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Recorded once more in BD after dept date, unclear if error, seen on last day CR followed 2018/07/20",NA
+"148","Koninging","Koni",NA,"F",NA,NA,"2011-12-09",NA,NA,"BD","Kaiki",NA,"2013-01-07","InBetweeners",NA,"2014-08-30",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Formed new group Inbetweeners",NA
+"149","Watnou","Watn",NA,"F",NA,NA,"2011-12-09",NA,NA,"BD","Wietnie",NA,NA,NA,NA,"2013-01-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2011, Presumed dead","dead"
+"150","Brasilia","Bras",NA,"F",NA,NA,"2011-12-16",NA,NA,"NH","Bogota",NA,"2016-04-13","Iceland",NA,"2016-07-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"UNK birth date + Split group",NA
+"151","Emma","Emma",NA,"F",NA,NA,"2011-12-16",NA,NA,"LT",NA,NA,NA,NA,NA,"2013-07-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"152","Lhassa","Lhas",NA,"F",NA,NA,"2011-12-16",NA,NA,"NH","Lausanne",NA,"2016-04-04","Iceland",NA,"2016-06-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Split group",NA
+"153","Neuchatel","Neu","M10","M","10",NA,"2011-12-16",NA,NA,"NH",NA,NA,"2014-05-08","BD","2014-06-09","2020-12-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"154","Pretoria","Pret",NA,"F","3",NA,"2011-12-16",NA,"NH","NH","Paris",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"155","Rio","Rio",NA,"M",NA,NA,"2011-12-16",NA,NA,"NH","Roma",NA,"2015-11-30",NA,NA,"2015-11-30",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"156","Toronto","Tor",NA,"M","1",NA,"2011-12-16",NA,NA,"NH","Troia",NA,"2014-06-11","BD","2014-06-16","2016-02-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"157","Victoria","Vict",NA,"F",NA,NA,"2011-12-16",NA,NA,"LT",NA,NA,"2015-04-09","FirstLTsplinter",NA,"2015-11-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen in splinter group in november 2015",NA
+"158","Zeerust","Zee",NA,"M","16",NA,"2011-12-16",NA,NA,"NH","Zara",NA,"2015-02-24",NA,NA,"2015-02-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"159","Zurich","Zur",NA,"M","20",NA,"2011-12-16",NA,NA,"NH","Zara","Milano","2014-05-26","BD","2014-06-03","2016-02-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"160","Puerto","Pue",NA,"M",NA,"2011-12-27","2011-12-27",NA,NA,"NH","Paris",NA,"2016-06-21","5males","2016-07-14","2016-07-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen 14/07/2016 in gp of 5 sub males",NA
+"161","Baby Moo 2011","BMoo11",NA,NA,NA,"2012-01-23","2012-01-23",NA,NA,"BD","Mooi",NA,NA,NA,NA,"2012-02-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"162","Bongani","Bon",NA,"M",NA,NA,"2012-01-28",NA,NA,NA,NA,NA,NA,"AK",NA,"2013-04-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"163","Ghangaan","Ghan",NA,"F",NA,NA,"2012-01-28",NA,NA,"AK","Gagasa","Sanbonani",NA,NA,NA,"2015-11-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in 2009;last seen crossing fence with newborn, presumed dead","dead"
+"164","Govu","Gov",NA,"M",NA,NA,"2012-01-28",NA,NA,"AK","Gagasa","Sanbonani","2013-12-19","Intaka","2014-01-31","2014-06-13","NH","2014-06-20","2017-02-27","CR","2017-03-01","2017-03-23",NA,NA,NA,NA,"Probably born in 2008, seen once in CR in Dec 2016, recorded once more in IN in Sept 14",NA
+"165","Hleka","Hlek",NA,"F",NA,NA,"2012-01-28",NA,NA,"AK","Hamba",NA,NA,NA,NA,"2015-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in 2009; probably dead body not found","dead"
+"166","Inhlanhla","Inhl",NA,"F",NA,NA,"2012-01-28",NA,"IF","AK","Isilonda","Sanbonani","2016-02-29","IFamily",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in 2009, last seen in Ifamily 29/06/2016 . Occassionally seen during encounter. On the 07/2022 I-F was followed again.",NA
+"167","Izulu","Izu",NA,"M",NA,NA,"2012-01-28",NA,NA,"AK","Isilonda",NA,"2013-03-23",NA,NA,"2013-03-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born in 2008",NA
+"168","Mnandi","Mna",NA,"M",NA,NA,"2012-01-28",NA,NA,"AK","Mamoobi","Sanbonani","2015-01-14","LT","2015-01-19","2018-06-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in 2009, seen once in LT on 05/01/15 before official migration date","migrated"
+"169","Voldemort","Vol",NA,"M",NA,NA,"2012-02-03",NA,NA,NA,NA,NA,NA,"LT","2012-02-03","2014-06-03","AK","2014-06-09","2015-12-30",NA,NA,NA,NA,NA,NA,NA,"Unclear if 1st seen is same as immigrated","migrated"
+"170","Ahekinkinga","Ahe",NA,"M",NA,NA,"2010-12-18",NA,NA,NA,NA,NA,NA,"AK","2010-12-18","2012-02-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"171","Auckland","Auc",NA,"M",NA,NA,"2012-02-27",NA,NA,NA,NA,NA,NA,"NH","2012-02-27","2014-09-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2012/04/04 is first time officially recorded in NH in logbook (as ""soft n fluffy"")",NA
+"172","Amazon","Amaz",NA,"F","10",NA,"2012-03-13",NA,NA,"KB",NA,NA,NA,NA,NA,"2015-05-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"173","Tanganika","Tang",NA,"F","20",NA,"2012-03-13",NA,NA,"KB",NA,NA,NA,NA,NA,"2015-10-22",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Body not found, presumed dead","dead"
+"174","Curaco","Cur","Spot","M",NA,NA,"2012-04-14",NA,NA,"KB",NA,NA,"2012-04-14",NA,NA,"2012-04-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Probably born 2010; also unclearif mistaken for another juvenile - would NOT recommend using his data\",NA
+"175","Styx","Sty","Little Evil","M",NA,NA,"2012-04-14",NA,NA,"KB",NA,NA,"2014-05-12","NH","2014-05-24","2016-03-29","Iceland",NA,"2016-07-12",NA,NA,NA,NA,NA,NA,NA,"Probably born 2009; left NH with split to form Iceland",NA
+"176","Nala","Nala",NA,"F",NA,NA,"2012-04-18",NA,NA,"LT",NA,NA,NA,NA,NA,"2015-07-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born 2008, fate unknown, presumed dead","dead"
+"177","Tweed","Twe","Fluffy","M","3",NA,"2012-04-20",NA,NA,"KB",NA,NA,"2014-05-10","NH","2014-05-24","2019-09-06","AK","2020-04-02","2020-10-01",NA,NA,NA,NA,NA,NA,NA,"Probably born Dec 2010.",NA
+"178","Chernobyl","Che",NA,"M",NA,NA,"2012-04-28",NA,NA,NA,NA,NA,NA,"NH","2012-04-28","2014-05-26","BD","2014-06-09","2016-08-06",NA,NA,NA,NA,NA,NA,NA,"Seen once in NH on 2014/07/29, unclear if error or not, 2012/05/08 is first time recorded officially in NH in logbook; seen 3 times after official BD dept date but over 5 months so unclear if errors or not  ",NA
+"179","Amur","Amur",NA,"F",NA,NA,"2012-05-09",NA,NA,"KB","Amazon",NA,NA,NA,NA,"2018-12-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born Dec 2011; Probably dead, body not found.","dead"
+"180","Medjerda","Med",NA,"M",NA,NA,"2012-05-09",NA,NA,NA,NA,NA,NA,"KB",NA,"2013-06-19","KB","2014-02-20","2015-12-15",NA,NA,NA,NA,NA,NA,"No","left KB for unk group then later returned, briefly named ""Oo"" before recognised as Med, disappeared with 'Z' matriline and 'Pearl' (LAlm), presumably to form new split group",NA
+"181","Pikito","Pik",NA,"M",NA,NA,"2012-05-09",NA,NA,"KB",NA,NA,"2014-01-28",NA,NA,"2014-01-28",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born in 2009",NA
+"182","Zambezi","Zam",NA,"M",NA,NA,"2012-05-09",NA,NA,"KB","Zeia","Nile","2015-06-22",NA,NA,"2015-06-22",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born Dec 2011; likely migrated to unk group","migrated"
+"183","Gelosi","Gel",NA,"M",NA,NA,"2012-05-14",NA,NA,"AK","Gagasa",NA,"2012-06-01","LT","2012-06-04","2013-10-28",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born in 2007",NA
+"184","Heleza","Hele",NA,"F",NA,NA,"2012-05-14",NA,NA,"AK","Hamba","Sanbonani",NA,NA,NA,"2014-11-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Prob born in 2008; disappeared with fresh wounds (broken tail), no body found, presumed dead","dead"
+"185","Mpukuvane","Mpu",NA,"M",NA,NA,"2012-05-14",NA,NA,"AK","Mamoobi",NA,"2013-05-16",NA,NA,"2013-05-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born in 2008",NA
+"186","Danube","Dan",NA,"M","10",NA,"2012-05-25",NA,NA,NA,NA,NA,NA,"KB",NA,"2014-05-12","BD","2014-05-28","2014-08-30","IN","2014-09-08","2015-06-20","AK","2015-06-24","2015-10-13",NA,NA,NA
+"187","Shakespeare","Sha","Ouagadougou","M",NA,NA,"2012-06-08",NA,NA,NA,NA,NA,NA,"LT","2012-06-08","2015-02-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Unclear if 1st seen is same as immigrated. Oua was originally called Shakespeare in tablet - an ID error - he is not Shakespeare from LT","migrated"
+"188","Edward","Edw",NA,"M",NA,NA,"2012-06-12",NA,NA,NA,NA,NA,NA,"LT","2012-06-12","2014-11-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Unclear if 1st seen is same as immigrated","migrated"
+"189","Tugela","Tug",NA,"M",NA,NA,"2012-07-03",NA,NA,"KB","Tanganika","Danube","2015-07-23",NA,NA,"2015-07-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born Dec 2011; likely migrated to unk group","migrated"
+"190","Darwin","Dar","Zazoo","M",NA,NA,"2012-07-31",NA,NA,"LT",NA,NA,"2016-09-02",NA,NA,"2016-09-02",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in 2010",NA
+"191","Nessie","Ness",NA,"F",NA,NA,"2012-08-01",NA,NA,"KB",NA,NA,NA,NA,NA,"2020-09-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born Dec 2011, died Sep2020. posssibly by Caracal","dead"
+"192","Uvac","Uva",NA,"M",NA,NA,"2012-08-01",NA,NA,NA,NA,NA,NA,"KB",NA,"2015-02-13","Intaka","2015-02-19","2016-06-15",NA,NA,NA,NA,NA,NA,NA,"May have remained with Intaka longer, but group not followed",NA
+"193","Selenge","Sel",NA,"M",NA,NA,"2012-08-10",NA,NA,NA,NA,NA,NA,"KB",NA,"2013-04-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"194","Double Spot","Dou",NA,"M",NA,NA,"2012-08-13",NA,NA,"KB",NA,NA,"2014-05-10",NA,NA,"2014-05-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born Dec 2009",NA
+"195","Zeia","Zeia","Jucar","F",NA,NA,"2012-08-31",NA,NA,"KB",NA,NA,"2015-12-15","KBSplit",NA,"2015-12-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Had baby in 2015 but it died- carried for >/= 1day","dead"
+"196","Hola","Hol",NA,"M",NA,"2012-09-11","2012-09-11",NA,NA,"AK","Hamba","Sanbonani","2018-02-15",NA,NA,"2018-03-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"197","Lennon","Len",NA,"M",NA,"2012-09-19","2012-09-19",NA,NA,"LT","Lizz",NA,"2018-02-10",NA,NA,"2018-02-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"198","Yoogali","Yoog",NA,"F","20","2012-09-22","2012-09-22",NA,NA,"NH","Yaounde",NA,"2016-04-19","Iceland",NA,"2016-06-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Split group",NA
+"199","Valerie","Vale","Squishy","F",NA,"2012-09-24","2012-09-24",NA,NA,"LT","Victoria",NA,NA,NA,NA,"2015-05-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fate unknown",NA
+"200","Baby Dag 2012","BDag12",NA,"M",NA,"2012-09-25","2012-09-25",NA,NA,"BD","Dagga",NA,"2012-11-29","InBetweeners",NA,"2012-11-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumably was in new split group with mother",NA
+"201","Baby Cam 2012","BCam12",NA,NA,NA,"2012-09-29","2012-09-29",NA,NA,"LT","Camilla",NA,NA,NA,NA,"2013-05-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fate unknown",NA
+"202","Geleza","Gele",NA,"F",NA,"2012-09-29","2012-09-29",NA,NA,"AK","Gagasa","Yster",NA,NA,NA,"2018-01-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Gele was eaten by rock python 22nd-23rd Jan ",NA
+"203","Bullebak","Bul",NA,"M",NA,"2012-10-01","2012-10-01",NA,NA,"BD","Beminde",NA,"2017-12-07",NA,NA,"2017-12-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Recorded a few more times in BD months after official dept date, but maybe errors",NA
+"204","Nurks","Nurk",NA,"F",NA,"2012-10-01","2012-10-01",NA,"BD","BD","Numbies","Pik",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"205","Siele","Siel",NA,"F",NA,"2012-10-01","2012-10-01",NA,NA,"BD","Snortjie","Pik",NA,NA,NA,"2022-04-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"206","Baby Emm 2012","BEmm12",NA,"M",NA,"2012-10-08","2012-10-08",NA,NA,"LT","Emma",NA,"2013-05-22",NA,NA,"2013-05-22",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fate unknown",NA
+"207","Delilah","Deli","Rainbow","F",NA,"2012-10-08","2012-10-08",NA,"LT","LT","Diana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"208","Baby Tip 2012","BTip12",NA,NA,NA,"2012-10-09","2012-10-09",NA,NA,"BD","Tipies",NA,"2012-11-13","InBetweeners",NA,"2012-11-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumably was in new split group with mother",NA
+"209","Ijinja","Iji",NA,"M",NA,"2012-10-09","2012-10-09",NA,NA,"AK","Isilonda","Sanbonani","2016-03-03","Ifamily",NA,"2016-06-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"29.06.2016 = last recorded date of IFamily",NA
+"210","Garoua","Gar",NA,"M","20","2012-10-11","2012-10-11",NA,NA,"NH","Geneva",NA,"2016-06-23","5males","2016-07-14","2016-07-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen 14/07/2016 in gp of 5 sub males",NA
+"211","Tirroan","Tir",NA,"M",NA,"2012-10-11","2012-10-11",NA,NA,"NH","Troia","Auckland","2017-12-30",NA,NA,"2017-12-30",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen again in NH 04/01/2018 being chased by NH mon",NA
+"212","Heyi","Hey",NA,"M",NA,"2012-10-15","2012-10-15",NA,NA,"AK","Heleza","Yster","2017-04-24",NA,NA,"2017-04-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"213","Jillin","Jill",NA,"F",NA,"2012-10-15","2012-10-15",NA,NA,"NH","Jakarta",NA,"2016-04-19","Iceland",NA,"2016-07-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Split group",NA
+"214","Mungunya","Mun",NA,"M",NA,"2012-10-15","2012-10-15",NA,NA,"AK","Mamoobi","Arthur","2016-01-09",NA,NA,"2016-01-09",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"probably dead, body not found","dead"
+"215","Baby Bog 2012","BBog12",NA,"F",NA,"2012-10-18","2012-10-18",NA,NA,"NH","Bogota",NA,NA,NA,NA,"2012-12-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Baby not seen after grp encounter with BD",NA
+"216","Wurm","Wur",NA,"M",NA,"2012-10-18","2012-10-18",NA,NA,"BD","Wietnie","Rusk","2018-05-31",NA,NA,"2018-05-31",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Recorded a few more times in BD months after official dept date, but maybe errors",NA
+"217","Baby Upp 2012","BUpp12",NA,"M",NA,"2012-10-19","2012-10-19",NA,NA,"NH","Uppsala",NA,"2012-11-03",NA,NA,"2012-11-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead, no body","dead"
+"218","Onbeskof","Onb",NA,"M",NA,"2012-10-19","2012-10-19",NA,NA,"BD","Oulik","Pik","2016-03-11",NA,NA,"2016-03-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"219","Hippie","Hipp",NA,"F",NA,"2012-10-22","2012-10-22",NA,NA,"BD","Hakie","Pik",NA,NA,NA,"2020-03-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"assume that she died","dead"
+"220","Nyoni","Nyo",NA,"M",NA,"2012-10-22","2012-10-22",NA,NA,"AK","Nkosikasi","Yster","2017-05-16","BD","2017-05-16","2018-11-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"221","Unwabo","Unw",NA,"M",NA,"2012-10-22","2012-10-22",NA,NA,"AK","Ulaka","Yster","2017-05-03","BD","2017-05-04","2017-12-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"222","Alsiende","Alsi",NA,"F",NA,"2012-10-23","2012-10-23",NA,NA,"BD","Asis",NA,NA,NA,NA,"2015-12-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"223","Rheban","Rhe",NA,"M","1","2012-10-27","2012-10-27",NA,NA,"NH","Roma","Auckland","2017-12-05","BD","2017-12-05","2021-09-27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Went back to NH a few times shortly after migration","migrated"
+"224","Baby Lau 2012","BLau12",NA,NA,NA,"2012-10-29","2012-10-29",NA,NA,"NH","Lausanne",NA,NA,NA,NA,"2012-11-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"225","Mevrou","Mevr",NA,"F",NA,"2012-10-29","2012-10-29",NA,NA,"BD","Mooi",NA,NA,NA,NA,"2016-06-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Recorded a few more times in BD months after official last seen, but maybe errors, likely dead","dead"
+"226","Baby Kai 2012","BKai12",NA,NA,NA,"1905-07-02","2012-11-01",NA,NA,"BD","Kaiki",NA,"2012-11-15","InBetweeners",NA,"2012-11-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumably was in new split group with mother",NA
+"227","Ndonsa","Ndon",NA,"F",NA,NA,"2012-11-02",NA,"AK","AK","Nkosikasi","Sanbonani",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"228","Zhengzhou","Zhe",NA,"M",NA,"2012-11-02","2012-11-02",NA,NA,"NH","Zara",NA,"2013-08-02",NA,NA,"2013-08-02",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"229","Ghozololo","Gho",NA,"M",NA,"2012-11-05","2012-11-05",NA,NA,"AK","Ghangaan","Yster","2016-01-28",NA,NA,"2016-01-28",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Maybe migrated, but probably died","dead"
+"230","Xian","Xian",NA,"F",NA,"2012-11-05","2012-11-05",NA,"NH","NH","XaiXai",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"231","Ruby","Ruby",NA,"F",NA,NA,"2012-11-08",NA,NA,"LT","Roxanne",NA,"2018-02-21","LTSplit","2018-02-21","2018-03-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"her last seen in LM which is the 03/03/2018",NA
+"232","Laurel","Laur",NA,"F",NA,NA,"2012-11-12",NA,NA,"LT","Lizz",NA,NA,NA,NA,"2020-03-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in 2010, fate unknown. Presumed dead.","dead"
+"233","Vulkaan","Vul",NA,"M",NA,"2012-11-14","2012-11-14",NA,"NH","BD","Vroutjie","Pik","2018-06-06","NH","2020-04-16","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Recorded a few more times in BD months after official dept date, but maybe errors. Recorded in NH logbook in May 2020 as ""Oslo"" and before that as male with left ear almost off.",NA
+"234","Bushy","Bush",NA,"F",NA,NA,"2012-11-15",NA,NA,"LT",NA,NA,"2015-03-02","FirstLTsplinter",NA,"2015-07-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Seen in splinter group in July 2015",NA
+"235","India","Indi",NA,"F",NA,NA,"2012-11-15",NA,NA,"LT","Diana",NA,NA,NA,NA,"2017-12-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born in 2009. Died on the 19/12/2017.","dead"
+"236","Rakker","Rak",NA,"M",NA,"2012-11-16","2012-11-16",NA,NA,"BD","Rissiepit",NA,"2018-05-08",NA,NA,"2018-05-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Recorded once more in BD, but maybe an error",NA
+"237","Hlokoloza","Hlo","Hlebe","M",NA,"2012-12-23","2012-12-23",NA,NA,"AK","Hleka","Yster","2017-05-16","BD","2017-05-16","2019-11-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"238","Pieperig","Piep",NA,"F",NA,NA,"2013-01-18",NA,"BD","BD","Prinses","Rusk",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Data missing on the birth - first recorded found as 1yo in logbook",NA
+"239","Yenissei","Yeni",NA,"F",NA,NA,"2013-01-28",NA,NA,"KB",NA,NA,NA,NA,NA,"2019-10-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"240","Kaya","Kaya",NA,"F",NA,"2013-02-07","2013-02-07",NA,NA,"LT",NA,NA,"2018-02-21","LTsplit","2018-02-21","2018-03-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"LTSplit not followed",NA
+"241","Aare","Aare",NA,"F",NA,NA,"2013-02-08",NA,"KB","KB","Amazon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"242","Little Z",NA,NA,"M",NA,NA,"2013-02-08",NA,NA,"KB",NA,NA,"2013-09-20",NA,NA,"2013-09-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Probably born Dec 2009; Unclear if actually existed or mistaken for another juvenile; would NOT recommend using his data",NA
+"243","Zaire","Zair",NA,"F",NA,NA,"2013-02-08",NA,NA,"KB","Zeia",NA,"2015-12-15","KBSplit",NA,"2015-12-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"KB split, not seen again",NA
+"244","Andrew","And",NA,"M",NA,NA,"2013-02-09",NA,NA,"LT",NA,NA,"2014-04-12",NA,NA,"2014-04-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"245","Noah","Noa",NA,"M",NA,NA,"2013-02-09",NA,NA,"LT","Nala",NA,"2018-02-20","LTsplit",NA,"2018-02-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Migrated on the same day LT split, recorded once in May 2018 in LT, likely an error","migrated"
+"246","Yalu","Yalu",NA,"F",NA,NA,"2013-02-09",NA,NA,"KB","Yenissei",NA,NA,NA,NA,"2021-01-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","collar signal points to a rock Pyton 18/01/2021",NA
+"247","Pearl","Pear","Little Almond","F",NA,NA,"2013-04-24",NA,NA,"KB",NA,"Nile","2015-12-15","KBSplit",NA,"2015-12-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Prob born Dec 2009; renamed Pearl (2015); left with KB split, not seen again",NA
+"248","Mara","Mara","Spotty arm","F",NA,NA,"2013-05-06",NA,NA,"KB",NA,NA,NA,NA,NA,"2022-11-05",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","likely called spotty arm early on - Iding of her before May 2013 likely unreliable",NA
+"249","Fudu","Fud",NA,"M",NA,NA,"2013-06-11",NA,NA,NA,NA,NA,NA,"AK","2013-06-11","2015-09-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"250","Cancun","Can",NA,"M",NA,NA,"2013-06-28",NA,NA,NA,NA,NA,NA,"NH","2013-06-28","2016-02-25","AK","2016-03-14","2017-02-16","NH","2017-05-30","2018-12-17","NH","2019-06-17","2021-01-27",NA,"Recorded once in AK on 2017/03/24",NA
+"251","Baby Ham 2013","BHam13",NA,"F",NA,"2013-10-03","2013-10-03",NA,NA,"AK","Hamba",NA,NA,NA,NA,"2013-11-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Found dead on 10/11/2013","dead"
+"252","Baby Beminde 2013","BBem13",NA,NA,NA,"2013-10-22","2013-10-22",NA,NA,"BD","Beminde",NA,NA,NA,NA,"2013-10-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Baby found dead","dead"
+"253","Baby Gaga 2013","BGag13",NA,"F",NA,"2013-10-24","2013-10-24",NA,NA,"AK","Gagasa",NA,NA,NA,NA,"2013-12-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen on 6/12/13",NA
+"254","Boston","Bos",NA,"M",NA,"2013-10-28","2013-10-28",NA,NA,"NH","Bogota",NA,"2018-05-23",NA,NA,"2018-05-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"255","Jixi","Jix",NA,"M","1","2013-10-31","2013-10-31",NA,NA,"NH","Jakarta","Chernobyl","2018-05-30",NA,NA,"2018-06-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"256","Uji","Uji",NA,"M",NA,"2013-10-31","2013-10-31",NA,NA,"NH","Uppsala","Milano","2018-05-18","Jacaranda","2018-05-26","2018-05-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Seen 26th of May 2018 unhabituated gr Jakaranda",NA
+"257","Ilonga","Ilon",NA,"F",NA,"2013-11-04","2013-11-04",NA,NA,"AK","Isilonda","Quito","2016-01-22","IFamily",NA,"2016-06-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"22/01/2016 Last time w/ rest of AK, 29.06.2016 = last recorded date of Ifamily",NA
+"258","Aapie","Aapi",NA,"F",NA,"2013-11-11","2013-11-11",NA,"BD","BD","Asis",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"259","Avon","Avo","Appy","M",NA,"2013-11-11","2013-11-11",NA,NA,"KB","Amazon","Nile","2018-04-06","NH","2018-05-14","2018-06-12","Ifamily","2018-06-12","2020-06-16",NA,NA,NA,NA,NA,NA,NA,"Named Appy until 14/12/14 After leaving NH, Ifamily, seen once more in KB after dept date on 2018/05/01,  seen in bge with NH on 08.12.2018 and in Ifamil on 2/2/19; seen on 16/06/20",NA
+"260","Zankara","Zank",NA,"F",NA,"2013-11-11","2013-11-11",NA,NA,"KB","Zeia",NA,"2015-12-15","KBSplit",NA,"2015-12-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"KB split",NA
+"261","Baby Wietnie 2013","BWie13",NA,"F",NA,"2013-11-12","2013-11-12",NA,NA,"BD","Wietnie",NA,NA,NA,NA,"2013-11-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Baby found dead, genetic sample taken","dead"
+"262","Glastonbury","Gla",NA,"M",NA,"2013-11-12","2013-11-12",NA,NA,"NH","Geneva","Ertjies","2018-05-14","Jacaranda","2018-05-28","2018-05-28",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Seen 26th of May 2018 unhabituated gr Jakaranda",NA
+"263","Mbazwane","Mba",NA,"M",NA,"2013-11-15","2013-11-15",NA,NA,"AK","Mamoobi","Elton","2016-01-16","Ifamily",NA,"2016-01-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"16/01/2016 - last time w/ AK, stayed with I family but gp not followed",NA
+"264","Rennes","Renn",NA,"F",NA,"2013-11-15","2013-11-15",NA,NA,"NH","Roma","Milano",NA,"Rfamily",NA,"2021-02-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Disappeared with Reva, Roslin and Lima",NA
+"265","Inkwazi","Inkw",NA,"F",NA,"2013-11-18","2013-11-18",NA,NA,"AK","Inhlanhla","Yster","2016-01-22","IFamily",NA,"2016-06-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"22/01/2016 Last time w/ rest of AK, 29.06.2016 = last recorded date of IFamily",NA
+"266","Praia","Prai",NA,"F",NA,"2013-11-19","2013-11-19",NA,"NH","NH","Pretoria","Ertjies",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"267","Xalapa","Xala",NA,"F",NA,"2013-11-20","2013-11-20",NA,"NH","NH","XaiXai","Milano",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"268","Potjie","Potj",NA,"F",NA,"2013-11-23","2013-11-23",NA,NA,"BD","Prinses","Okucane",NA,NA,NA,"2022-04-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"269","Zanzibar","Zan",NA,"M",NA,"2013-11-25","2013-11-25",NA,NA,"NH","Zara",NA,"2018-05-28",NA,NA,"2018-05-28",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Maybe seen one more time 08.06.2018 but maybe error?",NA
+"270","Camilla","Cami",NA,"F","22",NA,"2013-11-27",NA,NA,"LT",NA,NA,NA,"FirstLTsplinter","2015-02-01","2015-11-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","First recorded 2011? OldCamilla? In splinter group at least since february 2015, unclear which data is hers and which is Jenny's ",NA
+"271","Mississipi","Mis",NA,"M",NA,"2013-11-27","2013-11-27",NA,NA,"KB","Mara",NA,"2018-06-16",NA,NA,"2018-06-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born during the night. VERY shy, not seen in group until 2013/05/06",NA
+"272","Digby","Digb","Rhiannon","F",NA,NA,"2014-01-08",NA,"LT","LT","Diana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"273","Yangtze","Yan",NA,"M",NA,NA,"2014-01-27",NA,NA,"KB","Yenissei",NA,"2018-05-01","NH","2018-05-14","2020-01-27","AK","2020-03-04","2021-11-22",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"274","Shitface","Shi",NA,"M",NA,NA,"2014-01-28",NA,NA,"LT",NA,NA,"2017-01-24",NA,NA,"2017-01-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in 2011",NA
+"275","Oliver","Oli",NA,"M",NA,NA,"2014-02-04",NA,NA,"LT",NA,NA,"2014-06-03",NA,NA,"2014-06-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"276","Rose-Mary","Rose","Daria","F",NA,NA,"2014-02-11",NA,NA,"LT",NA,NA,"2018-02-21","LTsplit",NA,"2018-03-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2011",NA
+"277","Moonie","Moon","Baby Tang 2012","F",NA,NA,"2014-02-28",NA,NA,"KB","Mara","Danube",NA,NA,NA,"2015-02-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","probably dead, body not found, probably referred to as baby Tang 2012 before Mara was discovered and we realised it was her baby","dead"
+"278","Jagerbomb","Jag",NA,"M",NA,NA,"2014-05-08",NA,NA,NA,NA,NA,NA,"BD","2014-05-08","2015-01-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"279","DownLip","Dow",NA,"M",NA,NA,"2014-05-28",NA,NA,NA,NA,NA,NA,"LT","2014-05-28","2014-07-09",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"280","Tere","Tere","F10","F",NA,NA,"2014-05-30",NA,NA,"LT",NA,NA,NA,NA,NA,"2015-03-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fate unknown",NA
+"281","Lefty","Lef",NA,"M",NA,NA,"2014-05-31",NA,NA,"LT",NA,NA,"2017-01-16",NA,NA,"2017-01-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"282","Umzali","Umz",NA,"M",NA,NA,"2014-06-09",NA,NA,NA,NA,NA,NA,"AK","2014-06-09","2015-09-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"283","Dapper","Dap",NA,"M",NA,NA,"2014-07-01",NA,NA,NA,NA,NA,NA,"BD","2014-07-01","2016-01-27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"284","Adam","Ada","Uplip","M",NA,NA,"2014-08-14",NA,NA,NA,NA,NA,NA,"LT","2014-08-14","2016-11-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Not clear if he appeared before official date, nothing in logbook/remarks to say first seen",NA
+"285","Kenneth","Ken","Joe","M",NA,NA,"2014-08-15",NA,NA,"LT","Kaya",NA,"2015-11-18",NA,NA,"2015-11-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Mixed between Joe/Kenneth? no records between May and Spet 2015 - was this just an error?  - unclear if this has been rectified in the scan data or not",NA
+"286","Liam","Lia",NA,"M",NA,NA,"2014-08-15",NA,NA,"LT",NA,NA,"2018-12-07",NA,NA,"2018-12-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Mother = Jenny? Tbc with DNA - Unknown fate - scan data collected with Liam name for Kenneth/Joe??",NA
+"287","Iggy","Igg",NA,"M",NA,NA,"2014-08-18",NA,NA,"LT","India",NA,"2019-03-15",NA,NA,"2019-03-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"288","Jenny","Jenn","OldCamilla","F",NA,NA,"2011-11-16",NA,NA,"LT",NA,NA,"2018-02-20","LTSplit",NA,"2018-03-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Unclear when switch from Cami to Jenny happened -  OldCamilla = Jenny",NA
+"289","Daisy","Dais",NA,"F",NA,NA,"2014-08-26",NA,"LT","LT","Diana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"290","Joe","Joe",NA,"M",NA,NA,"2014-09-18",NA,NA,"LT",NA,NA,"2018-12-07",NA,NA,"2018-12-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Mother = Kaya? Probably scanned as Liam from april 2015 - unclear if this has been rectified in the scan data or not",NA
+"291","Vance","Van",NA,"M",NA,NA,"2014-09-20",NA,NA,"LT","Victoria",NA,"2015-11-05",NA,NA,"2015-11-05",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Fate unknown, seen v sporadically in last months in LT (unclear if errors or not)",NA
+"292","Humusha","Hum",NA,"M",NA,"2014-09-22","2014-09-22",NA,NA,"AK","Hamba",NA,"2016-05-21",NA,NA,"2016-05-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"293","Zinkwazi","Zink",NA,"F",NA,"2014-10-01","2014-10-01",NA,NA,"KB","Zeia","Yster",NA,"KBSplit",NA,"2015-12-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"KB split, not seen again",NA
+"294","Madagascar","Mad",NA,"M",NA,NA,"2014-10-08",NA,NA,NA,NA,NA,NA,"CR","2014-10-08",NA,"BD","2014-09-01","2017-03-07",NA,NA,NA,NA,NA,NA,NA,"Was recognised in BD as from CR, but no CR data for him -> check broken tail male",NA
+"295","Baby Yaou 2014","BYao14",NA,NA,NA,"2014-10-09","2014-10-09",NA,NA,"NH","Yaounde",NA,NA,NA,NA,"2015-01-17",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"296","Baby Suzy 2014","BSuz14",NA,NA,NA,"2014-10-11","2014-10-11",NA,NA,"LT","Suzy",NA,NA,NA,NA,"2015-02-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"297","Arno","Arn",NA,"M",NA,"2014-10-17","2014-10-17",NA,NA,"KB","Amazon",NA,"2019-05-13",NA,NA,"2019-05-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"298","Baby Nala 2014","BNal14",NA,NA,NA,"2014-10-18","2014-10-18",NA,NA,"LT","Nala",NA,NA,NA,NA,"2015-01-31",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"299","Eina","Eina",NA,"F",NA,"2014-10-18","2014-10-18",NA,"BD","BD","Engel","Okucane",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"300","Ginqinka","Ginq",NA,"F",NA,"2014-10-18","2014-10-18",NA,"AK","AK","Gagasa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"301","Halfy","Hal",NA,"M",NA,NA,"2014-10-18",NA,NA,"LT",NA,NA,NA,"FirstLTsplinter",NA,"2015-07-09",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Only mentioned once on first recorded date and no other data, seen in splinter group July 2015 ",NA
+"302","Hluhluwe","Hlu",NA,"M",NA,"2014-10-18","2014-10-18",NA,NA,"AK","Hleka",NA,"2020-02-27",NA,NA,"2020-02-27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"303","Rupert","Rup",NA,"M",NA,"2014-10-18","2014-10-18",NA,NA,"LT","Roxanne",NA,"2018-02-21","LTsplit",NA,"2018-03-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"304","Baby Jenn 2014","BJen14",NA,NA,NA,"2014-10-20","2014-10-20",NA,NA,"LT","Jenny",NA,NA,NA,NA,"2015-02-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"presumed dead","dead"
+"305","Gaaf","Gaa",NA,"M",NA,"2014-10-20","2014-10-20",NA,NA,"BD","Gesels","Okucane","2019-06-08","CR",NA,"2019-06-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Immigration date is not clear but last seen was  2019/06/18 during an encounter with BD and he was still with crossing and after that he has no records with crossing.","migrated"
+"306","Plesier","Ples",NA,"F",NA,"2014-10-20","2014-10-20",NA,NA,"BD","Prinses",NA,NA,NA,NA,"2016-02-27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead, body not found.","dead"
+"307","Mathimula","Mat",NA,"M",NA,"2014-10-21","2014-10-21",NA,NA,"AK","Mamoobi",NA,"2020-02-17","BD","2020-02-17","2021-01-30","BD","2021-02-24","2021-10-29",NA,NA,NA,NA,NA,NA,NA,"last seen in BD 30/01/2021 then reappeared in BD after an encounter with CR on 24/02/2021",NA
+"308","BabyTere (F10) 2014","BF1014",NA,NA,NA,"2014-10-22","2014-10-22",NA,NA,"LT","Tere (F10)",NA,NA,NA,NA,"2015-02-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"309","Baby Mielies 2014","BMie14",NA,NA,NA,"2014-10-27","2014-10-27",NA,NA,"BD","Mielies",NA,NA,NA,NA,"2014-11-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"310","Jeddah","Jed",NA,"M",NA,"2014-10-27","2014-10-27",NA,NA,"NH","Jakarta",NA,"2017-03-08",NA,NA,"2017-03-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Bottom injuries bleeding, very weak, injuries appeared several months before last sighting",NA
+"311","Meerkat","Mee",NA,"M",NA,"2014-10-27","2014-10-27",NA,NA,"BD","Mooi","Arthur","2016-11-24",NA,NA,"2016-11-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead, body not found. Recorded 3 times in months after official last seen date - probably errors","dead"
+"312","Baby Vict 2014","BVic14",NA,"M",NA,"2014-10-28","2014-10-28",NA,NA,"LT","Victoria",NA,"2015-01-16",NA,NA,"2015-01-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"313","Faroe","Far",NA,"M",NA,"2014-10-28","2014-10-28",NA,NA,"CR","Formentera",NA,"2016-01-30",NA,NA,"2016-01-30",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2014, Dead 2016 - prob error logbook as last seen date = 2017 there","dead"
+"314","Formentera","Form",NA,"F",NA,NA,"2014-10-28",NA,NA,"CR",NA,NA,NA,"SplitCR","2017-01-12","2017-04-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"315","Kangaroo",NA,NA,NA,NA,"2014-10-28","2014-10-28",NA,NA,"CR","Krakatoa",NA,NA,NA,NA,"2017-01-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2014, Dead, unclear if body found","dead"
+"316","Krakatoa","Krak",NA,"F",NA,NA,"2014-10-28",NA,NA,"CR",NA,NA,NA,"SplitCR","2017-01-12","2017-04-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"317","Lancey","Lanc",NA,"F",NA,"2014-10-29","2014-10-29",NA,"LT","LT","Laurel",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"318","Roxanne","Roxa",NA,"F","2",NA,"2014-10-30",NA,NA,"LT",NA,NA,"2018-02-21","LTsplit",NA,"2018-03-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably dominant female in split group",NA
+"319","Toulouse","Tou",NA,"M","1","2014-10-30","2014-10-30",NA,NA,"NH","Troia","Ertjies","2016-04-14",NA,NA,"2016-06-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Split group, recorded in logbook month after in NH but likely a mistake",NA
+"320","Ghida","Ghid",NA,"F",NA,"2014-10-31","2014-10-31",NA,"AK","AK","Ghangaan","Elton",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"321","Heilweis","Hei",NA,"M",NA,"2014-10-31","2014-10-31",NA,NA,"BD","Heerlik",NA,"2019-06-08","CR","2021-04-01","2022-12-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Seen with CR but date of immigration might not be exact as gp not habituated/not followed when he probably moved there","migrated"
+"322","Nyanga","Nyan",NA,"F",NA,"2014-10-31","2014-10-31",NA,NA,"AK","Nkosikasi","Elton",NA,NA,NA,"2021-12-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"323","Gubha","Gubh",NA,"F",NA,"2014-11-01","2014-11-01",NA,"AK","AK","Gugu","Elton",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"324","Ndiza","Ndi",NA,"M","20","2014-11-01","2014-11-01",NA,NA,"AK","Ndonsa",NA,"2020-03-05",NA,NA,"2020-03-05",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"325","Baby Bushy 2014","BBus14",NA,NA,NA,"2014-11-03","2014-11-03",NA,NA,"LT","Bushy",NA,NA,NA,NA,"2015-02-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"326","Baby Jink 2014","BJin14",NA,NA,NA,"2014-11-03","2014-11-03",NA,NA,"NH","Jinka",NA,NA,NA,NA,"2014-11-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Baby Found dead","dead"
+"327","Baby Pannekoekie 2014","BPan14",NA,NA,NA,"2014-11-03","2014-11-03",NA,NA,"BD","Pannekoekie",NA,NA,NA,NA,"2014-12-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"328","Ihlane","Ihl",NA,"M",NA,"2014-11-03","2014-11-03",NA,NA,"AK","Isilonda",NA,"2016-02-29","IFamily","2016-04-29","2017-04-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Ifamily not followed regurlarly",NA
+"329","Safari","Safa",NA,"F",NA,"2014-11-03","2014-11-03",NA,NA,"BD","Snortjie",NA,NA,NA,NA,"2017-04-28",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"330","Lima","Lima",NA,"F",NA,"2014-11-04","2014-11-04",NA,NA,"NH","Lhassa","Auckland",NA,"RFamily",NA,"2021-02-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"she gave birth to a baby F on the 04/11/2014 who died on 14/03/2019. Disappeared with Rennes, Roslin and Reva.","dead"
+"331","Riyadh","Riy",NA,"M",NA,"2014-11-04","2014-11-04",NA,NA,"NH","Roma",NA,"2015-12-15",NA,NA,"2015-12-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen looking very unwell, crooked swollen neck, presumed dead","dead"
+"332","Asseblief","Ass",NA,"M",NA,"2014-11-05","2014-11-05",NA,NA,"BD","Asis",NA,"2019-05-30","CR","2019-06-01","2023-04-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Date of imigration is unknown since he joined crossing during the time they were not followed","migrated"
+"333","Redelik","Rede",NA,"F","1","2014-11-10","2014-11-10",NA,NA,"BD","Rissiepit",NA,NA,NA,NA,"2023-04-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"334","Baby Niese 2014","BNie14",NA,"M",NA,"2014-11-11","2014-11-11",NA,NA,"BD","Niese",NA,"2014-12-26",NA,NA,"2014-12-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"335","Greenland",NA,NA,NA,NA,"2014-11-12","2014-11-12",NA,NA,"CR","Galapagos",NA,NA,NA,NA,"2015-02-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2014, presumed dead ","dead"
+"336","Teddibeer","Ted","Christmas;Blinky","M",NA,"2014-11-12","2014-11-12",NA,"LT","CR","Chiloe",NA,"2018-07-20","BD","2019-05-25","2022-05-19","LT","2022-06-11","2023-11-16",NA,NA,NA,NA,NA,NA,"Yes","seen on last day CR followed 2018/07/20. Think Christmas is Teddibeer in BD, tbc with DNA.",NA
+"337","Xinyi","Xiny",NA,"F",NA,"2014-11-14","2014-11-14",NA,NA,"NH","XaiXai",NA,NA,NA,NA,"2015-03-28",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"338","Obelisk","Obe",NA,"M",NA,"2014-11-15","2014-11-15",NA,NA,"BD","Oulik","Chernobyl","2019-06-13","CR","2020-08-06","2022-02-22",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably immigrated earlier but gp not habituated/not followed so immigration date might not be exact","migrated"
+"339","Propriano","Pro","Prague","M",NA,"2014-11-19","2014-11-19",NA,"CR","NH","Pretoria","Cancun","2019-06-01","BD","2019-07-13","2022-04-16","CR","2022-05-03","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"340","Thames","Tha",NA,"M",NA,NA,"2014-11-19",NA,NA,NA,NA,NA,NA,"KB","2014-11-19","2015-08-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"341","Kyle","Kyl",NA,"M",NA,"2014-11-24","2014-11-24",NA,NA,"LT","Kaya",NA,"2018-02-21",NA,NA,"2018-03-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"342","Intaba","Int",NA,"M",NA,"2014-11-27","2014-11-27",NA,NA,"AK","Inhlanhla",NA,"2016-02-29","IFamily",NA,"2016-06-09",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Ifamily not followed regurlarly",NA
+"343","Nooiens","Nooi",NA,"F",NA,"2014-11-28","2014-11-28",NA,"BD","BD","Numbies",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"344","Bela-Bela","Bela",NA,"F","1","2014-11-29","2014-11-29",NA,"NH","NH","Bogota",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"345","Granada","Gran",NA,"F",NA,"2014-12-08","2014-12-08",NA,"NH","NH","Geneva","Auckland",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"346","Umtata","Umt",NA,"M",NA,"2014-12-08","2014-12-08",NA,NA,"NH","Uppsala","Govu","2020-01-04",NA,NA,"2020-01-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"347","Malawi","Mal",NA,"M",NA,NA,"2014-12-14",NA,NA,"KB","Mara","Medjerda","2019-05-17",NA,NA,"2019-05-17",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born before but 1st time seen in december",NA
+"348","Mercury","Mer",NA,"M",NA,NA,"2014-12-18",NA,NA,"LT",NA,NA,NA,"FirstLTsplinter",NA,"2015-07-09",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Unclear if data in logbook is for Mercury or Merlin…: 2015/07/09 - last date Mercury (lennon moustace?) recorded",NA
+"349","Cone","Con",NA,"M",NA,NA,"2014-12-30",NA,NA,"CR",NA,NA,"2015-07-22",NA,NA,"2015-07-22",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2011, may have migrated","migrated"
+"350","Curious",NA,NA,"M",NA,NA,"2014-12-30",NA,NA,"CR",NA,NA,"2015-11-06",NA,NA,"2015-11-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2011, may have migrated","migrated"
+"351","Ellesmere","Elle",NA,"F","12",NA,"2014-12-30",NA,NA,"CR",NA,NA,NA,NA,NA,"2016-07-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"352","Iceland","Icel",NA,"F",NA,NA,"2014-12-30",NA,NA,"CR",NA,NA,NA,NA,NA,"2018-07-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen few days before CR last followed",NA
+"353","Japan","Jap",NA,"M",NA,NA,"2014-12-30",NA,NA,NA,NA,NA,NA,"CR","2014-11-20","2015-05-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"354","Kergelen","Ker",NA,"M","2",NA,"2014-12-30",NA,NA,NA,NA,NA,NA,"CR","2014-12-30","2015-05-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"355","Pale","Pal",NA,"M","1",NA,"2014-12-30",NA,NA,"CR",NA,NA,"2016-12-01","BD","2016-12-07","2022-03-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2012, seen in CR twice in the 1-2 months after migration","migrated"
+"356","Pizza","Piz",NA,"M",NA,NA,"2014-12-30",NA,NA,"CR",NA,NA,"2017-04-11",NA,NA,"2017-04-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2013, Disappeared, probably migrated","migrated"
+"357","Solomon","Sol",NA,"M",NA,NA,"2014-12-30",NA,NA,NA,NA,NA,NA,"CR","2014-12-30","2017-01-28",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Disappeared, probably migrated","migrated"
+"358","Antarctica","Anta",NA,"F",NA,NA,"2014-12-31",NA,NA,"CR",NA,NA,NA,"SplitCR","2017-02-12","2017-04-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"359","Mackanzie","Mack","Asiatic","F",NA,NA,"2014-12-31",NA,"CR","CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2012",NA
+"360","Bocold","Boc",NA,"M",NA,NA,"2014-12-31",NA,NA,NA,NA,NA,NA,"CR","2014-12-31","2017-01-21","BD","2017-01-31","2019-05-04","AK","2019-05-15","2019-10-30",NA,NA,NA,NA,"Migrated or dead. ","dead"
+"361","Handi","Han",NA,"M",NA,NA,"2014-12-31",NA,NA,"CR",NA,NA,"2017-04-29","BD","2017-05-06","2020-03-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2012",NA
+"362","Helmet","Hel",NA,"M",NA,NA,"2014-12-31",NA,NA,"CR",NA,NA,"2018-02-03",NA,NA,"2018-02-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2012, likely migrated","migrated"
+"363","Inner","Inn",NA,"M",NA,NA,"2014-12-31",NA,NA,"CR",NA,NA,"2017-01-31",NA,NA,"2017-01-31",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2012, Disappeared, probably migrated","migrated"
+"364","Lionel","Lion",NA,"F",NA,NA,"2014-12-31",NA,NA,"CR",NA,NA,NA,NA,NA,"2018-04-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2011",NA
+"365","Macedonia","Mac",NA,"M",NA,NA,"2014-12-31",NA,NA,NA,NA,NA,NA,"CR","2014-12-31","2016-05-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Disappeared",NA
+"366","Samoa","Samo",NA,"F",NA,NA,"2014-12-31",NA,NA,"CR",NA,NA,NA,NA,NA,"2018-07-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen few days before CR last followed",NA
+"367","Seychelles","Sey",NA,"M",NA,NA,"2014-12-31",NA,"BD","CR","Samoa",NA,"2019-05-20","BD","2019-05-21","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2014",NA
+"368","The Mask",NA,NA,"F",NA,NA,"2014-12-31",NA,NA,"CR",NA,NA,NA,"SplitCR","2017-02-12","2017-04-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Name conflicts with Theodore from LT, born 2012",NA
+"369","Chiloe","Chil",NA,"F",NA,NA,"2015-01-06",NA,"CR","CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"370","Cuba","Cuba","kinktail","F",NA,NA,"2015-01-06",NA,NA,"CR",NA,NA,NA,NA,NA,"2015-12-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably dead, originally called ""kinktail"", born 2012","dead"
+"371","Flatty","Fla",NA,"M",NA,NA,"2015-01-06",NA,NA,"CR",NA,NA,"2017-04-24",NA,NA,"2017-04-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2011, disappeared/ migrated in new group?","migrated"
+"372","Galapagos","Gala",NA,"F",NA,NA,"2015-01-06",NA,"CR","CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen on last day CR followed 2018/07/20",NA
+"373","Henderson","Hen",NA,"M",NA,NA,"2015-01-06",NA,NA,NA,NA,NA,NA,"CR","2015-01-06","2015-05-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"374","Tonga","Tong",NA,"F",NA,NA,"2015-01-06",NA,NA,"CR",NA,NA,NA,NA,NA,"2017-02-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dead","dead"
+"375","Whiskers","Whis",NA,"F",NA,NA,"2015-01-06",NA,NA,"CR",NA,NA,NA,"SplitCR","2017-02-12","2017-04-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2012",NA
+"376","Xiushan","Xiu","Decoloured","M",NA,NA,"2015-01-06",NA,"BD",NA,NA,NA,NA,"CR","2015-11-13","2023-04-03","BD","2023-04-18","2023-11-16",NA,NA,NA,NA,NA,NA,NA,"seen on last day CR followed 2018/07/20 but still present in dec21- in logbook first as juvenile  ""decoloured"", then later changed to adult and Xiushan….?",NA
+"377","Symetric","Sym","Simetric","M",NA,NA,"2015-01-09",NA,NA,"CR",NA,NA,"2018-03-21",NA,NA,"2018-03-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2014",NA
+"378","Lohihi","Lohi",NA,"F",NA,NA,"2015-01-10",NA,NA,"CR",NA,NA,NA,NA,NA,"2018-07-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen few days before CR last followed",NA
+"379","Huge","Huge",NA,"F",NA,NA,"2015-01-12",NA,NA,"CR",NA,NA,NA,NA,NA,"2016-01-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2012, fate unknown",NA
+"380","Oahu","Oahu",NA,"F","10",NA,"2015-01-12",NA,NA,"CR",NA,NA,NA,NA,NA,"2018-07-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen few days before CR last followed",NA
+"381","Pointy","Poi",NA,"M",NA,NA,"2015-01-12",NA,NA,"CR",NA,NA,"2017-04-26",NA,NA,"2017-04-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Disappeared, probably migrated","migrated"
+"382","Sumbawa","Sumb",NA,"F",NA,NA,"2015-01-19",NA,NA,"CR",NA,NA,NA,NA,NA,"2015-02-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"383","Umnak","Umna",NA,"F",NA,NA,"2015-02-11",NA,NA,"CR",NA,NA,NA,NA,NA,"2017-02-17",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dead","dead"
+"384","Base","Bas",NA,"M",NA,NA,"2015-02-25",NA,NA,"CR",NA,NA,"2017-04-29","BD","2017-05-05","2021-02-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen in BD on 19/02/2021",NA
+"385","Olona","Olo","Bumpy head male","M",NA,NA,"2015-04-03",NA,NA,NA,NA,NA,NA,"KB","2015-04-03","2015-05-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Described initially as 'bumpy head male', seen with group across river on 29th June 15",NA
+"386","Atitlan","Ati","Male with bright eyerings","M",NA,NA,"2015-04-28",NA,NA,NA,NA,NA,NA,"KB","2015-04-28","2016-01-25","AK","2016-03-03","2020-02-25",NA,NA,NA,NA,NA,NA,NA,"Described initially as male with bright eyerings, moved between AK and KB in months before immigration date","migrated"
+"387","Liffey","Lif",NA,"M",NA,NA,"2015-04-28",NA,NA,NA,NA,NA,NA,"KB","2015-04-28","2021-05-31","NH","2021-06-01","2022-09-12",NA,NA,NA,NA,NA,NA,NA,"Described initially as heart shape male. Found dead on KB open hill on 19/08/2022 by Loic. Brain was extracted","dead"
+"388","Okavango","Oka",NA,"M",NA,NA,"2015-05-04",NA,NA,NA,NA,NA,NA,"KB","2015-05-04","2015-10-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Had large wound before last seen",NA
+"389","Wesley","Wes",NA,"M",NA,"2015-05-20","2015-05-20",NA,NA,NA,NA,NA,NA,"LT","2015-05-20","2018-02-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Seen once more in LT on 2018/03/03",NA
+"390","Colorado","Col",NA,"M",NA,NA,"2015-05-25",NA,NA,NA,NA,NA,NA,"KB","2015-05-25","2016-05-11","IFamily","2016-04-29","2016-09-14",NA,NA,NA,NA,NA,NA,NA,"Seen once more in KB in June 16 after departure date and once in Ifamily in April 16",NA
+"391","Smashy","Smas","Mous","F",NA,NA,"2015-06-16",NA,NA,"CR",NA,NA,NA,NA,NA,"2018-04-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Name Conflict with SMA & Small Eyes, fate unknown",NA
+"392","Tortuga","Tort","broken finger","F",NA,NA,"2015-07-22",NA,NA,"CR",NA,NA,NA,NA,NA,"2020-07-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"born 2012, previously called broken finger when juv, collar found on the ground with a lot of fur. Presumed dead.","dead"
+"393","Daenerys","Daen",NA,"F",NA,NA,"2015-08-20",NA,"LT","LT","Diana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"394","Vancouver","Van",NA,"M","20",NA,"2015-09-01",NA,NA,NA,NA,NA,NA,"CR","2015-09-01","2018-05-28","BD","2018-05-29","2019-11-29",NA,NA,NA,NA,NA,NA,NA,"Name conflicts with Vance from LT",NA
+"395","Pianosa","Pia",NA,"M",NA,NA,"2015-09-26",NA,NA,NA,NA,NA,NA,"CR","2015-09-26","2016-07-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Disappeared",NA
+"396","Robben","Robb",NA,"F",NA,NA,"2015-09-29",NA,NA,"CR",NA,NA,NA,NA,NA,"2016-01-22",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fate unknown",NA
+"397","Martinique","Mart",NA,"F",NA,NA,"2015-10-07",NA,NA,"CR",NA,NA,NA,NA,NA,"2015-10-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Only ever recorded once in logbook, presumed dead?","dead"
+"398","Barbados","Barb",NA,"F",NA,NA,"2015-10-08",NA,NA,"CR",NA,NA,NA,"SplitCR",NA,"2017-04-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"399","Dulcina","Dulc",NA,"F",NA,NA,"2015-10-08",NA,NA,"CR",NA,NA,NA,NA,NA,"2015-10-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Only recorded on one day, presumed dead","dead"
+"400","Baby Zeia 2015","BZei15",NA,NA,NA,"2015-10-15","2015-10-15",NA,NA,"KB","Zeia",NA,NA,NA,NA,"2015-11-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"already dead when last seen (carried >/=1 day)","dead"
+"401","Lilly","Lill",NA,"F",NA,"2015-10-16","2015-10-16",NA,"LT","LT","Lizz",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"402","Baby Troi 2015","BTro15",NA,"M","33","2015-10-22","2015-10-22",NA,NA,"NH","Troia",NA,"2015-12-11",NA,NA,"2015-12-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen with head injury 19/11/15, presumed dead","dead"
+"403","Galati","Gala",NA,"F",NA,"2015-10-23","2015-10-23",NA,NA,"NH","Gaya",NA,NA,NA,NA,"2016-04-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"dead, says seen a month later in logbook but likely mistake","dead"
+"404","Baby Amur 2015","BAmu15",NA,NA,NA,NA,"2015-10-25",NA,NA,"KB","Amur",NA,NA,NA,NA,"2015-11-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"approx. birthdate; presumed dead no body","dead"
+"405","Zave","Zav",NA,"M",NA,NA,"2015-10-28",NA,NA,NA,NA,NA,NA,"CR","2015-10-28","2017-02-17",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Disappeared, migrated from CR to unk group?","migrated"
+"406","Johannesburg","Joha",NA,"F",NA,"2015-10-30","2015-10-30",NA,NA,"NH","Jakarta",NA,"2016-04-13","Iceland",NA,"2016-06-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Split group, last seen in Iceland",NA
+"407","Baby Isil 2015","BIsi15",NA,NA,NA,"2015-11-05","2015-11-05",NA,NA,"AK","Isilonda",NA,NA,NA,NA,"2016-01-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no body found but presumed dead.","dead"
+"408","Baby Ghan 2015","BGha15",NA,NA,NA,"2015-11-06","2015-11-06",NA,NA,"AK","Ghangaan",NA,NA,NA,NA,"2015-11-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"409","Baby Snortjie 2015","BSno15",NA,NA,NA,"2015-11-06","2015-11-06",NA,NA,"BD","Snortjie",NA,NA,NA,NA,"2015-11-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"410","Nirtjies","Nirt",NA,"F",NA,"2015-11-06","2015-11-06",NA,NA,"BD","Numbies",NA,NA,NA,NA,"2016-01-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"411","Ireland","Ire",NA,"M",NA,NA,"2015-11-08",NA,NA,"CR","Iceland",NA,"2015-02-12",NA,NA,"2015-02-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2014, presumed dead","dead"
+"412","Baby Ness 2015","BNes15",NA,"F",NA,"2015-11-09","2015-11-09",NA,NA,"KB","Nessie",NA,NA,NA,NA,"2016-01-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"not brand new on birthdate, presumed dead, no body","dead"
+"413","Jiamusi","Jia",NA,"M",NA,"2015-11-09","2015-11-09",NA,NA,"NH","Jinka",NA,"2016-04-13","Iceland",NA,"2016-07-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Split group, lsat seen in Iceland",NA
+"414","Middag","Midd",NA,"F",NA,"2015-11-09","2015-11-09",NA,NA,"BD","Mielies",NA,NA,NA,NA,"2016-01-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead, body not found","dead"
+"415","Brisbane","Bri",NA,"M",NA,"2015-11-10","2015-11-10",NA,NA,"NH","Brasilia",NA,"2016-04-13","Iceland",NA,"2016-04-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Prob split group? Not ID'd in Iceland after split",NA
+"416","Baby Mamo 2015","BMam15",NA,NA,NA,"2015-11-11","2015-11-11",NA,NA,"AK","Mamoobi",NA,NA,NA,NA,"2016-02-22",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead, approximate date","dead"
+"417","Baby Aare 2015","BAar15",NA,"M",NA,"2015-11-12","2015-11-12",NA,NA,"KB","Aare",NA,"2016-02-13",NA,NA,"2016-02-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead, no body","dead"
+"418","Baby Nkos 2015","BNko15",NA,NA,NA,"2015-11-12","2015-11-12",NA,NA,"AK","Nkosikasi",NA,NA,NA,NA,"2016-03-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead, approximate date","dead"
+"419","Papsak","Pap",NA,"M",NA,"2015-11-12","2015-11-12",NA,NA,"BD","Pannekoekie",NA,NA,NA,NA,"2015-12-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead, body not found","dead"
+"420","Richard","Ric",NA,"M",NA,"2015-11-12","2015-11-12",NA,NA,"LT","Roxanne",NA,"2016-09-27",NA,NA,"2016-09-27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fate unknown",NA
+"421","Raspberry","Rasp",NA,"F",NA,NA,"2015-11-13",NA,NA,"CR",NA,NA,NA,"SplitCR","2017-01-12","2017-04-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2011",NA
+"422","Everest","Eve",NA,"M","40",NA,"2015-11-14",NA,NA,"RL",NA,NA,NA,NA,"2015-11-14","2015-12-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Released in BD; found dead 7/12/2015 outside farm","dead"
+"423","Kilimanjaro","Kil",NA,"M","6",NA,"2015-11-14",NA,NA,"RL",NA,NA,NA,NA,"2015-11-14","2015-12-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Released in BD with Eve on 14/11/2015",NA
+"424","Baby Gugu 2015","BGug15",NA,NA,NA,"2015-11-16","2015-11-16",NA,NA,"AK","Gugu",NA,NA,NA,NA,"2016-01-02",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no body- prob dead. Gugu badly injured","dead"
+"425","Ulaanbaatar","Ula",NA,"M",NA,"2015-11-16","2015-11-16",NA,NA,"NH","Uppsala",NA,"2020-11-30","IFamily","2020-12-09","2021-01-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"426","Zhukovsky","Zhu",NA,"M",NA,"2015-11-16","2015-11-16",NA,NA,"NH","Zara",NA,"2016-03-08",NA,NA,"2016-03-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"dead, unclear if body found","dead"
+"427","Baby Diana 2015","BDia15",NA,"M",NA,"2015-11-17","2015-11-17",NA,NA,"LT","Diana",NA,"2016-01-19",NA,NA,"2016-01-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"last seen w/ wound on back unable to walk properly",NA
+"428","Lawrence","Law",NA,"M",NA,"2015-11-17","2015-11-17",NA,NA,"LT","Laurel",NA,"2016-04-12",NA,NA,"2016-04-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"429","Baby Idwa 2015","BIdw15",NA,NA,NA,"2015-11-18","2015-11-18",NA,NA,"AK","Idwala",NA,NA,NA,NA,"2016-01-05",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"no body - presumed dead","dead"
+"430","Bari","Bari",NA,"F",NA,"2015-11-18","2015-11-18",NA,NA,"NH","Bogota",NA,"2016-04-13","Iceland",NA,"2016-04-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Prob Split group? not ID'd in Iceland after split",NA
+"431","Hasie","Has",NA,"M",NA,"2015-11-19","2015-11-19",NA,NA,"BD","Heerlik",NA,"2016-05-17",NA,NA,"2016-05-17",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Don't have the real Last seen Date, approximation, presumed dead","dead"
+"432","Oortjies","Oort",NA,"F",NA,"2015-11-20","2015-11-20",NA,"BD","BD","Oulik",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"433","Adder","Add",NA,"M",NA,"2015-11-23","2015-11-23",NA,NA,"BD","Asis",NA,"2021-10-04",NA,NA,"2021-10-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"434","Pruszkow","Pru",NA,"M",NA,"2015-11-23","2015-11-23",NA,"KB","NH","Pretoria",NA,"2020-11-30","IFamily","2020-12-09","2020-12-22","KB","2022-05-14","2023-11-16",NA,NA,NA,NA,NA,NA,NA,"11.11.2021 seen during BGE with AK (only male seen, not seen anyone else from Ifamily). 22/06/2022 he was captured and sent to the WATCH Santuary, he spent 4 weeks recoverying from the broken leg. 27/07/2022 He was realised back to the field and he rejoined KB.",NA
+"435","Reykjavik","Rey",NA,"M","1","2015-11-23","2015-11-23",NA,NA,"NH","Reva","Govu","2020-11-30","IFamily","2020-12-09","2022-05-22",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Rey pops out in every encounter between AK and Ifamily and Noha and Ifamily. He is with Ifamily. And regularly seen during an encounter.",NA
+"436","Roslin","Rosl",NA,"F",NA,"2015-11-23","2015-11-23",NA,NA,"NH","Roma","Babelas",NA,"RFamily",NA,"2021-02-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"female instead of male 30/10/17 - recorded as Ros until then. Disappeared with Rennes, Reva and Lima",NA
+"437","Baby Gaga 2015","BGag15",NA,NA,NA,"2015-11-26","2015-11-26",NA,NA,"AK","Gagasa",NA,NA,NA,NA,"2016-03-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen dead (gele carrying) on 07/03/16","dead"
+"438","Baby Tonga 2015","BTon15",NA,"M",NA,"2015-11-27","2015-11-27",NA,NA,"CR","Tonga",NA,"2015-12-27",NA,NA,"2015-12-27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2015, presumed dead unclear if body found ","dead"
+"439","Jalitah",NA,NA,NA,NA,NA,"2015-11-27",NA,NA,"CR","Brownie",NA,NA,NA,NA,"2016-09-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2015, presumed dead","dead"
+"440","Baby Umnak 2015","BUmn15",NA,"M",NA,"2015-11-28","2015-11-28",NA,NA,"CR","Umnak",NA,"2016-01-13",NA,NA,"2016-01-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2015, presumed dead unclear if body found ","dead"
+"441","Kauai","Kau",NA,"M",NA,NA,"2015-11-28",NA,NA,NA,NA,NA,NA,"CR","2015-11-28","2017-01-04","BD","2017-05-15","2018-03-02",NA,NA,NA,NA,NA,NA,NA,"Mispelling Kuaui in logbook < 2017",NA
+"442","Yell","Yel",NA,"M",NA,NA,"2015-11-28",NA,NA,NA,NA,NA,NA,"CR","2015-11-28","2017-01-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Disappeared, migrated from CR to unk group?","migrated"
+"443","Ratel","Rat",NA,"M",NA,"2015-11-30","2015-11-30",NA,"LT","BD","Rissiepit",NA,"2021-04-29","LT","2021-05-21","2021-12-18","LT","2022-03-17","2023-11-16",NA,NA,NA,NA,NA,NA,NA,"Last seen in BD on 29/04/2021,  went issing from the 18/12/2021 and came back on the 17/03/2022 with a short tail and scars",NA
+"444","Baby Pearl 2015","BPear15",NA,NA,NA,"2015-12-03","2015-12-03",NA,NA,"KB","Pearl",NA,NA,"KBSplit",NA,"2015-12-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Mother left group with KB split, After the split the is no records of the baby",NA
+"445","Kate","Kate",NA,"F",NA,"2015-12-09","2015-12-09",NA,NA,"LT","Kaya",NA,"2018-02-21",NA,NA,"2018-03-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"446","Dion","Dio",NA,"M",NA,"2015-12-12","2015-12-12",NA,NA,"LT","Digby",NA,"2021-03-23",NA,NA,"2021-03-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"447","Baby Oahu 2015","BOah15",NA,NA,NA,NA,"2015-12-17",NA,NA,"CR","Oahu",NA,NA,NA,NA,"2016-01-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2015, presumed dead unclear if body found ","dead"
+"448","Puolka","Puol",NA,"F",NA,"2015-12-28","2015-12-28",NA,"BD","BD","Prinses",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Change of name from Polka to Puolka March 2018",NA
+"449","Alcatraz","Alc",NA,"M",NA,NA,"2016-01-14",NA,NA,"CR","Antarctica",NA,"2018-07-20","Jacaranda",NA,"2018-07-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2014, seen on last day CR followed 2018/07/20. Mistakenly identified in BD from immigration date in 2019 until Nov 2020 - it was actually Umbrella - changed in database on 10/11/2020","migrated"
+"450","Jane","Jane",NA,"F",NA,"2016-01-15","2016-01-15",NA,NA,"LT","Jenny",NA,"2018-02-21","LTsplit","2018-02-21","2018-02-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"LTSplit not followed",NA
+"451","Ndawonya","Ndaw",NA,"F",NA,"2016-02-08","2016-02-08",NA,"AK","AK","Ndonsa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"452","Manhattan","Manh",NA,"F",NA,NA,"2016-02-11",NA,NA,"CR","Martinique",NA,NA,NA,NA,"2017-01-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2014, Dead","dead"
+"453","Schnauzli","Schn",NA,"F",NA,NA,"2016-02-11",NA,NA,"CR",NA,NA,NA,NA,NA,"2018-04-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fate unknown",NA
+"454","Bermuda","Ber",NA,"M",NA,NA,"2016-02-29",NA,NA,"CR","Barbados",NA,"2017-02-12","SplitCR","2017-02-12","2017-04-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2014",NA
+"455","Java","Java",NA,"F",NA,NA,"2016-03-28",NA,NA,"CR","Jamaica",NA,NA,NA,NA,"2018-07-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2012, had first baby 27/11/2015, seen on last day CR followed 2018/07/20",NA
+"456","Umbrella","Umb",NA,"M",NA,NA,"2016-10-19",NA,"BD","CR","Umnak",NA,NA,"BD","2019-05-27","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2014, seen on last day CR followed 2018/07/20. Was mistakenly called Alc when seen in BD but mistake realised in Nov 2020 - changed in database 10/11/2020.",NA
+"457","Robin","Rob",NA,"M",NA,"2016-10-20","2016-10-20",NA,NA,"LT","Rose-Mary",NA,"2021-04-17",NA,NA,"2021-04-17",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"458","Reindeer","Rein",NA,"F",NA,NA,"2016-11-01",NA,NA,"CR","Raspberry",NA,"2017-02-12","SplitCR","2017-02-12","2017-04-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2014",NA
+"459","Renee","Rene",NA,"F",NA,"2016-11-01","2016-11-01",NA,NA,"LT","Roxanne",NA,"2018-08-14","LTsplit",NA,"2019-08-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Did she join LT split? ",NA
+"460","Baby Amur 2016","BAmu16",NA,NA,NA,"2016-11-03","2016-11-03",NA,NA,"KB","Amur",NA,NA,NA,NA,"2016-12-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"deceased, body not found","dead"
+"461","Louise","Loui",NA,"F",NA,"2016-11-09","2016-11-09",NA,"LT","LT","Lizz",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"462","Yukon","Yuko",NA,"F",NA,"2016-11-09","2016-11-09",NA,"KB","KB","Yenissei",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"463","Gabillou","Gabi",NA,"F",NA,"2016-11-14","2016-11-14",NA,NA,"NH","Gaya",NA,NA,NA,NA,"2018-06-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"464","Nahoon","Nah",NA,"M",NA,"2016-11-14","2016-11-14",NA,NA,"KB","Nessie",NA,"2019-05-30",NA,NA,"2019-05-30",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably dead","dead"
+"465","Xiashan","Xia",NA,"M",NA,"2016-11-14","2016-11-14",NA,"BD","NH","Xian",NA,"2021-11-27","BD","2022-02-14","2022-06-14","BD","2022-08-09","2023-11-16",NA,NA,NA,NA,NA,NA,NA,"He was last seen in BD on the 13/06/2022.on the 30/06/2022 he was darted and collared when they were baiting Crossing. He was also seen with an unhabituated troop after.",NA
+"466","Aaragon","Aara",NA,"F",NA,"2016-11-16","2016-11-16",NA,"KB","KB","Aare",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"467","Gunya","Guny",NA,"F","2","2016-11-16","2016-11-16",NA,NA,"AK","Gugu",NA,NA,NA,NA,"2019-10-31",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"468","Mhaori","Mhao",NA,"F",NA,"2016-11-17","2016-11-17",NA,NA,"KB","Mara",NA,NA,NA,NA,"2019-12-30",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"469","Ngenakubo","Nge",NA,"M",NA,"2016-11-18","2016-11-18",NA,NA,"AK","Nkosikasi",NA,"2021-11-12","BD","2022-02-07","2023-03-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"470","Guatemala","Guat",NA,"F",NA,"2016-11-22","2016-11-22",NA,"NH","NH","Geneva",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"471","Rabat","Raba",NA,"F",NA,"2016-11-23","2016-11-23",NA,"NH","NH","Roma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"472","Yamuna","Yamu",NA,"F",NA,"2016-11-23","2016-11-23",NA,"KB","KB","Yalu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"473","Hondjie","Hond",NA,"F",NA,NA,"2016-11-29",NA,"BD","BD","Heerlik",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DOB approx, born before 01/12/2016",NA
+"474","Baby Siele 2016","BSie16",NA,NA,NA,"2016-11-30","2016-11-30",NA,NA,"BD","Siele",NA,NA,NA,NA,"2017-01-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Died start 2017, body not found","dead"
+"475","Hibiscus","Hibi",NA,"F",NA,NA,"2016-11-30",NA,NA,"BD","Hippie",NA,NA,NA,NA,"2020-02-28",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"DOB approx, born before 30/11/2016",NA
+"476","Dillon","Dil",NA,"M",NA,"2016-12-05","2016-12-05",NA,NA,"LT","Digby",NA,"2021-12-11",NA,NA,"2021-12-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"477","Luan","Lua",NA,"M",NA,"2016-12-19","2016-12-19",NA,NA,"LT","India",NA,"2017-01-16",NA,NA,"2017-01-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Mother (India) died, left behind by group, taken to the sanctuary (16/01/17) and named Luan.","dead"
+"478","Whidbey","Whid",NA,"F",NA,NA,"2016-10-01",NA,NA,"CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","No data found but described in description file 2016",NA
+"479","Dewey","Dewe",NA,"F",NA,"2017-01-04","2017-01-04",NA,"LT","LT","Delilah",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"480","Tyler","Tyl","Garry","M",NA,NA,"2017-05-22",NA,NA,NA,NA,NA,NA,"LT","2017-05-22","2018-02-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"first named garry then changed for tyler 12/08/17 - was the data changed or still as Gar in some forms?",NA
+"481","New male (look like Rio)",NA,NA,"M",NA,NA,"2017-06-22",NA,NA,NA,NA,NA,NA,"LT","2017-06-22","2017-07-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","first apparition 22/06/2017, sure since 7/07/2017 - dif male to that recorded 24th May onwards?",NA
+"482","Dokos","Dok","Denmark","M",NA,NA,"2017-08-22",NA,NA,"CR","Duclina",NA,"2018-07-20","BD","2019-05-30","2022-07-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2014, seen on last day CR followed 2018/07/20. In BD for three years but found dead in the purgatory on 15/08/2022 by Loic.","dead"
+"483","Feniks","Fen",NA,"M",NA,NA,"2017-09-01",NA,NA,NA,NA,NA,NA,"BD","2017-09-01","2020-01-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"484","Kommunis","Kom",NA,"M",NA,NA,"2017-09-04",NA,"BD",NA,NA,NA,NA,"AK","2019-10-09","2019-10-09","BD","2019-11-12","2021-12-14","BD","2022-01-20",NA,NA,NA,NA,NA,"Named Bingo until 2018, but isnt the original Bing - NEED MORE DETAIL. Dissapeared fro Baie dankie fro the 14/12/2021 and appeared agin on the 01/18/2022","dissapeared"
+"485","Baby Numbies 2017","BNum17",NA,NA,NA,"2017-09-25","2017-09-25",NA,NA,"BD","Numbies",NA,NA,NA,NA,"2017-10-09",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"presumed dead, no body found","dead"
+"486","Sari","Sari",NA,"F",NA,"2017-09-30","2017-09-30",NA,"BD","BD","Snortjie",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"487","Baby Little Blind 2017","BLBl17",NA,NA,NA,"2017-10-03","2017-10-03",NA,NA,"BD","Little Blind",NA,NA,NA,NA,"2017-10-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Disappeared on the 06/10/2017",NA
+"488","Baby Digby 2017","BDig17",NA,NA,NA,NA,"2017-10-05",NA,NA,"LT","Digby",NA,NA,NA,NA,"2017-10-09",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably dead, noted missing on 2017/10/09","dead"
+"489","Cameron","Cam",NA,"M",NA,NA,"2017-10-05",NA,NA,"CR","Chiloe",NA,NA,NA,NA,"2022-01-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2016",NA
+"490","Aarhus","Aar",NA,"M",NA,"2017-10-09","2017-10-09",NA,"IF","KB","Aare",NA,"2023-01-30","IFamily","2023-01-30","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"491","Amgoun","Amg",NA,"M",NA,"2017-10-09","2017-10-09",NA,NA,"KB","Amur",NA,"2019-02-27",NA,NA,"2019-02-27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"found his body the 27th of February","dead"
+"492","Baby Gese 2017","BGes17",NA,NA,NA,"2017-10-09","2017-10-09",NA,NA,"BD","Gesels",NA,NA,NA,NA,"2017-10-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead, no body found","dead"
+"493","Goduka","Godu",NA,"F",NA,"2017-10-09","2017-10-09",NA,"AK","AK","Geleza",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"494","Rocky","Rocky",NA,"M",NA,NA,"2017-10-09",NA,NA,"LT","Rose-Mary",NA,"2018-02-21","LTsplit","2018-02-21","2018-03-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"495","Uranium City","Ura",NA,"M",NA,NA,"2017-10-09",NA,NA,"NH","Uppsala",NA,"2019-02-12",NA,NA,"2019-02-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"dead, we did not seen him since the 12/02/2019","dead"
+"496","Baby Oahu 2017","BOah17",NA,NA,NA,"2017-10-10","2017-10-10",NA,NA,"CR","Oahu",NA,NA,NA,NA,"2017-10-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Was born dead and the mother was carring the body","dead"
+"497","Goose","Goos","CrazyEyes","F",NA,NA,"2017-10-10",NA,NA,"CR","Galapagos",NA,NA,NA,NA,"2018-07-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen on last day CR followed 2018/07/20",NA
+"498","Lavander","Lava",NA,"F",NA,"2017-10-11","2017-10-11",NA,NA,"LT","Laurel",NA,NA,NA,NA,"2019-09-27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"499","Baby Pann 2017","BPan17",NA,"M",NA,"2017-10-12","2017-10-12",NA,NA,"BD","Pannekoekie",NA,"2017-12-21",NA,NA,"2017-12-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Died on 21/12/2017, seen with injuries on leg and died shortly afterwards","dead"
+"500","Baby Lionel 2017","BLio17",NA,NA,NA,NA,"2017-10-13",NA,NA,"CR","Lionel",NA,NA,NA,NA,"2017-11-17",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"501","Mokcha","Mokc",NA,"F",NA,"2017-10-13","2017-10-13",NA,NA,"KB","Mara",NA,NA,NA,NA,"2021-09-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"502","Baby Roxanne 2017","BRox17",NA,"M",NA,"2017-10-16","2017-10-16",NA,NA,"LT","Roxanne",NA,"2018-02-19",NA,NA,"2018-02-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Not clear if baby joined split with mother or disappeared few days before",NA
+"503","Ischia","Isc",NA,"M",NA,NA,"2017-10-16",NA,NA,"CR","Iceland",NA,"2018-07-18",NA,NA,"2018-07-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen few days before CR last followed",NA
+"504","Ndiki","Ndik",NA,"F",NA,"2017-10-16","2017-10-16",NA,NA,"AK","Ndonsa",NA,NA,NA,NA,"2021-04-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"505","Nuuskierig","Nuu",NA,"M",NA,"2017-10-16","2017-10-16",NA,NA,"BD","Nurks",NA,"2023-03-06",NA,NA,"2023-03-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"506","Timber","Timb",NA,"F",NA,"2017-10-16","2017-10-16",NA,"CR","CR","Tortuga",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"507","Aantreklik","Aan","Aant","M",NA,"2017-10-17","2017-10-17",NA,"BD","BD","Aapie",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes","may be mistaken about the fact that his mom is Aapi. Due to observation he maybe Asis son - to check with genetics!",NA
+"508","Jelly","Jell",NA,"F",NA,"2017-10-19","2017-10-19",NA,NA,"LT","Jenny",NA,"2018-02-21","LTsplit",NA,"2018-03-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"509","Pomelo","Pom",NA,"M",NA,"2017-10-19","2017-10-19",NA,"NH","BD","Potjie",NA,"2022-12-16","NH","2023-02-20","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"He left BD but Jonas could still download data from him when he is behind Mpakana",NA
+"510","Xinji","Xin",NA,"M",NA,NA,"2017-10-20",NA,"BD","NH","Xian",NA,"2022-07-15","BD","2022-07-16","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"511","Rustig","Rust",NA,"F",NA,"2017-10-21","2017-10-21",NA,NA,"BD","Rissiepit",NA,NA,NA,NA,"2018-05-28",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Noted several months after in logbook, likely an error",NA
+"512","Sirkus","Sirk",NA,"F",NA,"2017-10-21","2017-10-21",NA,"BD","BD","Siele",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"513","Pyeongchang","Pye",NA,"M",NA,"2017-10-23","2017-10-23",NA,NA,"NH","Pretoria",NA,"2020-02-24",NA,NA,"2020-02-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Most likely killed by dogs","dead"
+"514","Obsessie","Obse",NA,"F",NA,"2017-10-24","2017-10-24",NA,"BD","BD","Oulik",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"515","Margarita","Mar",NA,"M",NA,NA,"2017-10-25",NA,NA,"CR","Mackenzie",NA,"2017-11-17",NA,NA,"2017-11-17",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"516","Jersey","Jers",NA,"F",NA,NA,"2017-10-26",NA,NA,"CR","Java",NA,NA,NA,NA,"2018-07-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen on last day CR followed 2018/07/20",NA
+"517","Moya","Moya",NA,"F",NA,"2017-10-26","2017-10-26",NA,NA,"AK","Mamoobi",NA,NA,NA,NA,"2019-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead. Body not found","dead"
+"518","Heelal","Hee",NA,"M",NA,"2017-10-30","2017-10-30",NA,NA,"BD","Heerlik",NA,"2023-01-20",NA,NA,"2023-01-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"519","Baby Gugu 2017","BGug17",NA,"M",NA,"2017-10-31","2017-10-31",NA,NA,"AK","Gugu",NA,"2018-01-11",NA,NA,"2018-01-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead but no body","dead"
+"520","Nakhu","Nak",NA,"M",NA,"2017-10-31","2017-10-31",NA,"BD","AK","Nkosikasi",NA,"2022-05-05","BD","2022-05-06","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"521","Daartagnan","Daa",NA,"M",NA,"2017-11-02","2017-11-02",NA,NA,"LT","Daisy",NA,NA,NA,NA,"2022-06-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"522","Nantucket","Nan",NA,"M",NA,NA,"2017-11-02",NA,NA,"CR","Nihau",NA,"2018-07-18",NA,NA,"2018-07-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen few days before CR last followed",NA
+"523","Baby Ruby 2017","BRub17",NA,NA,NA,"2017-11-03","2017-11-03",NA,NA,"LT","Ruby",NA,NA,NA,NA,"2017-12-17",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dead, unclear if body found","dead"
+"524","Rioja","Rioj",NA,"F",NA,"2017-11-03","2017-11-03",NA,"NH","NH","Roma",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"525","Baby Kaya 2017","BKay17",NA,"M",NA,"2017-11-04","2017-11-04",NA,NA,"LT","Kaya",NA,"2018-02-21","LTsplit","2018-02-21","2018-03-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"LTSplit not followed",NA
+"526","Nihau","Niha",NA,"F",NA,NA,"2017-11-06",NA,"CR","CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born 2012, first recorded seems late - was she called something else first? Last seen few days before CR last followed",NA
+"527","Yara","Yara",NA,"F",NA,NA,"2017-11-11",NA,"KB","KB","Yalu",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"528","Gangtok","Gan",NA,"M",NA,"2017-11-13","2017-11-13",NA,NA,"NH","Gaya",NA,"2021-12-24",NA,NA,"2021-12-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"529","Revdanda","Rev",NA,"M",NA,"2017-11-16","2017-11-16",NA,NA,"NH","Rennes",NA,"2019-01-28",NA,NA,"2019-01-28",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Body found eaten by poachers' dogs","dead"
+"530","Xaltepec","Xal",NA,"M",NA,"2017-11-18","2017-11-18",NA,NA,"NH","Xalapa",NA,"2020-03-12",NA,NA,"2020-03-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Never identified again after Rebekka snd Varun left",NA
+"531","Yzeron","Yze",NA,"M",NA,NA,"2017-11-20",NA,NA,"KB","Yenissei",NA,"2018-09-18",NA,NA,"2018-09-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably dead","dead"
+"532","Dexter","Dext",NA,"F",NA,"2017-11-30","2017-11-30",NA,NA,"LT","Delilah",NA,NA,NA,NA,"2022-06-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"533","Corfu",NA,NA,NA,NA,NA,"2017-12-23",NA,NA,"CR","Chiloe",NA,NA,NA,NA,"2018-06-02",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Confusion between observers as to whether Corfu exists or not, never reconciled",NA
+"534","Baby Mielies 2017","BMie17",NA,NA,NA,"2017-12-27","2017-12-27",NA,NA,"BD","Mielies",NA,NA,NA,NA,"2018-01-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"535","Doreen","Dore",NA,"F",NA,"2017-12-29","2017-12-29",NA,"LT","LT","Diana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"536","Baby Mackenzie 2017","BMac17","Baby Schnauzli 2017",NA,NA,NA,"2018-02-14",NA,NA,"CR","Mackenzie",NA,NA,NA,NA,"2018-04-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Fate unclear",NA
+"537","Puntag","Pun",NA,"M",NA,"2018-03-02","2018-03-02",NA,NA,NA,NA,NA,NA,"BD","2018-03-02","2018-07-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Recorded one time months after departure in BD, may be a mistake",NA
+"538","Bali","Bali",NA,"F",NA,NA,"2018-04-09",NA,"CR","CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen on last day CR followed 2018/07/20",NA
+"539","Easter","East","Smashy;Mous","F",NA,NA,"2018-04-09",NA,NA,"CR",NA,NA,NA,NA,NA,"2022-03-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen on last day CR followed 2018/07/20",NA
+"540","Fiji","Fiji",NA,"F",NA,NA,"2018-04-12",NA,NA,"CR",NA,NA,NA,NA,NA,"2018-07-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen on last day CR followed 2018/07/20",NA
+"541","Kodiak","Kodi","Schnauzli","F",NA,NA,"2018-04-12",NA,"CR","CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen few days before CR last followed 2018/07/20",NA
+"542","Kookoolegit","Koo",NA,"M",NA,NA,"2018-04-12",NA,NA,"CR","Kodiak",NA,"2018-07-18",NA,NA,"2018-07-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen few days before CR last followed",NA
+"543","Blup blup","Blu",NA,"M",NA,NA,"2018-04-18",NA,NA,"CR","Bali",NA,NA,NA,NA,"2018-07-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen on last day CR followed 2018/07/20",NA
+"544","Cusco","Cus",NA,"M",NA,NA,"2018-05-21",NA,NA,NA,NA,NA,NA,"NH","2018-05-21","2018-12-17","NH","2019-05-21","2020-11-30",NA,NA,NA,NA,NA,NA,NA,"Could be Ijinja from Ifamily, but unsure without genetics",NA
+"545","Oscar","Osc","Dumbledore","M",NA,NA,"2018-06-07",NA,NA,NA,NA,NA,NA,"LT","2018-06-07","2019-02-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Previously named Dumbledore",NA
+"546","Benedict","Ben",NA,"M",NA,NA,"2018-06-08",NA,NA,NA,NA,NA,NA,"LT","2018-06-08","2020-07-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Migrated in the group that owns the owners dam ","migrated"
+"547","Laila","Lail",NA,"F",NA,"2018-06-11","2018-06-11","2022-10-26","LT","LT","Laurel",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"548","Aathabasca","Aat","Ath","M",NA,NA,"2018-10-26",NA,"KB","KB","Aare",NA,"2023-03-28",NA,NA,"2023-03-28",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born earlier than first seen date",NA
+"549","Goed","Goe",NA,"M",NA,"2018-10-26","2018-10-26",NA,"BD","BD","Gesels",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"550","Hiasint","Hia",NA,"M",NA,"2018-10-26","2018-10-26",NA,NA,"BD","Hippie",NA,"2021-04-08",NA,NA,"2021-04-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen in BD is 08/04/2021 according to logbook but more likely 03/04/2021. ",NA
+"551","Lewe","Lewe",NA,"F",NA,"2018-10-26","2018-10-26","2022-10-26","BD","BD","Little Blind",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"552","Mimiek","Mimi",NA,"F",NA,"2018-10-26","2018-10-26",NA,NA,"BD","Mielies",NA,NA,NA,NA,"2020-08-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Disappeared and no body but assumed to have died. Lots of predator response and hypervigilance in recent days. And group split a few days around disappearance.","dead"
+"553","Naaldekoker","Naal",NA,"F",NA,"2018-10-26","2018-10-26",NA,"BD","BD","Numbies",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"554","Xinpu","Xinp",NA,"F",NA,"2018-10-28","2018-10-28","2022-10-26","NH","NH","Xian",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"555","Guzunga","Guz",NA,"M",NA,NA,"2018-11-01",NA,"IF","AK","Gugu",NA,"2023-05-13","IFamily","2023-05-22","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born few days earlier",NA
+"556","Rochdale","Roc",NA,"M",NA,NA,"2018-11-01",NA,"NH","NH","Reva",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born earlier than first seen date",NA
+"557","Skemer","Skem",NA,"F",NA,"2018-11-01","2018-11-01","2022-10-26","BD","BD","Snortjie",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"558","Spampounkoeki","Spam",NA,"F",NA,"2018-11-01","2018-11-01",NA,NA,"BD","Pannekoekie",NA,NA,NA,NA,"2019-12-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Disappeared, probaby dead","dead"
+"559","Ulsan","Uls",NA,"M",NA,NA,"2018-11-01",NA,"NH","NH","Uppsala",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born earlier than first seen date",NA
+"560","Ncoko","Ncok",NA,"F",NA,"2018-11-02","2018-11-02","2022-10-26","AK","AK","Nkosikasi",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"561","Ndanda","Nda",NA,"M",NA,"2018-11-03","2018-11-03",NA,"AK","AK","Ndonsa",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"probably born the day before",NA
+"562","Baby Geneva 2018","BGen18",NA,NA,NA,"2018-11-05","2018-11-05",NA,NA,"NH","Geneva",NA,NA,NA,NA,"2018-11-05",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born dead","dead"
+"563","Mbila","Mbil",NA,"F",NA,"2018-11-05","2018-11-05",NA,NA,"AK","Mamoobi",NA,NA,NA,NA,"2019-12-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead, body not found","dead"
+"564","Puy-merl","Puym",NA,"F",NA,"2018-11-07","2018-11-07",NA,NA,"NH","Pretoria",NA,NA,NA,NA,"2019-07-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born on the first seen date",NA
+"565","Oerwoud","Oerw",NA,"F",NA,"2018-11-09","2018-11-09",NA,"BD","BD","Oulik",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"566","Rambouillet","Ram",NA,"M",NA,"2018-11-09","2018-11-09",NA,"NH","NH","Roma",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born in between 08/11/18 and 09/11/18",NA
+"567","Sigaret","Sig",NA,"M",NA,"2018-11-09","2018-11-09",NA,"BD","BD","Siele",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"568","Dixon","Dix",NA,"M",NA,"2018-11-11","2018-11-11",NA,"BD","LT","Digby",NA,"2023-04-23","BD","2023-04-25","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"569","Ghidigidi","Ghi",NA,"M","20","2018-11-12","2018-11-12",NA,NA,"AK","Ghida",NA,"2021-01-21",NA,NA,"2021-01-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"probably born the day before (Sunday)",NA
+"570","Mass","Mas",NA,"M",NA,NA,"2018-11-12",NA,NA,"KB","Mara",NA,"2023-02-06",NA,NA,"2023-02-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born before first seen date",NA
+"571","Baby Eina 2018","BEin18",NA,"M",NA,"2018-11-13","2018-11-13",NA,NA,"BD","Eina",NA,"2018-11-26",NA,NA,"2018-11-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead","dead"
+"572","Baby Nurks 2018","BNur18",NA,"F",NA,"2018-11-14","2018-11-14",NA,NA,"BD","Nurks",NA,NA,NA,NA,"2019-02-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dead on the 4th of February. Nurks was still carrying it in the morning. There has been a big storm the previous night","dead"
+"573","Ridder","Rid",NA,"M",NA,"2018-11-14","2018-11-14",NA,"BD","BD","Rissiepit",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"574","Yazoo","Yaz",NA,"M",NA,"2018-11-14","2018-11-14",NA,"KB","KB","Yalu",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"575","Ardig","Ard",NA,"M",NA,"2018-11-15","2018-11-15",NA,NA,"BD","Asis",NA,"2020-10-01",NA,NA,"2020-10-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"576","Regina","Regi",NA,"F",NA,"2018-11-15","2018-11-15","2022-10-26","NH","NH","Rennes",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"577","Pratella","Prat",NA,"F",NA,"2018-11-17","2018-11-17","2022-10-26","NH","NH","Praia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"578","Gilane","Gil",NA,"M",NA,"2018-11-20","2018-11-20",NA,"IF","AK","Ginqika",NA,"2023-05-13","IFamily","2023-05-22","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"579","Nonnitgie","Non",NA,"M",NA,"2018-11-22","2018-11-22",NA,"BD","BD","Nooiens ",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"580","Dunston",NA,NA,NA,NA,"2018-11-24","2018-11-24",NA,NA,"LT","Diana",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Died of head injury sustained days earlier","dead"
+"581","Gubane","Guba",NA,"F",NA,"2018-11-25","2018-11-25","2022-10-26",NA,"AK","Gubha",NA,NA,NA,NA,"2023-02-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"1/12/2020 she dissapeared and after few days of not being seen she was taken out from the files and forms`, after 6 six weeks she appeared again in the group and had a very large wound on the chick.","dissapeared"
+"582","Aalwyn","Aal",NA,"M",NA,"2018-11-27","2018-11-27",NA,"BD","BD","Aapie",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"583","Dalton","Dal",NA,"M",NA,"2018-11-28","2018-11-28","2022-10-26","BD","LT","Daenerys",NA,"2023-04-14","BD","2023-04-25","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"584","Baby Lima 2018","BLim18",NA,"F",NA,"2018-11-29","2018-11-29",NA,NA,"NH","Lima",NA,NA,NA,NA,"2019-03-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"seen dead on the 18/03/19","dead"
+"585","Beirut","Beir",NA,"F",NA,"2018-12-03","2018-12-03","2022-10-26","NH","NH","Bela-Bela",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"586","Yelowstone","Yelo",NA,"F",NA,"2018-12-04","2018-12-04","2022-10-26","KB","KB","Yenissei",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"587","Reenboog","Reen",NA,"F",NA,"2018-12-12","2018-12-12","2022-10-26","BD","BD","Redelik",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"588","Griselles","Gris",NA,"F",NA,"2018-12-13","2018-12-13","2022-10-26","NH","NH","Granada",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"589","Larry","Lar",NA,"M",NA,"2018-12-15","2018-12-15",NA,NA,"LT","Lancey",NA,"2020-07-18",NA,NA,"2020-07-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Presumed dead.","dead"
+"590","Pixsel","Pix",NA,"M",NA,"2018-12-20","2018-12-20",NA,"BD","BD","Pieperig",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"591","Baby Gaya 2018","BGay18",NA,"M",NA,"2018-12-24","2018-12-24",NA,NA,"NH","Gaya",NA,"2019-01-21",NA,NA,"2019-01-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Died and being carried by the mom the all day, no sign of the mom the day after nore of him when she came back","dead"
+"592","Baby Nyanga 2018","BNya18",NA,NA,NA,"2018-12-24","2018-12-24",NA,NA,"AK","Nyanga",NA,NA,NA,NA,"2018-12-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"probably born the day before. Was dead when seen. Nyanga carried the dead baby around the whole day. Was not seen anymore on the 27th","dead"
+"593","Baby Xalapa 2018","BXal18",NA,NA,NA,"2019-01-21","2019-01-21",NA,NA,"NH","Xalapa",NA,NA,NA,NA,"2019-01-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born dead and carried by the mom during 2 days","dead"
+"594","George","Geo",NA,"M",NA,NA,"2019-03-18",NA,NA,NA,NA,NA,NA,"LT","2019-03-18","2022-03-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"595","Washington Babylon","Was",NA,"M",NA,NA,"2019-03-18",NA,NA,NA,NA,NA,NA,"NH","2019-03-18","2020-02-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen by Rebekka in NH on 26/02/2020",NA
+"596","Fluister","Flu","Jack","M",NA,NA,"2019-04-30",NA,NA,NA,NA,NA,NA,"BD","2019-04-30","2023-01-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","previously known as Jack, until sept 2019",NA
+"597","Kekeke","Kek",NA,"M",NA,NA,"2019-05-31",NA,NA,NA,NA,NA,NA,"AK","2019-05-31","2020-04-18","NH","2020-05-09","2020-11-12",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"598","Lipsy","Lip",NA,"M",NA,NA,"2019-06-01",NA,NA,NA,NA,NA,NA,"NH","2019-06-01","2020-08-17","CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Some suspect he is Dwergie from BD, unconfirmed until genetics. He left NH in August 2020 and is assumed to be in Crossing now.",NA
+"599","Ouagadougou","Oua","Shakespeare","M",NA,NA,"2019-06-03",NA,NA,NA,NA,NA,NA,"NH","2019-06-03","2020-11-30",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Was originally called Shakespeare in tablet - an ID error - he is not Shakespeare from LT",NA
+"600","Baby Numbies 2019","BNum19",NA,NA,NA,"2019-10-03","2019-10-03",NA,NA,"BD","Numbies",NA,NA,NA,NA,"2019-10-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born dead and carried by the mother for 1 h","dead"
+"601","Baby Bela-Bela 2019","BBel19",NA,NA,NA,"2019-10-14","2019-10-14",NA,NA,"NH","Bela-Bela",NA,NA,NA,NA,"2019-10-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born dead, very immature.Not carried by the mother","dead"
+"602","Baby Gaya 2019","BGay19",NA,"M",NA,"2019-10-14","2019-10-14",NA,NA,"NH","Gaya",NA,"2019-10-26",NA,NA,"2019-10-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"died on the weekend of November 3rd. Sexed by only one observer","dead"
+"603","Baby Redelik 2019","BRed19",NA,"M",NA,"2019-10-19","2019-10-19",NA,NA,"BD","Redelik",NA,"2019-10-19",NA,NA,"2019-10-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born dead, very immature.Not carried by the mother","dead"
+"604","Baby Mara 2019","BMar19",NA,"M",NA,"2019-10-21","2019-10-21",NA,NA,"KB","Mara",NA,"2019-10-24",NA,NA,"2019-10-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dead between the 22th of October and the 24th of october, 2 observers sexed him","dead"
+"605","Baby Digby 2019","BDig19",NA,NA,NA,"2019-10-22","2019-10-22",NA,NA,"LT","Digby",NA,NA,NA,NA,"2019-10-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dead, no body found","dead"
+"606","Baby Lima 2019","BLim19",NA,"F",NA,"2019-10-22","2019-10-22",NA,NA,"NH","Lima",NA,NA,NA,NA,"2019-10-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"died on the weekend of November 3rd","dead"
+"607","Baby Puolka 2019","BPuo19",NA,NA,NA,"2019-10-22","2019-10-22",NA,NA,"BD","Puolka",NA,NA,NA,NA,"2019-10-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born small and weak. It died the day after. Mother carried it for less than a day.","dead"
+"608","Baby Reva 2019","BRev19",NA,"M",NA,"2019-10-23","2019-10-23",NA,NA,"NH","Reva",NA,"2019-10-26",NA,NA,"2019-10-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"609","Baby Nessie 2019","BNes19",NA,"M",NA,"2019-10-24","2019-10-24",NA,NA,"KB","Nessie",NA,"2019-10-24",NA,NA,"2019-10-24",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born dead. One observer said it's a male","dead"
+"610","Baby Xian 2019","BXia19",NA,NA,NA,"2019-10-24","2019-10-24",NA,NA,"NH","Xian",NA,NA,NA,NA,"2019-10-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"died on the weekend of November 3rd","dead"
+"611","Baby Potjie 2019","BPot19",NA,"F",NA,"2019-10-25","2019-10-25",NA,NA,"BD","Potjie",NA,NA,NA,NA,"2019-10-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"found hanging on the tree",NA
+"612","Baby Heer 2019","BHee19",NA,"M",NA,"2019-10-28","2019-10-28",NA,NA,"BD","Heerlik",NA,"2020-01-28",NA,NA,"2020-01-28",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dead, carried by mother. Body recovered for brain extraction.","dead"
+"613","Baby Diana 2019","BDia19",NA,NA,NA,NA,"2019-10-29",NA,NA,"LT","Diana",NA,NA,NA,NA,"2019-10-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dead, no body found","dead"
+"614","Baby Xalapa 2019","BXal19",NA,NA,NA,"2019-10-30","2019-10-30",NA,NA,"NH","Xalapa",NA,NA,NA,NA,"2019-10-30",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born dead, immature. Not carried by the mother","dead"
+"615","Baby Mielies 2019","BMie19",NA,NA,NA,"2019-10-31","2019-10-31",NA,NA,"BD","Mielies",NA,NA,NA,NA,"2019-11-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"died a few days after been born, from beginning looking rather weak and not suckling enough","dead"
+"616","Dastard","Das",NA,"M",NA,NA,"2019-11-01",NA,"LT","LT","Daenerys",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"617","Baby Delilah 2019","BDel19",NA,NA,NA,NA,"2019-11-04",NA,NA,"LT","Delilah",NA,NA,NA,NA,"2019-11-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dead, no body found","dead"
+"618","Baby Pannekoekie 2019","BPan19",NA,NA,NA,NA,"2019-11-04",NA,NA,"BD","Pannekoekie",NA,NA,NA,NA,"2019-11-05",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"619","Nuclides","Nucl",NA,"F",NA,"2019-11-04","2019-11-04",NA,NA,"BD","Nurks",NA,NA,NA,NA,"2021-06-30",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"She was last seen on the 30/06/2021. Nucl was the only surviving baby from BD for the 2019/20 season.",NA
+"620","Baby Pretoria 2019","BPre19",NA,"F",NA,"2019-11-06","2019-11-06",NA,NA,"NH","Pretoria",NA,NA,NA,NA,"2019-11-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"not seen after",NA
+"621","Greenbay","Gree",NA,"F",NA,"2019-11-06","2019-11-06",NA,"NH","NH","Granada",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"622","Lampshade","Lamp",NA,"F",NA,NA,"2019-11-07",NA,NA,"LT","Laurel",NA,NA,NA,NA,"2020-04-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dead, no body found","dead"
+"623","Baby Gugu 2019","BGug19",NA,"M",NA,"2019-11-09","2019-11-09",NA,NA,"AK","Gugu",NA,"2020-03-04",NA,NA,"2020-03-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Sexed by only 2 observers",NA
+"624","Reno","Ren",NA,"M",NA,"2019-11-12","2019-11-12",NA,"NH","NH","Rennes",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"625","Tasty flavours","Tas",NA,"M","1;10",NA,"2019-12-04",NA,NA,NA,NA,NA,NA,"LT","2019-12-04","2021-11-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"626","Tambacounda","Tam",NA,"M",NA,NA,"2020-05-15",NA,NA,NA,NA,NA,NA,"NH","2020-05-15","2023-03-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Nickname was EarNotchGuy before he was named but the data should not be used because he was confused with Utrecht for some time. Like Utrecht he was only seen very rarely before August 2020 and was not very consistent after that until January 2021.",NA
+"627","Utrecht","Utr",NA,"M",NA,NA,"2020-05-15",NA,"NH",NA,NA,NA,NA,"NH","2020-06-02","2020-10-15","NH","2020-11-26","2023-11-16",NA,NA,NA,NA,NA,NA,"Yes","Nickname was EarNotchGuy before he was named but the data should not be used because he might have been confused with Tambacounda for some time. He was only occasionally seen (less than once per week) from May 2020 until August 2020. He then completely disappeared in october 2020. We thought he was only around for mating season of that year. Very unhabituated and almost never seen. He then came back after one month and he has been seen again on the 26.11.2020 by Lukas (only observer who could recognise him at this point since jose had left). After that he has been consistantly around since December 2020 (Lukas had 2 weeks vacation between end of November-middle december) and became habituated since. It is unlcear whether he was consistenlty around before his return in November 2020.",NA
+"628","Vladivostok","Vla",NA,"M",NA,NA,"2020-05-28",NA,NA,NA,NA,NA,NA,"NH","2020-05-28","2021-06-11","AK","2021-06-11","2023-02-07",NA,NA,NA,NA,NA,NA,NA,"Nickname was PointyEarsGuy before he was named",NA
+"629","Flensburg","Fle",NA,"M",NA,NA,"2020-06-16",NA,NA,NA,NA,NA,NA,"NH","2020-07-31","2021-11-04","NH","2022-01-18","2023-05-06",NA,NA,NA,NA,NA,NA,NA,"Nickname was RedCoatGuy before he was named",NA
+"630","Warnemünde","War",NA,"M",NA,NA,"2020-08-24",NA,"CR",NA,NA,NA,NA,"NH","2020-09-23","2021-12-20","BD","2022-06-06","2023-05-06","CR","2023-05-23","2023-11-16",NA,NA,NA,NA,"Nickname was Greyface, Grey Face and Grey muzzle before he was named. May be written warnemuende in some data.",NA
+"631","Aaalva","Aaa","Aalva","M",NA,NA,"2020-10-08",NA,"KB","KB","Aare",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born into KB late 2019.Not recorded. Name changed from Aalva to Aaalva.",NA
+"632","Shongololo","Sho",NA,"M",NA,NA,"2020-10-13",NA,"AK",NA,NA,NA,NA,"AK","2020-10-13","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"633","Diamond","Dia",NA,"M",NA,NA,"2020-10-29",NA,"LT","LT","Diana",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born between the 22nd and the 29th of October 2020 according to logbook entries.",NA
+"634","Light","Lig",NA,"M",NA,NA,"2020-10-29",NA,"LT","LT","Lilly",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born between the 22nd and the 29th of October 2020 according to logbook entries.",NA
+"635","Awash","Awa",NA,"M",NA,"2020-11-03","2020-11-03",NA,"KB","KB","Aare",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in the night from the 2nd to the 3rd of November 2020",NA
+"636","Baby Rosl 2020","BRos20",NA,"F",NA,"2020-11-03","2020-11-03",NA,NA,"NH","Roslin",NA,NA,NA,NA,"2020-12-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in the night from the 2nd to the 3rd of November 2020. On the 10 Dec 2020 we found Rosl with her baby half attach. It was still alive but probably paralyzed. ",NA
+"637","Appel","App",NA,"M",NA,"2020-11-04","2020-11-04",NA,"BD","BD","Aapie",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"638","Papp","Papp",NA,"F",NA,"2020-11-04","2020-11-04",NA,"BD","BD","Potjie",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born in the night from the 3rd to the 4th morning of November 2020 ",NA
+"639","Gibela","Gib",NA,"M",NA,"2020-11-12","2020-11-12",NA,"AK","AK","Ginqika",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Probably born during the night",NA
+"640","Poppie","Popp",NA,"F",NA,"2020-11-12","2020-11-12",NA,NA,"BD","Puolka",NA,NA,NA,NA,"2023-01-31",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born either night of 11/11/2020 or early monring of 12/11/2020",NA
+"641","Yonne","Yon",NA,"M",NA,"2020-11-12","2020-11-12",NA,NA,"KB","Yalu",NA,"2021-01-15",NA,NA,"2021-01-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"642","Oupa","Oup",NA,"M",NA,NA,"2020-11-13",NA,"BD","BD","Oulik",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"643","Gusha","Gus",NA,"M",NA,"2020-11-16","2020-11-16",NA,NA,"AK","Gugu",NA,"2021-03-11",NA,NA,"2021-03-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"last seen on the 11/03/2021 and his mom was later on found floating on the second dam 18.03.21 but not sure what happened to him",NA
+"644","Ndumiso","Ndum",NA,"F",NA,"2020-11-16","2020-11-16",NA,"AK","AK","Ndonsa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"645","Riversdale","Riv",NA,"M",NA,NA,"2020-11-16",NA,NA,"NH","Reva",NA,"2021-02-20",NA,NA,"2021-02-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born between 12 & 16.11.2020. Dead. Broken skull (bite) since 18/02, still moving/alive the 20/02, but disappeared the 21/02 and never seen again, Reva seen alone.","dead"
+"646","Baby Digby 2020","BDig20",NA,NA,NA,"2020-11-17","2020-11-17",NA,NA,"LT","Digby",NA,NA,NA,NA,"2020-12-30",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"647","Ghandaghanda","Gha",NA,"M",NA,"2020-11-17","2020-11-17",NA,"AK","AK","Ghida",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"648","Ouma","Ouma",NA,"F",NA,"2020-11-18","2020-11-18",NA,NA,"BD","Oortjies",NA,NA,NA,NA,"2021-12-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born at 15:22 on Beach of BD on 18/11/2020. Birth witnessed and recorded by No.",NA
+"649","Helikopter","Heli",NA,"F",NA,"2020-11-19","2020-11-19",NA,NA,"BD","Heerlik",NA,NA,NA,NA,"2022-09-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born during the night of 18/11/20. Dissappeared on 14 or 15 sept (BD not followed on the 15th).","dissapeared"
+"650","Nkunzi","Nkun",NA,"F",NA,"2020-11-19","2020-11-19",NA,NA,"AK","Nkosikasi",NA,NA,NA,NA,"2022-01-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"651","Roeslare","Roes",NA,"F",NA,"2020-11-19","2020-11-19",NA,NA,"NH","Roma",NA,NA,NA,NA,"2021-02-09",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Seen with massive injury, back almost fully open. Was being walked to sleeping site by Roc-Ram-utrecht. Not found the next day. Most likely dead.","dead"
+"652","Dazzle","Dazz",NA,"F",NA,"2020-11-20","2020-11-20",NA,"LT","LT","Daisy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"653","Eish","Eis",NA,"M",NA,"2020-11-21","2020-11-21",NA,"BD","BD","Eina",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"654","Baby Renn 2020","BRen20",NA,"M",NA,"2020-11-22","2020-11-23",NA,NA,"NH","Rennes",NA,"2020-12-29",NA,NA,"2020-12-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Dead","dead"
+"655","Griffin","Gri",NA,"M",NA,"2020-11-23","2020-11-23",NA,"NH","NH","Granada",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"656","Xopo","Xop",NA,"M",NA,"2020-11-23","2020-11-23",NA,"NH","NH","Xalapa",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Born during the night ",NA
+"657","Moesa","Moes",NA,"F",NA,NA,"2020-11-24",NA,"KB","KB","Mara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"She was was sexed as a male and later realised that she was a female",NA
+"658","Reenval","Ree",NA,"M",NA,"2020-11-24","2020-11-24",NA,"BD","BD","Redelik",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Until the 27/07/2021 the sex was wrong",NA
+"659","Rivier","Rivi",NA,"F",NA,"2020-11-24","2020-11-24",NA,"BD","BD","Rissiepit",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"660","Spanspek","Span",NA,"F",NA,"2020-11-24","2020-11-24",NA,NA,"BD","Pannekoekie",NA,NA,NA,NA,"2021-05-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Last seen on the 18/05/2021. Presumed dead. ","dead"
+"661","Sylinder","Syl",NA,"M",NA,"2020-11-24","2020-11-24",NA,"BD","BD","Siele",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"662","Muis","Mui",NA,"M",NA,"2020-11-25","2020-11-25",NA,"BD","BD","Mielies",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"663","Bangalore","Bang",NA,"F",NA,"2020-11-26","2020-11-26",NA,NA,"NH","Bela-Bela",NA,NA,NA,NA,"2021-02-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Found dying. Bela was injured as well. Bite injuries. Confirmed dead 2 days after.","dead"
+"664","Baby Guat 2020","BGua20",NA,NA,NA,"2020-12-02","2020-12-02",NA,NA,"NH","Guatemala",NA,NA,NA,NA,"2021-12-02",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Found dead, carried by Guat.","dead"
+"665","Deja","Deja",NA,"F",NA,NA,"2020-12-07",NA,"LT","LT","Delilah",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"666","Loki","Loki",NA,"F",NA,NA,"2020-12-07",NA,"LT","LT","Louise",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Baby born between the 4th and 7th of december",NA
+"667","Delta","Delt",NA,"F",NA,NA,"2020-12-11",NA,"LT","LT","Dewe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"668","Gubudu","Gub",NA,"M",NA,NA,"2020-12-11",NA,"AK","AK","Gubha",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"669","Palmela","Palm",NA,"F",NA,NA,"2020-12-17",NA,"NH","NH","Pretoria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"born btw 15 and 17/12/2020",NA
+"670","Lugano","Lug",NA,"M",NA,NA,"2020-12-21",NA,NA,"NH","Lima",NA,"2021-02-18",NA,NA,"2021-02-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"born between 19-21.12.20 . injured the 16th, found dead on the 18th.","dead"
+"671","Naartjie","Naa",NA,"M",NA,NA,"2020-12-21",NA,NA,"BD","Nooiens ",NA,NA,NA,NA,"2021-12-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","born between 19 and 21/12/2020 but First recorded and seen on 21 Dec 2020",NA
+"672","Ndondo","Ndo",NA,"M",NA,NA,"2021-01-04",NA,NA,"AK","Ndawonya",NA,NA,NA,NA,"2021-11-27",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"673","Sion","Sio",NA,"M",NA,NA,"2021-01-06",NA,NA,NA,NA,NA,NA,"NH","2021-01-15","2021-12-22",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Called ""lip injury guy"", ""tooth guy"", ""jacaranda guy"" before being named. Most likely comes from jakaranda gp. Has been around for a few weeks. Got chased by a noha male on the 14th, but found sleeping with 2 noha males on the 15th of january, thus 15th taken as immigration date. Fully in since mid-january.  Dominant since march-april,lost dominance near end of may","migrated"
+"674","Rimini","Rim",NA,"M",NA,NA,"2021-01-11",NA,"NH","NH","Rabat",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"675","Udupi","Udup",NA,"F",NA,"2021-01-19","2021-01-19",NA,"NH","NH","Uppsala",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"born between 19:10 on the 18th and 05:00 on the 19th",NA
+"677","DodgyKnee","Dodg",NA,"F",NA,NA,"2021-04-16",NA,NA,"CR",NA,NA,NA,NA,NA,"2022-01-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"678","Tchakalaka","Tch",NA,"M",NA,NA,"2021-05-11",NA,"IF",NA,NA,NA,NA,"AK","2021-05-11","2022-03-17","NH","2022-06-02","2023-05-11","IF","2023-05-03","2023-11-16",NA,NA,NA,"Yes","probably born in Iceland. ",NA
+"679","Bukubuku","Buk",NA,"M",NA,NA,"2021-05-11",NA,"AK",NA,NA,NA,NA,"AK","2021-05-11","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"680","Cayman","Cay","Little Cameron","M",NA,NA,"2021-05-19",NA,"CR","CR",NA,NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"681","WavyEars","WavyEars",NA,"M",NA,NA,"2021-05-21",NA,"CR","CR",NA,NA,"2023-04-18",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Prior to his addition as individual and first ticked in log book on 21/05/2021 wavy ears will be present in remarks/other individuals, but at this time may have been confused with pointy ears another 3 year old Juv.",NA
+"683","Duckie","Duc",NA,"M",NA,NA,"2021-05-27",NA,"CR","CR",NA,NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"684","Okefenokee","Oke",NA,"M",NA,NA,"2021-05-31",NA,"IF",NA,NA,NA,NA,"KB","2021-05-31","2023-01-28","IF","2023-04-24","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA
+"685","Tevere","Tev",NA,"M",NA,NA,"2021-05-31",NA,"KB",NA,NA,NA,NA,"KB","2021-05-31","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"686","Zuni","Zuni","Fleshy","F",NA,NA,"2021-06-01",NA,NA,"CR",NA,NA,NA,NA,NA,"2021-04-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Prior to Fleshy was called ""Injured leg female""",NA
+"687","Holey","Hole",NA,"F",NA,NA,"2021-06-01",NA,"CR","CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"688","PointyEars","PointyEars",NA,"M",NA,NA,"2021-06-01",NA,"CR","CR",NA,NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Prior to his addition as individual and first ticked in log book on 01/06/2021 PointyEars will be present in remarks/other individuals, but at this time may have been confused with WavyEars another 3 year old Juv.",NA
+"689","Etosha","Eto",NA,"M",NA,NA,"2021-06-02",NA,NA,NA,NA,NA,NA,"KB","2021-06-02","2021-12-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"First recorded date in Jun 21",NA
+"690","Apa","Apa",NA,"M",NA,NA,"2021-06-04",NA,NA,NA,NA,NA,NA,"LT","2021-06-04","2022-07-25","BD","2022-07-27","2022-09-14","LT","2022-09-22","2023-01-10",NA,NA,NA,NA,"Moved from LT to BD for a couple of weeks. Moved back to LT after approx. 2 month stay in BD. ",NA
+"691","Momo","Mom",NA,"M",NA,NA,"2021-06-04",NA,NA,NA,NA,NA,NA,"LT","2021-06-04","2022-12-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"692","BigEars","BigEars",NA,"M",NA,NA,"2021-06-06",NA,"CR","CR",NA,NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"693","PlainJane","Plainjane","Kap","M",NA,NA,"2021-06-14",NA,"BD","CR",NA,NA,"2023-02-28","BD","2023-03-01","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"694","Baby Dian 2021","BDia21",NA,NA,NA,"2021-09-29","2021-09-29",NA,NA,"LT","Diana",NA,NA,NA,NA,"2021-09-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"born dead and she carried until the 01/1/2021. Born deformed the head was unusual and the forehead was big","dead"
+"695","Baby Pret 2021","BPre21",NA,NA,NA,NA,"2021-10-05",NA,NA,"NH","Pretoria",NA,NA,NA,NA,"2021-10-05",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"found dead and last seen on the 2021/10/05","dead"
+"696","Nul","Nul",NA,"M",NA,"2021-10-06","2021-10-06",NA,NA,"BD","Numbies",NA,NA,NA,NA,"2022-03-22",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"697","Baby Ouli 2021","BOul21",NA,"M",NA,"2021-10-09","2021-10-09",NA,NA,"BD","Oulik",NA,NA,NA,NA,"2021-10-09",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Born dead, was still pink","dead"
+"698","Amstel","Amst",NA,"F",NA,NA,"2021-10-12",NA,"KB","KB","Aaragon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"probably born on between the 7 to the 12 october 2021",NA
+"699","Nukke","Nuk",NA,"M",NA,NA,"2021-10-18",NA,"BD","BD","Nurks",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes","probably born 16 or 17 of October 2021 ",NA
+"700","Piesang","Pie",NA,"M",NA,NA,"2021-10-18",NA,"BD","BD","Pieperig",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes","probably born 16 or 17 of October 2021 ",NA
+"701","Baby Cam 2011","BCam11",NA,NA,NA,NA,NA,NA,NA,"LT","Camilla",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Born in 2011, so is this actually baby Jenny?",NA
+"702","Baby Daisy 2019","BDai19",NA,NA,NA,NA,NA,NA,NA,"LT","Daisy",NA,NA,NA,NA,"2019-11-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Dead, no body found","dead"
+"703","Bug Eyes",NA,NA,NA,NA,NA,NA,NA,NA,"CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Born 2013",NA
+"704","Collin","Col",NA,"M",NA,NA,NA,NA,NA,"LT","Camilla",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Probably renamed as Impostor",NA
+"705","Fergie","Ferg",NA,"F",NA,NA,NA,NA,NA,"RC",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"706","Gollum",NA,NA,NA,NA,NA,NA,NA,NA,"CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Born 2011",NA
+"707","Gosh",NA,NA,NA,NA,NA,NA,NA,NA,"CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Born 2014",NA
+"708","Heart",NA,NA,NA,NA,NA,NA,NA,NA,"CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Born 2014",NA
+"709","Imposter","Imp","Lennon Imposter","M",NA,NA,NA,NA,NA,"LT",NA,NA,"2017-05-22","LTsplit",NA,NA,"LT","2017-11-23","2018-02-07","LTsplit2",NA,NA,NA,NA,NA,"No","Returned LT, dissappeared & then joined Split_2 LT","dissapeared"
+"710","Jamaica","Jama",NA,"F",NA,NA,NA,NA,NA,"CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Only recorded once, date on logbook is incorrect (2005)",NA
+"711","Kurt Cubain","Kur",NA,"M",NA,NA,NA,NA,NA,NA,NA,NA,NA,"RC",NA,"2010-12-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"712","Little Notch",NA,NA,NA,"2",NA,NA,NA,NA,"CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Born 2012",NA
+"713","Madonna","Mado",NA,"F","10",NA,NA,NA,NA,"RC",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"714","Nostrils",NA,NA,NA,NA,NA,NA,NA,NA,"CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Born 2012",NA
+"715","Pitcairn","Pit",NA,"M",NA,NA,NA,NA,NA,NA,NA,NA,NA,"CR",NA,"2015-03-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Disappeared, probably migrated, no data found in logbook to check dates","migrated"
+"716","Red Hot","Red",NA,"M",NA,NA,NA,NA,NA,NA,NA,NA,NA,"RC",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"717","SF2",NA,NA,"F",NA,NA,NA,NA,NA,"RC",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"718","Small Eyes",NA,NA,"M","10",NA,NA,NA,NA,NA,NA,NA,NA,"CR",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Name conflict with SMA & Smachy",NA
+"719","Tasmania","Tasmania",NA,"M",NA,NA,NA,NA,NA,"CR","Tonga",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Born 2014",NA
+"720","Wierdo","Wier",NA,"F",NA,NA,NA,NA,NA,"RC",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"722","Ndlovu","Ndl",NA,"M",NA,"2021-11-02","2021-11-02",NA,"AK","AK","Ndonsa",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"723","Nkomo","Nko",NA,"M",NA,"2021-11-04","2021-11-04",NA,"AK","AK","Nkosikasi",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"724","Gomonqo","Gom",NA,"M",NA,"2021-11-03","2021-11-03",NA,"AK","AK","Ginqika",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"725","Gobela","Gobe",NA,"F",NA,"2021-11-12","2021-11-12",NA,"AK","AK","Goduka",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"726","Nyala","Nyal",NA,"F",NA,"2021-11-05","2021-11-05",NA,NA,"AK","Nyanga",NA,NA,NA,NA,"2021-12-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"727","Baby Ndaw 2021","BNda21",NA,NA,NA,"2021-11-18","2021-11-18",NA,NA,"AK","Ndawonya",NA,NA,NA,NA,"2021-11-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Presume dead, the baby was seen for two days alive","dead"
+"728","Askies","Ask",NA,"M",NA,"2021-10-27","2021-10-27",NA,"BD","BD","Asis",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"729","Padkos","Padk",NA,"F",NA,"2021-10-27","2021-10-27",NA,NA,"BD","Potjie",NA,NA,NA,NA,"2022-05-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"730","Eier","Eie",NA,"M",NA,"2021-11-02","2021-11-02",NA,NA,"BD","Eina",NA,NA,NA,NA,"2022-02-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"731","Haaigranaat","Haai",NA,"F",NA,"2021-11-04","2021-11-04",NA,"BD","BD","Hondjie",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"732","Hemel","Hem",NA,"M",NA,"2021-11-04","2021-11-04",NA,"BD","BD","Heerlik",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"733","Omelet","Ome",NA,"M",NA,"2021-11-04","2021-11-04",NA,"BD","BD","Oortjies",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"734","Purper","Pur",NA,"M",NA,"2021-11-05","2021-11-05",NA,NA,"BD","Puolka",NA,NA,NA,NA,"2022-02-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"735","Nooit","Noo",NA,"M",NA,"2021-11-09","2021-11-09",NA,NA,"BD","Nooiens ",NA,NA,NA,NA,"2022-02-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"736","Slang","Sla",NA,"M",NA,"2021-11-09","2021-11-09",NA,NA,"BD","Siele",NA,NA,NA,NA,"2022-04-27",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"737","Renoster","Reno",NA,"F",NA,NA,"2021-11-15",NA,NA,"BD","Redelik",NA,NA,NA,NA,"2022-11-25",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Probably born between 13-15 November 2021",NA
+"738","Rimpel","Rimp",NA,"F",NA,"2021-11-18","2021-11-18",NA,"BD","BD","Rissiepit",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"739","Sampion","Samp",NA,"F",NA,NA,"2021-11-22",NA,NA,"BD","Sari",NA,NA,NA,NA,"2022-03-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Probaby born between 20-22 November 2021",NA
+"740","Sitrus","Sitr",NA,"F",NA,"2021-11-18","2021-11-18",NA,"BD","BD","Sirkus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"741","Miskien","Misk",NA,"F",NA,"2021-11-19","2021-11-19",NA,"BD","BD","Mielies",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"742","Spek","Spe",NA,"M",NA,"2021-11-13","2021-11-13",NA,NA,"BD","Pannekoekie",NA,NA,NA,NA,"2022-11-31",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"743","Baby Oerw 2021","BOer21",NA,"M",NA,NA,"2021-12-06",NA,NA,"BD","Oerwoud",NA,NA,NA,NA,"2021-12-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Born very smal, was not clinging on the mother and not suckling",NA
+"744","Grive","Griv",NA,"F",NA,"2021-11-03","2021-11-03",NA,"NH","NH","Granada",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"745","Galeria","Gale",NA,"F",NA,"2021-11-05","2021-11-05",NA,"NH","NH","Gaya",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"746","Baby Guat 2021","BGua21",NA,"M",NA,"2021-11-02","2021-11-02",NA,NA,"NH","Guatemala",NA,NA,NA,NA,"2021-11-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Name conflict with SMA & Smachy.two observers found the baby after she let go and observed the sex",NA
+"747","Xihau","Xih",NA,"M",NA,"2021-10-21","2021-10-21",NA,NA,"NH","Xian",NA,"2023-02-08",NA,NA,"2023-02-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Probably dead","dead"
+"748","Xarès","Xar",NA,"M",NA,NA,"2021-11-08",NA,"NH","NH","Xalapa",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"749","Bethlehem","Bet",NA,"M",NA,NA,"2021-11-08",NA,"NH","NH","Bela-Bela",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"750","Utica","Utic",NA,"M",NA,"2021-11-06","2021-11-06",NA,NA,"NH","Uppsala",NA,"2023-05-11",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"751","Rivas","Riva",NA,"F",NA,NA,"2021-11-08",NA,"NH","NH","Rioja",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"752","Rafaela","Rafa",NA,"F",NA,"2021-11-02","2021-11-02",NA,"NH","NH","Rabat",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"754","Bougainville","Bou","Goldie","M",NA,NA,"2021-03-24",NA,"CR","CR",NA,NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"he was born in 2018. it not certain it observation done in the field.",NA
+"754","Yamp","Yam","Baby Yuko 2021/ Yamp","M",NA,NA,"2021-11-16",NA,"KB","KB","Yamuna",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes","for a while it was thought that yamu had a miscarrage and she was having Yuko baby until Yuko baby was born Yamu baby was called baby Yukon",NA
+"755","Yodo","Yodo","Yaq","F",NA,NA,"2021-10-03",NA,"KB","KB","Yara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"756","Montreal","Mon",NA,"M","`2021",NA,"2021-10-25",NA,"CR","CR","mackenzie",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"757","Gasket","Gas",NA,"M",NA,NA,"2021-10-25",NA,"CR","CR","Galapagos",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"758","Baby DodgyKnee 2021","BBDod21",NA,NA,NA,NA,"2021-12-03",NA,NA,"CR","DodgyKnee",NA,NA,NA,NA,"2022-01-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"759","Baby Kodi 2021","BBKodi21",NA,NA,NA,NA,"2021-12-03",NA,"CR","CR","Kodiak",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"760","Tiki","Tik",NA,"M",NA,NA,"2021-11-30",NA,NA,"CR","Timber",NA,NA,NA,NA,"2022-07-26",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"761","Baby Zuni  2021","BBFZuni21","Baby Fleshy 2021","M",NA,NA,"2021-11-11",NA,NA,"CR","Zuni",NA,NA,NA,NA,"2022-04-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"762","Baby Goose 2021","BBGoo21","Baby CrazeyEyes 2021",NA,NA,NA,"2021-11-11",NA,NA,"CR","Goose",NA,NA,NA,NA,"2021-11-30",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"763","Bahamas","Baha",NA,"F",NA,NA,"2021-11-27",NA,"CR","CR","Bali",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"764","Nihiru","Nihi",NA,"F",NA,NA,"2021-11-09",NA,"CR","CR","Nihau",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"765","Clarence","Clar",NA,"F",NA,NA,"2021-07-28",NA,"CR","CR","Chiloe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"766","Barry","Barr",NA,"F",NA,NA,"2021-07-28",NA,"CR","CR","Bali",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"767","Nora","Nora",NA,"F",NA,NA,"2021-07-28",NA,"CR","CR","Nihau",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"768","Disco","Dis",NA,"M",NA,"2021-11-21","2021-11-21",NA,NA,"LT","Digby",NA,NA,NA,NA,"2022-03-09",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"769","Danielle","Dani",NA,"F",NA,"2021-11-22","2021-11-22",NA,"LT","LT","Daenerys",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"770","Delux","Del",NA,"M",NA,NA,"2021-12-11",NA,"LT","LT","Delilah",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"771","Baby Dewe 2021","BBDew21",NA,NA,NA,"2021-11-16","2021-11-16",NA,NA,"LT","Dewe",NA,NA,NA,NA,"2021-12-28",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"772","Derrick","Der",NA,"M",NA,NA,"2021-12-11",NA,NA,"LT","Dexter",NA,NA,NA,NA,"2022-06-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"773","Daila","Dail",NA,"F",NA,"2021-11-20","2021-11-20",NA,"LT","LT","Daisy",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"774","Lola","Lola",NA,"F",NA,NA,"2021-12-03",NA,"LT","LT","Louise",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"775","Lucifer","Luc",NA,"M",NA,NA,"2021-12-11",NA,"LT","LT","Lilly",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"776","Yub","Yub","Yuk/ Yuki","M",NA,"2021-12-21","2021-12-21",NA,"KB","KB","Yukon",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"777","Elbar","Elba",NA,"F",NA,NA,"2021-07-28",NA,NA,"CR","Easter",NA,NA,NA,NA,"2021-09-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Was classified as a one year old.",NA
+"778","Skhumbuzo","Skh",NA,"M",NA,NA,"2021-06-15",NA,"SO",NA,NA,NA,NA,NA,NA,"2021-06-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"the male is still preent in Sonic, it followed Ak for a while then Baie Dankie and he got his name while he was following Ak and he went back to Sonic",NA
+"779","Nugget","Nug",NA,"M",NA,NA,"2021-10-26",NA,NA,"KB","Nessie",NA,NA,NA,NA,"2021-05-27",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"780","Xenia","Xeni",NA,"F",NA,"2020-11-03","2020-11-03",NA,"NH","NH","Xian",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"781","Pofferthie","Poff",NA,"F",NA,"2018-10-26","2018-10-26",NA,NA,"BD","Potjie",NA,NA,NA,NA,"2019-12-04",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"782","Capri","Cap",NA,"M",NA,NA,"2022-03-28",NA,"CR","CR","Chiloe",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Was seen last year late 2021 but never been recorded on the logbook until the 01/02/22.",NA
+"783","Baby Nyanga 2020","BNya20",NA,NA,NA,"2020-11-21","2020-11-21",NA,NA,"AK","Nyanga",NA,NA,NA,NA,"2021-01-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"784","Baby Yalu 2020","Byalu",NA,NA,NA,NA,"2020-12-01",NA,NA,"KB","Yalu",NA,NA,NA,NA,"2021-01-15",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"785","Baby Kodiak 2020","Bkod20",NA,NA,NA,NA,"2021-04-16",NA,NA,"CR","Kodiak",NA,NA,NA,NA,"2021-08-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA
+"786","Primavera","Prim",NA,"F",NA,NA,"2021-10-28",NA,"NH","NH","Praia",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"787","Furry Glen","Fur","Blackbelly","M","10",NA,"2022-03-19",NA,"KB",NA,NA,NA,NA,"KB","2022-03-19","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes","he is called by the nickname until they figure out who is he. He is very much habituated",NA
+"788","Nelson","Nel",NA,"M",NA,NA,"2022-03-17",NA,"LT",NA,NA,NA,NA,"LT","2022-03-17","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"790","Vryheid","Vry","NewMale06.22","M",NA,NA,"2022-06-10",NA,"NH",NA,NA,NA,NA,"NH","2022-06-10","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes","Very habituated may be one of the known male, still to confirm",NA
+"791","Ermelo","Erm","NewMale02","M",NA,NA,"2022-06-16",NA,NA,NA,NA,NA,NA," NH","2022-06-16","2022-09-09",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"792","NewMale3","NewMale3","NewMale3","M",NA,NA,"2022-06-16",NA,NA,NA,NA,NA,NA,"NH","2022-06-16","2022-08-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"793","Eivissa","Eiv","NewMale090622","M",NA,NA,"2022-06-09",NA,"CR",NA,NA,NA,NA,"CR","2022-06-09","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"794","Hawai","Haw","NewMale110622/Formentera","M",NA,NA,"2022-06-11",NA,"CR",NA,NA,NA,NA,"CR","2022-06-11","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"795","Ryan","Rya",NA,"M",NA,NA,"2022-07-06",NA,NA,NA,NA,NA,NA,"LT","2022-06-06","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"796","Zeus","Zeu","Collared Male","M",NA,NA,"2022-06-28",NA,"IF",NA,NA,NA,NA,"IF",NA,"2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes","Very habituated may be one of the known male, still to confirm",NA
+"797","Hera","Hera",NA,"F",NA,NA,"2022-06-28",NA,"IF",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"798","Medusa","Medu",NA,"F",NA,NA,"2022-06-28",NA,"IF","IF",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"799","Freyja","Frey",NA,"F",NA,NA,"2022-06-28",NA,"IF","IF",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"800","Athena","Athe",NA,"F",NA,NA,"2022-06-28",NA,"IF","IF",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"801","Circe","Circ",NA,"F",NA,NA,"2022-06-28",NA,"IF","IF",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"802","Pandora","Pand",NA,"F",NA,NA,"2022-06-28",NA,"IF","IF",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"803","Dakar","Dak",NA,"M",NA,NA,"2022-09-10",NA,"NH",NA,NA,NA,NA,"NH","2022-09-10","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"804","Stanley","Sta",NA,"M",NA,NA,"2022-07-29",NA,"LT",NA,NA,NA,NA,"LT","2022-07-29","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"805","BBCirc21","BBCirc21",NA,NA,NA,NA,"2022-06-28",NA,"IF","IF","Circe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"806","BBInhl21","BBInhl21",NA,NA,NA,NA,"2022-06-28",NA,"IF","IF","Inhlanhla",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"807","JUV1","JUV1","JUV1",NA,NA,NA,"2022-06-28",NA,"IF","IF",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"808","JUV2","JUV2","JUV2",NA,NA,NA,"2022-06-28",NA,"IF","IF",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"809","Mandy","Man","NewMale0922","M",NA,NA,"2022-09-22",NA,"LT",NA,NA,NA,NA,"LT","2022-09-22","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"810","Knysna","Kny",NA,"M",NA,NA,"2022-10-17",NA,"NH",NA,NA,NA,NA,"NH","2022-10-17","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"811","BBXian22","BBXian22",NA,"M",NA,"2022-10-21","2022-10-21",NA,NA,"NH","Xian",NA,NA,NA,NA,"2022-10-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Genetic ear sample were taken. Baby sexed by Nokubonga and Josefien, both agree it looks like a male. Skull seemed to be not fully formed, very soft on the back of the head. Born dead, carried around by Xian for less than a day.","dead"
+"812","Angara","Ang",NA,"M",NA,"2022-10-26","2022-10-26",NA,"KB","KB","Aaragon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"813","Alabama","Alab",NA,"F",NA,NA,"2022-10-31",NA,"KB","KB","Aare",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"814","Grimsby","Grim",NA,"F",NA,"2022-11-04","2022-11-04",NA,"NH","NH","Grisselles",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"815","Gloed","Glo",NA,"M",NA,"2022-11-04","2022-11-04",NA,NA,"BD","Gesels",NA,NA,NA,NA,"2023-03-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"816","BBInhl22","BBInhl22",NA,NA,NA,NA,"2022-11-04",NA,"IF","IF","Inhlanhla",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"817","BBDigb22","BBDigb22",NA,NA,NA,NA,"2022-11-04",NA,NA,"LT","Digby",NA,NA,NA,NA,"2023-03-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"817","BBMara22","BBMara22",NA,NA,NA,NA,"2022-11-05",NA,NA,"KB","Mara",NA,NA,NA,NA,"2022-11-05",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Presume dead, last seen the day mara went missing","dead"
+"819","Yentna","Yent",NA,"F",NA,NA,"2022-11-14",NA,"KB","KB","Yelostone",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"820","Guadalajara","Gua",NA,"M",NA,"2022-11-08","2022-11-08",NA,"NH","NH","Guatemala",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"821","BBOort22","BBOort22",NA,"M",NA,NA,"2022-11-15",NA,NA,"NH","Oortjies",NA,NA,NA,NA,"2022-11-17",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","we found BBOort22 dead (MALE) in the beginning of the shift. oort was carrying for 4 hours aprox. the baby was falling from her but she kept taking it. sometimes she was grooming or eating and the baby was on the ground, but when the group was moving she was taking the baby with her. she was also grooming and smelling the baby.other monkeys like reen or oerw was were also smekling and even handling the baby. oerw was specially focused in thr baby and also  in Oort, following her and grooming her. after this time she left the baby on the ground and every 5 or 10 minutes was coming back, touching the baby and smelling it while self scratching a lot. The last times she was visiting the baby it was every 20 or 30 minutes until she didint come back again,","dead"
+"822","BBDian22","BBDian22",NA,NA,NA,NA,"2022-11-10",NA,NA,"LT","Diana",NA,NA,NA,NA,"2022-11-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"823","BBDewe22","BBDewe22",NA,NA,NA,NA,"2022-11-18",NA,"LT","LT","Dewe",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"824","Yakima","Yaki",NA,"F",NA,NA,"2022-11-17",NA,"KB","KB","Yamuna",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"825","Yuba","Yuba",NA,"F",NA,NA,"2022-11-19",NA,"KB","KB","Yukon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"826","Olyf","Olyf",NA,"F",NA,NA,"2022-11-15",NA,"BD","BD","Oulik",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"827","Atjar","Atj",NA,"M",NA,"2022-11-18","2022-11-18",NA,"BD","BD","Aapie",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"828","BBBali22","BBBali22",NA,"M",NA,NA,"2022-12-06",NA,"CR","CR","Bali",NA,NA,NA,NA,"2023-03-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"829","BBMedu22","BBMedu22",NA,NA,NA,NA,"2022-11-11",NA,"IF","IF","Medusa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"830","Apollo","Apo",NA,"M",NA,NA,"2022-11-17",NA,"IF","IF","Athena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"831","BBGran22","BBGran22",NA,NA,NA,NA,"2022-11-21",NA,NA,"NH","Granada",NA,NA,NA,NA,"2022-12-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Gran left the baby near the 4Gs alive but not moving only twitching",NA
+"832","Oase","Oase",NA,"F",NA,"2022-11-19","2022-11-19",NA,"BD","BD","Obsessie",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"833","Pruin","Prui",NA,"F",NA,NA,"2022-11-22",NA,"BD","BD","Puolka",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"834","Prague","Prag",NA,"F",NA,"2022-11-26","2022-11-26",NA,"NH","NH","Pretoria",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"835","Persephone","Pers",NA,"F",NA,NA,"2022-11-25",NA,"IF","IF","Pandora",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"836","Nagapie","Naga",NA,"F",NA,"2022-11-29","2022-11-29",NA,NA,"BD","Nooiens ",NA,NA,NA,NA,"2023-05-10",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"837","Udine","Udi","Upland","M",NA,"2022-11-30","2022-11-30",NA,"NH","NH","Uppsala",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"838","Knoffel","Kno",NA,"M",NA,NA,"2022-11-07",NA,"BD",NA,NA,NA,NA,"BD","2022-11-07","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"839","Ncane","Nca",NA,"M",NA,NA,"2022-12-01",NA,"AK","AK","Ncoko",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"840","BBNdaw22","BBNdaw22",NA,NA,NA,NA,"2022-12-03",NA,NA,"AK","Ndawonya",NA,NA,NA,NA,"2023-01-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"841","Ndini","Ndin",NA,"F",NA,NA,"2022-12-03",NA,"AK","AK","Ndonsa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"842","BBDaen22","BBDaen22",NA,NA,NA,NA,"2022-11-24",NA,NA,"LT","Daenerys",NA,NA,NA,NA,"2022-12-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","last seen the baby was not grabing or holding very well",NA
+"843","Ekse","Ekse",NA,"F",NA,"2022-12-07","2022-12-07",NA,"BD","BD","Eina",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"844","Herskep","Her",NA,"M",NA,"2022-12-07","2022-12-07",NA,"BD","BD","Heerlik",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"845","Galiano","Gal",NA,"M",NA,NA,"2022-12-02",NA,"CR","CR","Galapagos",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"846","Madeline","Made",NA,"F",NA,NA,"2022-12-02",NA,"CR","CR","mackenzie",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"847","BBNiha22","BBNiha22",NA,NA,NA,NA,"2022-12-02",NA,NA,"CR","Nihau",NA,NA,NA,NA,"2023-01-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"848","Rosyn","Ros",NA,"M",NA,NA,"2022-12-07",NA,"BD","BD","Redelik",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"849","Goat","Goa",NA,"M",NA,NA,"2022-12-08",NA,"CR","CR","Goose",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"850","Luna","Luna",NA,"F",NA,NA,"2022-12-06",NA,"LT","LT","Lancey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"851","Xativa","Xati",NA,"F",NA,"2022-12-07","2022-12-07",NA,"NH","NH","Xalapa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"852","Rishikesh","Ris",NA,"M",NA,"2022-12-14","2022-12-14",NA,"NH","NH","Rioja",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"853","Gabaroni","Gab",NA,"M",NA,"2022-12-15","2022-12-15",NA,"NH","NH","Gaya",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"854","Rooibos","Rooi",NA,"F",NA,"2022-12-17","2022-12-17",NA,"BD","BD","Rissiepit",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"855","Gijima","Giji",NA,"F",NA,NA,"2022-12-29",NA,"AK","AK","Ghida",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"856","Otter","Ott","Ottline","M",NA,NA,"2022-12-26",NA,"BD","BD","Oerwoud",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"857","Lotus","Lotu",NA,"F",NA,NA,"2022-12-22",NA,"LT","LT","Louise",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"858","Vesuvio","Ves",NA,"M",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"2022-12-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"859","BBHera22","BBHera22",NA,NA,NA,NA,"2023-01-18",NA,"IF","IF","Hera",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"860","Bobjaan","Bob","Roundlips/Mr Overbite","M",NA,NA,"2023-04-08",NA,"BD",NA,NA,NA,NA,"BD","2023-04-08","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"861","Pikkewyn","Pikk",NA,"F",NA,NA,"2022-12-10",NA,"BD","BD","Pieperig",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"862","Cairo","Cai",NA,"M",NA,NA,"2023-03-25",NA,"NH",NA,NA,NA,NA,"NH","2023-03-25","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"863","Havana","Hav","FakeGeorge","M",NA,NA,"2023-03-25",NA,"NH",NA,NA,NA,NA,"NH","2023-03-25","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA," Yes",NA,NA
+"864","Sango","San","Na","M",NA,NA,"2023-04-10",NA,"IF",NA,NA,NA,NA,"IF","2023-04-10","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"865","Thor","Tho","Half Tailed Guy","M",NA,NA,"2023-04-24",NA,"IF",NA,NA,NA,NA,"IF","2023-04-14","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"866","Totsiens","Tot","White dot","M",NA,NA,"2023-04-14",NA,"BD",NA,NA,NA,NA,"BD","2023-04-14","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"867","Winter","Win","Fluffy","M",NA,NA,"2023-04-15",NA,"BD",NA,NA,NA,NA,"BD","2023-04-15","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"868","Braai","Bra","Cheseled nose","M",NA,NA,"2023-04-17",NA,"BD",NA,NA,NA,NA,"BD","2023-04-17","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"869","Driehoek","Dri","Triangular Face","M",NA,NA,"2023-05-10",NA,"BD",NA,NA,NA,NA,"BD","2023-05-10","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"870","Splotch","Spl","PatchyEyerings","M",NA,NA,"2023-05-26",NA,"LT",NA,NA,NA,NA,"LT","2023-05-23","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"871","Boom","Boo","O-Family Face male","M",NA,NA,"2023-07-15",NA,"BD",NA,NA,NA,NA,"BD","2023-07-15","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes","Called ""O-male"" because of his resemblance to BD O-family",NA
+"872","BBXala23","BBXala23",NA,NA,NA,"2023-08-08","2023-08-08",NA,NA,"NH","Xalapa",NA,NA,NA,NA,"2023-08-08",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Gave birth and ate the fetus",NA
+"873","BBXimp23","BBXimp23",NA,NA,NA,"2023-07-13","2023-07-13",NA,NA,"NH","Ximpu",NA,NA,NA,NA,"2023-07-13",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Gave birth during the shift and left the fetus. The fetus was collected for tissue sample,",NA
+"874","BBGran23","BBGran23",NA,NA,NA,"2023-08-18","2023-08-18",NA,NA,"NH","Granada",NA,NA,NA,NA,"2023-08-19",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Born dead and carried it for the whole day","dead"
+"875","BBNkos23","BBNkos23",NA,NA,NA,"2023-09-06","2023-09-06",NA,NA,"AK","Nkosikasi",NA,NA,NA,NA,"2023-09-06",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Born dead and carried it for the whole day.","dead"
+"876","BBRegi23","BBRegi23",NA,NA,NA,"2023-09-12","2023-09-12",NA,NA,"NH","Regina",NA,NA,NA,NA,"2023-09-12",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Born dead and carried it for the whole day. The fetus was collected for tissue sample.","dead"
+"877","BBGree23","BBGree23",NA,NA,NA,"2023-09-13","2023-09-13",NA,NA,"NH","Greenbay",NA,NA,NA,NA,"2023-09-14",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","Born alive and died during the day and she carried it for the whole day and the next day,,,","dead"
+"878","Right Notch Guy",NA,NA,NA,NA,NA,"2023-09-16",NA,"BD",NA,NA,NA,NA,"BD","2023-09-16","2023-11-16",NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"879","BBNaal23","BBNaal23",NA,NA,NA,"2023-09-19","2023-09-19",NA,NA,"BD","Naaldekoker",NA,NA,NA,NA,"2023-09-29",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","postmortem was done on the fetus",NA
+"880","BBPann23","BBPann23",NA,NA,NA,NA,"2023-09-23",NA,NA,"BD","Pannekoekie",NA,NA,NA,NA,"2023-09-23",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"881","BBAare23","BBAare23",NA,NA,NA,"2023-09-25","2023-09-25",NA,NA,"KB","Aare",NA,NA,NA,NA,"2023-09-27",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"882","BBAara23","BBAara23",NA,NA,NA,"2023-09-26","2023-09-26",NA,NA,"KB","Aaragon",NA,NA,NA,NA,"2023-10-03",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"883","BBYara23","BBYara23",NA,"M",NA,NA,"2023-09-30",NA,"KB","KB","Yara",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"884","BBFrey23","BBFrey23",NA,"F",NA,NA,"2023-10-01",NA,"IF","IF","Freya",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"885","BBMedu23","BBMedu23",NA,"M",NA,NA,"2023-10-01",NA,"IF","IF","Medusa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"886","BBPand23","BBPand23",NA,"M",NA,NA,"2023-10-09",NA,NA,"IF","Pandora",NA,NA,NA,NA,"2023-10-09",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"887","Axomamma","Axom",NA,"F",NA,"2023-10-05","2023-10-06",NA,"IF","IF","Athena",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"888","BBCirc23","BBCirc23",NA,NA,NA,"2023-10-05","2023-10-06",NA,NA,"IF","Circe",NA,NA,NA,NA,"2023-10-07",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"889","BBPrat23","BBPrat23",NA,"M",NA,"2023-10-07","2023-10-07",NA,"NH","NH","Pratella",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"890","BBYelo23","BBYelo23",NA,NA,NA,NA,"2023-10-09",NA,"KB","KB","Yelostone",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"891","BBGinq23","BBGinq23",NA,NA,NA,NA,"2023-10-01",NA,"AK","AK","Ginqika",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"892","BBSkem23","BBSkem23",NA,NA,NA,"2023-10-05","2023-10-05",NA,NA,"BD","Skemer",NA,NA,NA,NA,"2023-10-05",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"893","BBDore23","BBDore23",NA,NA,NA,NA,"2023-10-10",NA,"LT","LT","Doreen",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"894","BBYamu23","BBYamu23",NA,"M",NA,NA,"2023-10-16",NA,"KB","KB","Yamuna",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"895","BBInhl23","BBInhl23",NA,NA,NA,NA,"2023-10-16",NA,NA,"IF","Inhlanhla",NA,NA,NA,NA,"2023-10-21",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","During the darting the baby was accidentally hit by the dart and sadly it did not make it",NA
+"896","BBGubh23","BBGubh23",NA,NA,NA,NA,"2023-10-17",NA,NA,"AK","Gubha",NA,NA,NA,NA,"2023-10-20",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No",NA,NA
+"897","BBMack23","BBMack23",NA,NA,NA,NA,"2023-10-20",NA,"CR","CR","Mackenzie",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"898","BBHoley23","BBHoley23",NA,NA,NA,NA,"2023-11-03",NA,"CR","CR","Holey",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"899","BBSari23","BBSari23",NA,"M",NA,NA,"2023-11-01",NA,NA,"BD","Sari",NA,NA,NA,NA,"2023-11-01",NA,NA,NA,NA,NA,NA,NA,NA,NA,"No","the baby was collected and sample was collected",NA
+"900","BBNdon23","BBNdon23",NA,NA,NA,"2023-11-02","2023-11-02",NA,"AK","AK","Ndonsa",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"901","BBSirk23","BBSirk23",NA,NA,NA,NA,"2023-11-04",NA,"BD","BD","Sirkus",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"902","BBYuko23","BBYuko23",NA,NA,NA,NA,"2023-11-03",NA,"CR","CR","Yukon",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"903","BBNooi23","BBNooi23",NA,NA,NA,"2023-11-03","2023-11-03",NA,"BD","BD","Nooiens ",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"904","BBPuol23","BBPuol23",NA,NA,NA,NA,"2023-11-06",NA,"BD","BD","Puolka",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"905","BBNiha23","BBNiha23",NA,NA,NA,NA,"2023-11-06",NA,"CR","CR","Nihau",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA
+"906","BBBali23","BBBali23",NA,NA,NA,NA,"2021-11-10",NA,"CR","CR","Bali",NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,"Yes",NA,NA

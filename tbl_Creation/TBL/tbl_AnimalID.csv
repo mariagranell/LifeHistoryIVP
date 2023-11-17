@@ -1,0 +1,903 @@
+"LH_RowNumber","AnimalCode","AnimalName","OtherID"
+1,"Afr","Afrikaans",NA
+2,NA,"Pompon",NA
+3,"Nies","Niese",NA
+4,"Gugu","Gugu",NA
+5,"Hib","Hibe",NA
+6,"Ifu","Ifu",NA
+7,"Mvu","Mvula",NA
+8,"Guy","Guyaquil",NA
+9,NA,"2nd MJ",NA
+10,"Dub","Dublin",NA
+11,"Mil","Milano",NA
+12,"Nap","Napoli",NA
+13,"Pari","Paris",NA
+14,"Roma","Roma",NA
+15,"Troi","Troia",NA
+16,"Upps","Uppsala",NA
+17,"Zara","Zara",NA
+18,"Ado","Adonis",NA
+19,"Bab","Babelas","M30"
+20,"Bok","Boks",NA
+21,"Foei","Foei",NA
+22,"Kaik","Kaiki",NA
+23,"Lek","Lekker",NA
+24,NA,"Little Skollie",NA
+25,"Mooi","Mooi",NA
+26,"Numb","Numbies",NA
+27,"Ouli","Oulik",NA
+28,"Pik","Pik",NA
+29,"Prin","Prinses",NA
+30,"Sko","Skollie",NA
+31,"Feek","Feekie",NA
+32,"Nkos","Nkosikasi",NA
+33,"Xox","Xoxocotla",NA
+34,"Heer","Heerlik",NA
+35,"Miel","Mielies",NA
+36,"Yst","Yster",NA
+37,"Jink","Jinka",NA
+38,"Xai","Xai",NA
+39,"Bemi","Beminde",NA
+40,"Haki","Hakie",NA
+41,"Kie","Kies",NA
+42,"Tann","Tannie",NA
+43,"Dwe","Dwergie",NA
+44,"Pann","Pannekoekie",NA
+45,"Wol","Wolfie",NA
+46,"Xaix","Xai-Xai",NA
+47,NA,"Little Napoli",NA
+48,"Gig","Gigolo",NA
+49,"Mic","Michael Jackson",NA
+50,"Mfo","Mfolozi","Hunchback"
+51,NA,"Black tits",NA
+52,"Drew","Drew",NA
+53,NA,"Little Balls",NA
+54,NA,"Mini MJ",NA
+55,"Pink","Pink",NA
+56,"Rad","Radja",NA
+57,"Skin","Skin",NA
+58,"Ist","Istanbul",NA
+59,"Qui","Quito","Santiago"
+60,"Gun","Guns and Roses",NA
+61,"Hamb","Hamba",NA
+62,"Isil","Isilonda",NA
+63,"SMA","SMA",NA
+64,"Ulak","Ulaka",NA
+65,"Elv","Elvis Presley",NA
+66,"Gin","Gino",NA
+67,"Jim","Jimmy Hendricks",NA
+68,"Kare","Karen Zoid",NA
+69,"Oom","Oom",NA
+70,"Pat","Pat Lansky",NA
+71,"Gene","Geneva",NA
+72,"Bry","Bryan",NA
+73,"Gaga","Gagasa",NA
+74,"Jaka","Jakarta",NA
+75,"Mamo","Mamoobi",NA
+76,"Oku","Okucane","Dot"
+77,"Yaou","Yaounde",NA
+78,"Quee","Queen",NA
+79,"Wil","William",NA
+80,"Jam","James",NA
+81,"Lizz","Lizz",NA
+82,"Asis","Asis",NA
+83,"Dian","Diana",NA
+84,"Vene","Venezia",NA
+85,"Bogo","Bogota",NA
+86,"Laus","Lausanne",NA
+87,NA,"Little Blind","JL"
+88,"Dagg","Dagga",NA
+89,"Don","Donsig",NA
+90,"Enge","Engel","Chouchou;JC"
+91,"Ert","Ertjies","JA;Smallballs"
+92,"Gro","Grote","JI;Bigballs"
+93,"Namn","Nam nam",NA
+94,"Gese","Gesels","Little boks;JG"
+95,"Snor","Snortjie",NA
+96,"Bin","Bingo","JM"
+97,"Riss","Rissiepit",NA
+98,"Tipi","Tipies",NA
+99,"Vrou","Vroutjie",NA
+100,"Wiet","Wietnie",NA
+101,"Ham","Hamlet","SMA"
+102,"Suzy","Suzy",NA
+103,"Rus","Rusk",NA
+104,"Elt","Elton","SMB"
+105,"Har","Harry",NA
+106,"Tun","Tunis",NA
+107,"New","Newton",NA
+108,"Jac","Jackie","Little Jackie;JD"
+109,"Mer","Merlin","Little Merlin;JF"
+110,"Mou","Mousse","JG"
+111,"The","Theodore",NA
+112,"Hwa","Hwahwaza",NA
+113,"Amyw","Amy Winehouse",NA
+114,"Bru","Bruce Springsteen",NA
+115,NA,"SF1",NA
+116,"Spo","Spotted",NA
+117,"Vas","Vasco Rossi",NA
+118,"Vin","Vincent","Darkface"
+119,"Giy","Giya",NA
+120,"Spo","Spook",NA
+121,"Cind","Cindy Lauper",NA
+122,"Nok","Noktober",NA
+123,"Lom","Lome",NA
+124,NA,"Upside down",NA
+125,"Modj","Modjadji",NA
+126,"Bam","Bamako",NA
+127,"Evan","Evanescence",NA
+128,"Ogi","Ogies",NA
+129,"Art","Arthur",NA
+130,"Nil","Nil",NA
+131,"Akk","Akkedis",NA
+132,"Idwa","Idwala",NA
+133,"Poe","Poeding",NA
+134,"Gaya","Gaya",NA
+135,"Vak","Vakie",NA
+136,"Jun","Juneau",NA
+137,"Byr","Byron","SMC;Mini-Elton"
+138,"Cha","Charles","Little Charles;JB"
+139,"Reva","Reva",NA
+140,"Ubu","Ububhibhi",NA
+141,"BHak11","Baby Hak 2011",NA
+142,"Ngu","Ngubu",NA
+143,"Xer","Xeres",NA
+144,"Ulu","Ulundi",NA
+145,"Zio","Zion",NA
+146,"Tal","Talinn",NA
+147,"Roo","Rooikat",NA
+148,"Koni","Koninging",NA
+149,"Watn","Watnou",NA
+150,"Bras","Brasilia",NA
+151,"Emma","Emma",NA
+152,"Lhas","Lhassa",NA
+153,"Neu","Neuchatel","M10"
+154,"Pret","Pretoria",NA
+155,"Rio","Rio",NA
+156,"Tor","Toronto",NA
+157,"Vict","Victoria",NA
+158,"Zee","Zeerust",NA
+159,"Zur","Zurich",NA
+160,"Pue","Puerto",NA
+161,"BMoo11","Baby Moo 2011",NA
+162,"Bon","Bongani",NA
+163,"Ghan","Ghangaan",NA
+164,"Gov","Govu",NA
+165,"Hlek","Hleka",NA
+166,"Inhl","Inhlanhla",NA
+167,"Izu","Izulu",NA
+168,"Mna","Mnandi",NA
+169,"Vol","Voldemort",NA
+170,"Ahe","Ahekinkinga",NA
+171,"Auc","Auckland",NA
+172,"Amaz","Amazon",NA
+173,"Tang","Tanganika",NA
+174,"Cur","Curaco","Spot"
+175,"Sty","Styx","Little Evil"
+176,"Nala","Nala",NA
+177,"Twe","Tweed","Fluffy"
+178,"Che","Chernobyl",NA
+179,"Amur","Amur",NA
+180,"Med","Medjerda",NA
+181,"Pik","Pikito",NA
+182,"Zam","Zambezi",NA
+183,"Gel","Gelosi",NA
+184,"Hele","Heleza",NA
+185,"Mpu","Mpukuvane",NA
+186,"Dan","Danube",NA
+187,"Sha","Shakespeare","Ouagadougou"
+188,"Edw","Edward",NA
+189,"Tug","Tugela",NA
+190,"Dar","Darwin","Zazoo"
+191,"Ness","Nessie",NA
+192,"Uva","Uvac",NA
+193,"Sel","Selenge",NA
+194,"Dou","Double Spot",NA
+195,"Zeia","Zeia","Jucar"
+196,"Hol","Hola",NA
+197,"Len","Lennon",NA
+198,"Yoog","Yoogali",NA
+199,"Vale","Valerie","Squishy"
+200,"BDag12","Baby Dag 2012",NA
+201,"BCam12","Baby Cam 2012",NA
+202,"Gele","Geleza",NA
+203,"Bul","Bullebak",NA
+204,"Nurk","Nurks",NA
+205,"Siel","Siele",NA
+206,"BEmm12","Baby Emm 2012",NA
+207,"Deli","Delilah","Rainbow"
+208,"BTip12","Baby Tip 2012",NA
+209,"Iji","Ijinja",NA
+210,"Gar","Garoua",NA
+211,"Tir","Tirroan",NA
+212,"Hey","Heyi",NA
+213,"Jill","Jillin",NA
+214,"Mun","Mungunya",NA
+215,"BBog12","Baby Bog 2012",NA
+216,"Wur","Wurm",NA
+217,"BUpp12","Baby Upp 2012",NA
+218,"Onb","Onbeskof",NA
+219,"Hipp","Hippie",NA
+220,"Nyo","Nyoni",NA
+221,"Unw","Unwabo",NA
+222,"Alsi","Alsiende",NA
+223,"Rhe","Rheban",NA
+224,"BLau12","Baby Lau 2012",NA
+225,"Mevr","Mevrou",NA
+226,"BKai12","Baby Kai 2012",NA
+227,"Ndon","Ndonsa",NA
+228,"Zhe","Zhengzhou",NA
+229,"Gho","Ghozololo",NA
+230,"Xian","Xian",NA
+231,"Ruby","Ruby",NA
+232,"Laur","Laurel",NA
+233,"Vul","Vulkaan",NA
+234,"Bush","Bushy",NA
+235,"Indi","India",NA
+236,"Rak","Rakker",NA
+237,"Hlo","Hlokoloza","Hlebe"
+238,"Piep","Pieperig",NA
+239,"Yeni","Yenissei",NA
+240,"Kaya","Kaya",NA
+241,"Aare","Aare",NA
+242,NA,"Little Z",NA
+243,"Zair","Zaire",NA
+244,"And","Andrew",NA
+245,"Noa","Noah",NA
+246,"Yalu","Yalu",NA
+247,"Pear","Pearl","Little Almond"
+248,"Mara","Mara","Spotty arm"
+249,"Fud","Fudu",NA
+250,"Can","Cancun",NA
+251,"BHam13","Baby Ham 2013",NA
+252,"BBem13","Baby Beminde 2013",NA
+253,"BGag13","Baby Gaga 2013",NA
+254,"Bos","Boston",NA
+255,"Jix","Jixi",NA
+256,"Uji","Uji",NA
+257,"Ilon","Ilonga",NA
+258,"Aapi","Aapie",NA
+259,"Avo","Avon","Appy"
+260,"Zank","Zankara",NA
+261,"BWie13","Baby Wietnie 2013",NA
+262,"Gla","Glastonbury",NA
+263,"Mba","Mbazwane",NA
+264,"Renn","Rennes",NA
+265,"Inkw","Inkwazi",NA
+266,"Prai","Praia",NA
+267,"Xala","Xalapa",NA
+268,"Potj","Potjie",NA
+269,"Zan","Zanzibar",NA
+270,"Cami","Camilla",NA
+271,"Mis","Mississipi",NA
+272,"Digb","Digby","Rhiannon"
+273,"Yan","Yangtze",NA
+274,"Shi","Shitface",NA
+275,"Oli","Oliver",NA
+276,"Rose","Rose-Mary","Daria"
+277,"Moon","Moonie","Baby Tang 2012"
+278,"Jag","Jagerbomb",NA
+279,"Dow","DownLip",NA
+280,"Tere","Tere","F10"
+281,"Lef","Lefty",NA
+282,"Umz","Umzali",NA
+283,"Dap","Dapper",NA
+284,"Ada","Adam","Uplip"
+285,"Ken","Kenneth","Joe"
+286,"Lia","Liam",NA
+287,"Igg","Iggy",NA
+288,"Jenn","Jenny","OldCamilla"
+289,"Dais","Daisy",NA
+290,"Joe","Joe",NA
+291,"Van","Vance",NA
+292,"Hum","Humusha",NA
+293,"Zink","Zinkwazi",NA
+294,"Mad","Madagascar",NA
+295,"BYao14","Baby Yaou 2014",NA
+296,"BSuz14","Baby Suzy 2014",NA
+297,"Arn","Arno",NA
+298,"BNal14","Baby Nala 2014",NA
+299,"Eina","Eina",NA
+300,"Ginq","Ginqinka",NA
+301,"Hal","Halfy",NA
+302,"Hlu","Hluhluwe",NA
+303,"Rup","Rupert",NA
+304,"BJen14","Baby Jenn 2014",NA
+305,"Gaa","Gaaf",NA
+306,"Ples","Plesier",NA
+307,"Mat","Mathimula",NA
+308,"BF1014","BabyTere (F10) 2014",NA
+309,"BMie14","Baby Mielies 2014",NA
+310,"Jed","Jeddah",NA
+311,"Mee","Meerkat",NA
+312,"BVic14","Baby Vict 2014",NA
+313,"Far","Faroe",NA
+314,"Form","Formentera",NA
+315,NA,"Kangaroo",NA
+316,"Krak","Krakatoa",NA
+317,"Lanc","Lancey",NA
+318,"Roxa","Roxanne",NA
+319,"Tou","Toulouse",NA
+320,"Ghid","Ghida",NA
+321,"Hei","Heilweis",NA
+322,"Nyan","Nyanga",NA
+323,"Gubh","Gubha",NA
+324,"Ndi","Ndiza",NA
+325,"BBus14","Baby Bushy 2014",NA
+326,"BJin14","Baby Jink 2014",NA
+327,"BPan14","Baby Pannekoekie 2014",NA
+328,"Ihl","Ihlane",NA
+329,"Safa","Safari",NA
+330,"Lima","Lima",NA
+331,"Riy","Riyadh",NA
+332,"Ass","Asseblief",NA
+333,"Rede","Redelik",NA
+334,"BNie14","Baby Niese 2014",NA
+335,NA,"Greenland",NA
+336,"Ted","Teddibeer","Christmas;Blinky"
+337,"Xiny","Xinyi",NA
+338,"Obe","Obelisk",NA
+339,"Pro","Propriano","Prague"
+340,"Tha","Thames",NA
+341,"Kyl","Kyle",NA
+342,"Int","Intaba",NA
+343,"Nooi","Nooiens",NA
+344,"Bela","Bela-Bela",NA
+345,"Gran","Granada",NA
+346,"Umt","Umtata",NA
+347,"Mal","Malawi",NA
+348,"Mer","Mercury",NA
+349,"Con","Cone",NA
+350,NA,"Curious",NA
+351,"Elle","Ellesmere",NA
+352,"Icel","Iceland",NA
+353,"Jap","Japan",NA
+354,"Ker","Kergelen",NA
+355,"Pal","Pale",NA
+356,"Piz","Pizza",NA
+357,"Sol","Solomon",NA
+358,"Anta","Antarctica",NA
+359,"Mack","Mackanzie","Asiatic"
+360,"Boc","Bocold",NA
+361,"Han","Handi",NA
+362,"Hel","Helmet",NA
+363,"Inn","Inner",NA
+364,"Lion","Lionel",NA
+365,"Mac","Macedonia",NA
+366,"Samo","Samoa",NA
+367,"Sey","Seychelles",NA
+368,NA,"The Mask",NA
+369,"Chil","Chiloe",NA
+370,"Cuba","Cuba","kinktail"
+371,"Fla","Flatty",NA
+372,"Gala","Galapagos",NA
+373,"Hen","Henderson",NA
+374,"Tong","Tonga",NA
+375,"Whis","Whiskers",NA
+376,"Xiu","Xiushan","Decoloured"
+377,"Sym","Symetric","Simetric"
+378,"Lohi","Lohihi",NA
+379,"Huge","Huge",NA
+380,"Oahu","Oahu",NA
+381,"Poi","Pointy",NA
+382,"Sumb","Sumbawa",NA
+383,"Umna","Umnak",NA
+384,"Bas","Base",NA
+385,"Olo","Olona","Bumpy head male"
+386,"Ati","Atitlan","Male with bright eyerings"
+387,"Lif","Liffey",NA
+388,"Oka","Okavango",NA
+389,"Wes","Wesley",NA
+390,"Col","Colorado",NA
+391,"Smas","Smashy","Mous"
+392,"Tort","Tortuga","broken finger"
+393,"Daen","Daenerys",NA
+394,"Van","Vancouver",NA
+395,"Pia","Pianosa",NA
+396,"Robb","Robben",NA
+397,"Mart","Martinique",NA
+398,"Barb","Barbados",NA
+399,"Dulc","Dulcina",NA
+400,"BZei15","Baby Zeia 2015",NA
+401,"Lill","Lilly",NA
+402,"BTro15","Baby Troi 2015",NA
+403,"Gala","Galati",NA
+404,"BAmu15","Baby Amur 2015",NA
+405,"Zav","Zave",NA
+406,"Joha","Johannesburg",NA
+407,"BIsi15","Baby Isil 2015",NA
+408,"BGha15","Baby Ghan 2015",NA
+409,"BSno15","Baby Snortjie 2015",NA
+410,"Nirt","Nirtjies",NA
+411,"Ire","Ireland",NA
+412,"BNes15","Baby Ness 2015",NA
+413,"Jia","Jiamusi",NA
+414,"Midd","Middag",NA
+415,"Bri","Brisbane",NA
+416,"BMam15","Baby Mamo 2015",NA
+417,"BAar15","Baby Aare 2015",NA
+418,"BNko15","Baby Nkos 2015",NA
+419,"Pap","Papsak",NA
+420,"Ric","Richard",NA
+421,"Rasp","Raspberry",NA
+422,"Eve","Everest",NA
+423,"Kil","Kilimanjaro",NA
+424,"BGug15","Baby Gugu 2015",NA
+425,"Ula","Ulaanbaatar",NA
+426,"Zhu","Zhukovsky",NA
+427,"BDia15","Baby Diana 2015",NA
+428,"Law","Lawrence",NA
+429,"BIdw15","Baby Idwa 2015",NA
+430,"Bari","Bari",NA
+431,"Has","Hasie",NA
+432,"Oort","Oortjies",NA
+433,"Add","Adder",NA
+434,"Pru","Pruszkow",NA
+435,"Rey","Reykjavik",NA
+436,"Rosl","Roslin",NA
+437,"BGag15","Baby Gaga 2015",NA
+438,"BTon15","Baby Tonga 2015",NA
+439,NA,"Jalitah",NA
+440,"BUmn15","Baby Umnak 2015",NA
+441,"Kau","Kauai",NA
+442,"Yel","Yell",NA
+443,"Rat","Ratel",NA
+444,"BPear15","Baby Pearl 2015",NA
+445,"Kate","Kate",NA
+446,"Dio","Dion",NA
+447,"BOah15","Baby Oahu 2015",NA
+448,"Puol","Puolka",NA
+449,"Alc","Alcatraz",NA
+450,"Jane","Jane",NA
+451,"Ndaw","Ndawonya",NA
+452,"Manh","Manhattan",NA
+453,"Schn","Schnauzli",NA
+454,"Ber","Bermuda",NA
+455,"Java","Java",NA
+456,"Umb","Umbrella",NA
+457,"Rob","Robin",NA
+458,"Rein","Reindeer",NA
+459,"Rene","Renee",NA
+460,"BAmu16","Baby Amur 2016",NA
+461,"Loui","Louise",NA
+462,"Yuko","Yukon",NA
+463,"Gabi","Gabillou",NA
+464,"Nah","Nahoon",NA
+465,"Xia","Xiashan",NA
+466,"Aara","Aaragon",NA
+467,"Guny","Gunya",NA
+468,"Mhao","Mhaori",NA
+469,"Nge","Ngenakubo",NA
+470,"Guat","Guatemala",NA
+471,"Raba","Rabat",NA
+472,"Yamu","Yamuna",NA
+473,"Hond","Hondjie",NA
+474,"BSie16","Baby Siele 2016",NA
+475,"Hibi","Hibiscus",NA
+476,"Dil","Dillon",NA
+477,"Lua","Luan",NA
+478,"Whid","Whidbey",NA
+479,"Dewe","Dewey",NA
+480,"Tyl","Tyler","Garry"
+481,NA,"New male (look like Rio)",NA
+482,"Dok","Dokos","Denmark"
+483,"Fen","Feniks",NA
+484,"Kom","Kommunis",NA
+485,"BNum17","Baby Numbies 2017",NA
+486,"Sari","Sari",NA
+487,"BLBl17","Baby Little Blind 2017",NA
+488,"BDig17","Baby Digby 2017",NA
+489,"Cam","Cameron",NA
+490,"Aar","Aarhus",NA
+491,"Amg","Amgoun",NA
+492,"BGes17","Baby Gese 2017",NA
+493,"Godu","Goduka",NA
+494,"Rocky","Rocky",NA
+495,"Ura","Uranium City",NA
+496,"BOah17","Baby Oahu 2017",NA
+497,"Goos","Goose","CrazyEyes"
+498,"Lava","Lavander",NA
+499,"BPan17","Baby Pann 2017",NA
+500,"BLio17","Baby Lionel 2017",NA
+501,"Mokc","Mokcha",NA
+502,"BRox17","Baby Roxanne 2017",NA
+503,"Isc","Ischia",NA
+504,"Ndik","Ndiki",NA
+505,"Nuu","Nuuskierig",NA
+506,"Timb","Timber",NA
+507,"Aan","Aantreklik","Aant"
+508,"Jell","Jelly",NA
+509,"Pom","Pomelo",NA
+510,"Xin","Xinji",NA
+511,"Rust","Rustig",NA
+512,"Sirk","Sirkus",NA
+513,"Pye","Pyeongchang",NA
+514,"Obse","Obsessie",NA
+515,"Mar","Margarita",NA
+516,"Jers","Jersey",NA
+517,"Moya","Moya",NA
+518,"Hee","Heelal",NA
+519,"BGug17","Baby Gugu 2017",NA
+520,"Nak","Nakhu",NA
+521,"Daa","Daartagnan",NA
+522,"Nan","Nantucket",NA
+523,"BRub17","Baby Ruby 2017",NA
+524,"Rioj","Rioja",NA
+525,"BKay17","Baby Kaya 2017",NA
+526,"Niha","Nihau",NA
+527,"Yara","Yara",NA
+528,"Gan","Gangtok",NA
+529,"Rev","Revdanda",NA
+530,"Xal","Xaltepec",NA
+531,"Yze","Yzeron",NA
+532,"Dext","Dexter",NA
+533,NA,"Corfu",NA
+534,"BMie17","Baby Mielies 2017",NA
+535,"Dore","Doreen",NA
+536,"BMac17","Baby Mackenzie 2017","Baby Schnauzli 2017"
+537,"Pun","Puntag",NA
+538,"Bali","Bali",NA
+539,"East","Easter","Smashy;Mous"
+540,"Fiji","Fiji",NA
+541,"Kodi","Kodiak","Schnauzli"
+542,"Koo","Kookoolegit",NA
+543,"Blu","Blup blup",NA
+544,"Cus","Cusco",NA
+545,"Osc","Oscar","Dumbledore"
+546,"Ben","Benedict",NA
+547,"Lail","Laila",NA
+548,"Aat","Aathabasca","Ath"
+549,"Goe","Goed",NA
+550,"Hia","Hiasint",NA
+551,"Lewe","Lewe",NA
+552,"Mimi","Mimiek",NA
+553,"Naal","Naaldekoker",NA
+554,"Xinp","Xinpu",NA
+555,"Guz","Guzunga",NA
+556,"Roc","Rochdale",NA
+557,"Skem","Skemer",NA
+558,"Spam","Spampounkoeki",NA
+559,"Uls","Ulsan",NA
+560,"Ncok","Ncoko",NA
+561,"Nda","Ndanda",NA
+562,"BGen18","Baby Geneva 2018",NA
+563,"Mbil","Mbila",NA
+564,"Puym","Puy-merl",NA
+565,"Oerw","Oerwoud",NA
+566,"Ram","Rambouillet",NA
+567,"Sig","Sigaret",NA
+568,"Dix","Dixon",NA
+569,"Ghi","Ghidigidi",NA
+570,"Mas","Mass",NA
+571,"BEin18","Baby Eina 2018",NA
+572,"BNur18","Baby Nurks 2018",NA
+573,"Rid","Ridder",NA
+574,"Yaz","Yazoo",NA
+575,"Ard","Ardig",NA
+576,"Regi","Regina",NA
+577,"Prat","Pratella",NA
+578,"Gil","Gilane",NA
+579,"Non","Nonnitgie",NA
+580,NA,"Dunston",NA
+581,"Guba","Gubane",NA
+582,"Aal","Aalwyn",NA
+583,"Dal","Dalton",NA
+584,"BLim18","Baby Lima 2018",NA
+585,"Beir","Beirut",NA
+586,"Yelo","Yelowstone",NA
+587,"Reen","Reenboog",NA
+588,"Gris","Griselles",NA
+589,"Lar","Larry",NA
+590,"Pix","Pixsel",NA
+591,"BGay18","Baby Gaya 2018",NA
+592,"BNya18","Baby Nyanga 2018",NA
+593,"BXal18","Baby Xalapa 2018",NA
+594,"Geo","George",NA
+595,"Was","Washington Babylon",NA
+596,"Flu","Fluister","Jack"
+597,"Kek","Kekeke",NA
+598,"Lip","Lipsy",NA
+599,"Oua","Ouagadougou","Shakespeare"
+600,"BNum19","Baby Numbies 2019",NA
+601,"BBel19","Baby Bela-Bela 2019",NA
+602,"BGay19","Baby Gaya 2019",NA
+603,"BRed19","Baby Redelik 2019",NA
+604,"BMar19","Baby Mara 2019",NA
+605,"BDig19","Baby Digby 2019",NA
+606,"BLim19","Baby Lima 2019",NA
+607,"BPuo19","Baby Puolka 2019",NA
+608,"BRev19","Baby Reva 2019",NA
+609,"BNes19","Baby Nessie 2019",NA
+610,"BXia19","Baby Xian 2019",NA
+611,"BPot19","Baby Potjie 2019",NA
+612,"BHee19","Baby Heer 2019",NA
+613,"BDia19","Baby Diana 2019",NA
+614,"BXal19","Baby Xalapa 2019",NA
+615,"BMie19","Baby Mielies 2019",NA
+616,"Das","Dastard",NA
+617,"BDel19","Baby Delilah 2019",NA
+618,"BPan19","Baby Pannekoekie 2019",NA
+619,"Nucl","Nuclides",NA
+620,"BPre19","Baby Pretoria 2019",NA
+621,"Gree","Greenbay",NA
+622,"Lamp","Lampshade",NA
+623,"BGug19","Baby Gugu 2019",NA
+624,"Ren","Reno",NA
+625,"Tas","Tasty flavours",NA
+626,"Tam","Tambacounda",NA
+627,"Utr","Utrecht",NA
+628,"Vla","Vladivostok",NA
+629,"Fle","Flensburg",NA
+630,"War","Warnemünde",NA
+631,"Aaa","Aaalva","Aalva"
+632,"Sho","Shongololo",NA
+633,"Dia","Diamond",NA
+634,"Lig","Light",NA
+635,"Awa","Awash",NA
+636,"BRos20","Baby Rosl 2020",NA
+637,"App","Appel",NA
+638,"Papp","Papp",NA
+639,"Gib","Gibela",NA
+640,"Popp","Poppie",NA
+641,"Yon","Yonne",NA
+642,"Oup","Oupa",NA
+643,"Gus","Gusha",NA
+644,"Ndum","Ndumiso",NA
+645,"Riv","Riversdale",NA
+646,"BDig20","Baby Digby 2020",NA
+647,"Gha","Ghandaghanda",NA
+648,"Ouma","Ouma",NA
+649,"Heli","Helikopter",NA
+650,"Nkun","Nkunzi",NA
+651,"Roes","Roeslare",NA
+652,"Dazz","Dazzle",NA
+653,"Eis","Eish",NA
+654,"BRen20","Baby Renn 2020",NA
+655,"Gri","Griffin",NA
+656,"Xop","Xopo",NA
+657,"Moes","Moesa",NA
+658,"Ree","Reenval",NA
+659,"Rivi","Rivier",NA
+660,"Span","Spanspek",NA
+661,"Syl","Sylinder",NA
+662,"Mui","Muis",NA
+663,"Bang","Bangalore",NA
+664,"BGua20","Baby Guat 2020",NA
+665,"Deja","Deja",NA
+666,"Loki","Loki",NA
+667,"Delt","Delta",NA
+668,"Gub","Gubudu",NA
+669,"Palm","Palmela",NA
+670,"Lug","Lugano",NA
+671,"Naa","Naartjie",NA
+672,"Ndo","Ndondo",NA
+673,"Sio","Sion",NA
+674,"Rim","Rimini",NA
+675,"Udup","Udupi",NA
+677,"Dodg","DodgyKnee",NA
+678,"Tch","Tchakalaka",NA
+679,"Buk","Bukubuku",NA
+680,"Cay","Cayman","Little Cameron"
+681,"WavyEars","WavyEars",NA
+683,"Duc","Duckie",NA
+684,"Oke","Okefenokee",NA
+685,"Tev","Tevere",NA
+686,"Zuni","Zuni","Fleshy"
+687,"Hole","Holey",NA
+688,"PointyEars","PointyEars",NA
+689,"Eto","Etosha",NA
+690,"Apa","Apa",NA
+691,"Mom","Momo",NA
+692,"BigEars","BigEars",NA
+693,"Plainjane","PlainJane","Kap"
+694,"BDia21","Baby Dian 2021",NA
+695,"BPre21","Baby Pret 2021",NA
+696,"Nul","Nul",NA
+697,"BOul21","Baby Ouli 2021",NA
+698,"Amst","Amstel",NA
+699,"Nuk","Nukke",NA
+700,"Pie","Piesang",NA
+701,"BCam11","Baby Cam 2011",NA
+702,"BDai19","Baby Daisy 2019",NA
+703,NA,"Bug Eyes",NA
+704,"Col","Collin",NA
+705,"Ferg","Fergie",NA
+706,NA,"Gollum",NA
+707,NA,"Gosh",NA
+708,NA,"Heart",NA
+709,"Imp","Imposter","Lennon Imposter"
+710,"Jama","Jamaica",NA
+711,"Kur","Kurt Cubain",NA
+712,NA,"Little Notch",NA
+713,"Mado","Madonna",NA
+714,NA,"Nostrils",NA
+715,"Pit","Pitcairn",NA
+716,"Red","Red Hot",NA
+717,NA,"SF2",NA
+718,NA,"Small Eyes",NA
+719,"Tasmania","Tasmania",NA
+720,"Wier","Wierdo",NA
+722,"Ndl","Ndlovu",NA
+723,"Nko","Nkomo",NA
+724,"Gom","Gomonqo",NA
+725,"Gobe","Gobela",NA
+726,"Nyal","Nyala",NA
+727,"BNda21","Baby Ndaw 2021",NA
+728,"Ask","Askies",NA
+729,"Padk","Padkos",NA
+730,"Eie","Eier",NA
+731,"Haai","Haaigranaat",NA
+732,"Hem","Hemel",NA
+733,"Ome","Omelet",NA
+734,"Pur","Purper",NA
+735,"Noo","Nooit",NA
+736,"Sla","Slang",NA
+737,"Reno","Renoster",NA
+738,"Rimp","Rimpel",NA
+739,"Samp","Sampion",NA
+740,"Sitr","Sitrus",NA
+741,"Misk","Miskien",NA
+742,"Spe","Spek",NA
+743,"BOer21","Baby Oerw 2021",NA
+744,"Griv","Grive",NA
+745,"Gale","Galeria",NA
+746,"BGua21","Baby Guat 2021",NA
+747,"Xih","Xihau",NA
+748,"Xar","Xarès",NA
+749,"Bet","Bethlehem",NA
+750,"Utic","Utica",NA
+751,"Riva","Rivas",NA
+752,"Rafa","Rafaela",NA
+754,"Bou","Bougainville","Goldie"
+754,"Yam","Yamp","Baby Yuko 2021;Yamp"
+755,"Yodo","Yodo","Yaq"
+756,"Mon","Montreal",NA
+757,"Gas","Gasket",NA
+758,"BBDod21","Baby DodgyKnee 2021",NA
+759,"BBKodi21","Baby Kodi 2021",NA
+760,"Tik","Tiki",NA
+761,"BBFZuni21","Baby Zuni  2021","Baby Fleshy 2021"
+762,"BBGoo21","Baby Goose 2021","Baby CrazeyEyes 2021"
+763,"Baha","Bahamas",NA
+764,"Nihi","Nihiru",NA
+765,"Clar","Clarence",NA
+766,"Barr","Barry",NA
+767,"Nora","Nora",NA
+768,"Dis","Disco",NA
+769,"Dani","Danielle",NA
+770,"Del","Delux",NA
+771,"BBDew21","Baby Dewe 2021",NA
+772,"Der","Derrick",NA
+773,"Dail","Daila",NA
+774,"Lola","Lola",NA
+775,"Luc","Lucifer",NA
+776,"Yub","Yub","Yuk;Yuki"
+777,"Elba","Elbar",NA
+778,"Skh","Skhumbuzo",NA
+779,"Nug","Nugget",NA
+780,"Xeni","Xenia",NA
+781,"Poff","Pofferthie",NA
+782,"Cap","Capri",NA
+783,"BNya20","Baby Nyanga 2020",NA
+784,"Byalu","Baby Yalu 2020",NA
+785,"Bkod20","Baby Kodiak 2020",NA
+786,"Prim","Primavera",NA
+787,"Fur","Furry Glen","Blackbelly"
+788,"Nel","Nelson",NA
+790,"Vry","Vryheid","NewMale06.22"
+791,"Erm","Ermelo","NewMale02"
+792,"NewMale3","NewMale3","NewMale3"
+793,"Eiv","Eivissa","NewMale090622"
+794,"Haw","Hawai","NewMale110622;Formentera"
+795,"Rya","Ryan",NA
+796,"Zeu","Zeus","Collared Male;MaleCollar"
+797,"Hera","Hera",NA
+798,"Medu","Medusa",NA
+799,"Frey","Freyja",NA
+800,"Athe","Athena",NA
+801,"Circ","Circe",NA
+802,"Pand","Pandora",NA
+803,"Dak","Dakar",NA
+804,"Sta","Stanley",NA
+805,"BBCirc21","BBCirc21",NA
+806,"BBInhl21","BBInhl21",NA
+807,"JUV1","JUV1","JUV1"
+808,"JUV2","JUV2","JUV2"
+809,"Man","Mandy","NewMale0922"
+810,"Kny","Knysna",NA
+811,"BBXian22","BBXian22",NA
+812,"Ang","Angara",NA
+813,"Alab","Alabama",NA
+814,"Grim","Grimsby",NA
+815,"Glo","Gloed",NA
+816,"BBInhl22","BBInhl22",NA
+817,"BBDigb22","BBDigb22",NA
+817,"BBMara22","BBMara22",NA
+819,"Yent","Yentna",NA
+820,"Gua","Guadalajara",NA
+821,"BBOort22","BBOort22",NA
+822,"BBDian22","BBDian22",NA
+823,"BBDewe22","BBDewe22",NA
+824,"Yaki","Yakima",NA
+825,"Yuba","Yuba",NA
+826,"Olyf","Olyf",NA
+827,"Atj","Atjar",NA
+828,"BBBali22","BBBali22",NA
+829,"BBMedu22","BBMedu22",NA
+830,"Apo","Apollo",NA
+831,"BBGran22","BBGran22",NA
+832,"Oase","Oase",NA
+833,"Prui","Pruin",NA
+834,"Prag","Prague",NA
+835,"Pers","Persephone",NA
+836,"Naga","Nagapie",NA
+837,"Udi","Udine","Upland"
+838,"Kno","Knoffel",NA
+839,"Nca","Ncane",NA
+840,"BBNdaw22","BBNdaw22",NA
+841,"Ndin","Ndini",NA
+842,"BBDaen22","BBDaen22",NA
+843,"Ekse","Ekse",NA
+844,"Her","Herskep",NA
+845,"Gal","Galiano",NA
+846,"Made","Madeline",NA
+847,"BBNiha22","BBNiha22",NA
+848,"Ros","Rosyn",NA
+849,"Goa","Goat",NA
+850,"Luna","Luna",NA
+851,"Xati","Xativa",NA
+852,"Ris","Rishikesh",NA
+853,"Gab","Gabaroni",NA
+854,"Rooi","Rooibos",NA
+855,"Giji","Gijima",NA
+856,"Ott","Otter","Ottline"
+857,"Lotu","Lotus",NA
+858,"Ves","Vesuvio",NA
+859,"BBHera22","BBHera22",NA
+860,"Bob","Bobjaan","Roundlips;MrOverbite"
+861,"Pikk","Pikkewyn",NA
+862,"Cai","Cairo",NA
+863,"Hav","Havana","FakeGeorge"
+864,"San","Sango","Na"
+865,"Tho","Thor","Half Tailed Guy"
+866,"Tot","Totsiens","White dot"
+867,"Win","Winter","Fluffy"
+868,"Bra","Braai","Cheseled nose"
+869,"Dri","Driehoek","Triangular Face"
+870,"Spl","Splotch","PatchyEyerings"
+871,"Boo","Boom","O-Family Face male"
+872,"BBXala23","BBXala23",NA
+873,"BBXimp23","BBXimp23",NA
+874,"BBGran23","BBGran23",NA
+875,"BBNkos23","BBNkos23",NA
+876,"BBRegi23","BBRegi23",NA
+877,"BBGree23","BBGree23",NA
+878,NA,"Right Notch Guy",NA
+879,"BBNaal23","BBNaal23",NA
+880,"BBPann23","BBPann23",NA
+881,"BBAare23","BBAare23",NA
+882,"BBAara23","BBAara23",NA
+883,"BBYara23","BBYara23",NA
+884,"BBFrey23","BBFrey23",NA
+885,"BBMedu23","BBMedu23",NA
+886,"BBPand23","BBPand23",NA
+887,"Axom","Axomamma",NA
+888,"BBCirc23","BBCirc23",NA
+889,"BBPrat23","BBPrat23",NA
+890,"BBYelo23","BBYelo23",NA
+891,"BBGinq23","BBGinq23",NA
+892,"BBSkem23","BBSkem23",NA
+893,"BBDore23","BBDore23",NA
+894,"BBYamu23","BBYamu23",NA
+895,"BBInhl23","BBInhl23",NA
+896,"BBGubh23","BBGubh23",NA
+897,"BBMack23","BBMack23",NA
+898,"BBHoley23","BBHoley23",NA
+899,"BBSari23","BBSari23",NA
+900,"BBNdon23","BBNdon23",NA
+901,"BBSirk23","BBSirk23",NA
+902,"BBYuko23","BBYuko23",NA
+903,"BBNooi23","BBNooi23",NA
+904,"BBPuol23","BBPuol23",NA
+905,"BBNiha23","BBNiha23",NA
+906,"BBBali23","BBBali23",NA
