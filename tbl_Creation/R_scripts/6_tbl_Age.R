@@ -19,9 +19,9 @@ library(tidyverse)
 library(lubridate)
 source("/Users/mariagranell/Repositories/male_services_index/functions.R")
 
-# create a table with: AnimalID, AnimalCode, OtherID, Sex, DOB
+# create a table with: AnimalName, AnimalCode, OtherID, Sex, DOB
 # Path ------------------------------------------------------------------
-setwd("/Users/mariagranell/Repositories/phllipe_vulloid/tbl_Creation/tbl_maria")
+setwd("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL")
 
 # tbl_AnimalID
 tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
@@ -33,15 +33,15 @@ tbl_Sex <- read.csv("tbl_Sex.csv")
 tbl_DOB <- read.csv("tbl_DOB.csv")
 
 # tbl_LifeHistory
-tbl_LifeHistory <- read.csv("tbl_LifeHistory.csv")
+tbl_LifeHistory <- read.csv("tbl_LifeHistory_15112022.csv")
 
 # MERGE DATAFRAMES --------------------
 d <- tbl_AnimalID %>%
-  left_join(.,tbl_Sex, by = "AnimalID") %>%
+  left_join(.,tbl_Sex, by = "AnimalName") %>%
   rename(tbl_sex = Sex) %>%
-  left_join(.,tbl_DOB, by = "AnimalID") %>%
+  left_join(.,tbl_DOB, by = "AnimalName") %>%
   rename(tbl_dob = DOB) %>%
-  left_join(.,tbl_LifeHistory, by = c("AnimalID" = "LH_AnimalID")) %>%
+  left_join(.,tbl_LifeHistory, by = c("AnimalName" = "LH_AnimalName")) %>%
   rename(lh_dob = DOB, lh_sex = Sex)
 
 # CREATE A COLUMN DOB_estimate
@@ -133,11 +133,9 @@ d <- d%>%
 
 # Calculate age in years when it has DOB---------------------------------------------------
 AnimalID_DOB <- tbl_AnimalID %>%
-  left_join(., tbl_DOB, by=c("AnimalID" = "AnimalID")) %>%
-
-  # Date format
-  mutate(DOB = ymd(DOB)) %>%
-  mutate(Age_yr = add_age(.,birthdate = DOB, unit = "Years"))
+    left_join(tbl_DOB, by = c("AnimalName", "AnimalCode")) %>%
+    mutate(DOB = ymd(DOB)) %>%
+    mutate(Age_yr = ifelse(is.na(DOB), NA, add_age(birthdate = DOB, unit = "Years")))
 
 head(AnimalID_DOB)
 
@@ -151,15 +149,16 @@ nrow(NoAge)
 AnimalID_DOB_FD <- AnimalID_DOB %>%
   left_join(.,d%>%
               select(
-                AnimalID,
+                AnimalName,
                 FirstDate,
                 DOB_estimate
-              ), by = "AnimalID") %>%
+              ), by = "AnimalName") %>%
   mutate(FirstDate = ymd(FirstDate))
 
-AnimalID_DOB_FD$Age_yr_estimate <- add_age(AnimalID_DOB_FD,
-                                                        birthdate = ymd(AnimalID_DOB_FD$DOB_estimate),
-                                                        unit = "Years")
+AnimalID_DOB_FD <- AnimalID_DOB_FD %>%
+    mutate(Age_yr_estimate = ifelse(is.na(DOB_estimate),
+                                    NA,
+                                    add_age(birthdate = ymd(DOB_estimate), unit = "Years")))
 head(AnimalID_DOB_FD)
 
 
@@ -175,7 +174,7 @@ head(AnimalID_DOB_FD)
 #        males- migrated OR 5yr old
 
 AnimalID_Age_Sex <- AnimalID_DOB_FD %>%
-  left_join(., tbl_Sex, by= c("AnimalID","AnimalCode")) %>%
+  left_join(., tbl_Sex, by= c("AnimalName","AnimalCode")) %>%
   mutate(Age_class = case_when(
     Age_yr_estimate < 1 ~ "baby",
     Age_yr_estimate < 4 ~ "juvenile",
@@ -186,9 +185,7 @@ AnimalID_Age_Sex <- AnimalID_DOB_FD %>%
 
 
 # write csv tbl -----------------------------------------------------------
+tbl_Age <- AnimalID_Age_Sex %>% select(AnimalName,AnimalCode, DOB, FirstDate, DOB_estimate, Age_yr, Age_class)
 
-AnimalID_Age_Sex %>%
-  select(AnimalID,AnimalCode, DOB, FirstDate, DOB_estimate, Age_yr, Age_class)%>%
-  write.csv(.,"tbl_Age.csv",row.names = FALSE)
+#  write.csv(tbl_Age,"tbl_Age.csv",row.names = FALSE)
 
-#

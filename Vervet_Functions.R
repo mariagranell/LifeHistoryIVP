@@ -1,4 +1,5 @@
 
+library("stringr")
 
 # Standardize name  -------------------------------------------------------
 # To be applied before joins 
@@ -38,7 +39,7 @@ std_AnimalID <- function(df, animalID = AnimalID) {
 
 # Age ---------------------------------------------------------------------
 
-#add age if I have already BirthDate available
+# add age if I have already BirthDate available
 # modifications by maria, added Date as Sys.Date and added a pull(unit) so we don´t get the
 # whole dataframe but just the desired column
 add_age <- function(data, birthdate = DOB , date = Date, unit = NULL ){
@@ -59,3 +60,16 @@ add_age <- function(data, birthdate = DOB , date = Date, unit = NULL ){
       pull(Age_Years)
   }
 }
+
+add_age <- function(birthdate, date = Sys.Date(), unit) {
+  if (unit == "Months") {
+    round(as.numeric(difftime(date, birthdate, units = "days")) / 30.4375, digits = 2)
+  } else if (unit == "Days") {
+    round(as.numeric(difftime(date, birthdate, units = "days")), digits = 2)
+  } else if (unit == "Years") {
+    round(as.numeric(difftime(date, birthdate, units = "days")) / 365.25, digits = 2)
+  } else {
+    stop("Invalid unit specified.")
+  }
+}
+

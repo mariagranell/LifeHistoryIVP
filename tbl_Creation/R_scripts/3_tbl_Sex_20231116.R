@@ -11,23 +11,22 @@ library(tidyverse)
 #However, the question will arise later on 
 
 # Paths ------------------------------------------------------------------
-setwd("/Users/mariagranell/Repositories/phllipe_vulloid/tbl_Creation/tbl_maria")
+setwd("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL")
 
 # tbl_AnimalID ------------------------------------------------------------
 tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
 
 # tbl_LifeHistory ---------------------------------------------------------
-tbl_LifeHistory <- read.csv("tbl_LifeHistory.csv")
+tbl_LifeHistory <- read.csv("tbl_LifeHistory_15112022.csv")
 
 
-
+table(tbl_LifeHistory$Sex)
 # Join AnimalID and Sex ---------------------------------------------------
 
-AnimalIDSex <- tbl_AnimalID %>% 
-  left_join(., tbl_LifeHistory %>% 
-              select(AnimalID_Std,
-                     Sex), by=c("AnimalID" = "AnimalID_Std")) %>% 
-  
+AnimalIDSex <- tbl_AnimalID %>%
+  left_join(., tbl_LifeHistory %>%
+    select(LH_AnimalCode, LH_AnimalName, Sex), by= c("AnimalCode"="LH_AnimalCode", "AnimalName" = "LH_AnimalName")) %>%
+
   #MAKE SEX AS CAPTITAL 
   mutate(Sex = toupper(Sex)) %>%
 
@@ -38,7 +37,7 @@ AnimalIDSex <- tbl_AnimalID %>%
   mutate(CodeLength = str_length(AnimalCode)) %>%
   
   #ADD TO CHECK VARIABLE 
-  mutate(ToCheck = case_when( grepl("Baby",AnimalID) ~ "Baby" ,
+  mutate(ToCheck = case_when( grepl("Baby",AnimalName) ~ "Baby" ,
                               grepl("BB",AnimalCode) ~ "Baby" ,
                               Sex == "F" & CodeLength == 4 ~ "No",
                               Sex == "M" & CodeLength == 3 ~ "No",
@@ -49,10 +48,10 @@ AnimalIDSex <- tbl_AnimalID %>%
                               )) %>%
   
   arrange(desc(ToCheck),
-          AnimalID)
+          AnimalName)
   
 
-View(AnimalIDSex %>% filter(ToCheck == "Yes" | is.na(ToCheck) ))
+View(AnimalIDSex %>% filter(ToCheck == "Yes" | is.na(ToCheck) )) # It is correct
 #Should babies have a sex? Shall we keep what is available? Or decide that they have no name? Or add name whenever available
 
 
@@ -65,17 +64,17 @@ AnimalIDSex %>%
 
 # Add manually individuals ------------------------------------------------
 
-AnimalIDSex[AnimalIDSex$AnimalCode %in% c("Apo","Pap","Tas"), 3] <- "M"
-AnimalIDSex[AnimalIDSex$AnimalCode %in% c("Ekse","Naga"), 3] <- "F"
+#AnimalIDSex[AnimalIDSex$AnimalCode %in% c("Apo","Pap","Tas"), 3] <- "M"
+#AnimalIDSex[AnimalIDSex$AnimalCode %in% c("Ekse","Naga"), 3] <- "F"
 
 # Generate tbl_Sex --------------------------------------------------------
 
 tbl_Sex <- AnimalIDSex %>%
-  select(AnimalID, AnimalCode, Sex) %>%
+  select(LH_RowNumber, AnimalCode, AnimalName, Sex) %>%
   filter(!(is.na(Sex)))
 
 
 # write csv table ---------------------------------------------------------
 
 
-write.csv(tbl_Sex,"tbl_Sex.csv",row.names = FALSE)
+#write.csv(tbl_Sex,"tbl_Sex.csv",row.names = FALSE)

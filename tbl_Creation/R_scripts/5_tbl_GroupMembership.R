@@ -9,21 +9,21 @@
 library(tidyverse)
 library(lubridate)
 
-# create a table with: AnimalID, AnimalCode, OtherID, Sex, DOB
+# create a table with: AnimalName, AnimalCode, OtherID, Sex, DOB
 # Path ------------------------------------------------------------------
-setwd("/Users/mariagranell/Repositories/phllipe_vulloid/tbl_Creation/tbl_maria")
+setwd("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL")
 
-# tbl_AnimalID
+# tbl_AnimalName
 tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
 # tbl_Sex
 tbl_Sex <- read.csv("tbl_Sex.csv")
 # tbl_LifeHistory
-tbl_LifeHistory <- read.csv("tbl_LifeHistory.csv")
+tbl_LifeHistory <- read.csv("tbl_LifeHistory_15112022.csv")
 
 # Create a joined data to work with
 d <- tbl_Sex %>%
   left_join(.,tbl_LifeHistory %>%
-            select(AnimalID_Std, CurrentGroup,
+            select(LH_AnimalCode, LH_AnimalName, CurrentGroup,
                    DOB, FirstDate, BirthGroup,
                    EmigrationNatalDate,
                    ImmigrationDate1 ,ImmigrationGroup1, LastDate1,
@@ -31,7 +31,7 @@ d <- tbl_Sex %>%
                    ImmigrationDate3, ImmigrationGroup3, LastDate3,
                    ImmigrationDate4, ImmigrationGroup4, LastDate4
                   ),
-            by = c("AnimalID" = "AnimalID_Std")) %>%
+             by=c("AnimalCode"="LH_AnimalCode", "AnimalName" = "LH_AnimalName")) %>%
   mutate(Sex = as.factor(Sex)) #%>%
   #mutate(ImmigrationDate1 = as.factor(ImmigrationDate1))
 
@@ -43,10 +43,10 @@ d <- tbl_Sex %>%
 # 1. Data cleaning ------------------
 ## Check to confirm First Date is a consensus between DOB and FirstDate
 # I remove Babyrenn2020 because is very unreliable
-d <- d[d$AnimalID != "Babyrenn2020",]
+d <- d[d$AnimalName != "Babyrenn2020",]
 
-# From comments. LastDate2 for Kommunis is worng. 2021 instead 2022
-d[d$AnimalID == "Kommunis", "LastDate2"] <- "2021-12-14"
+# From comments. LastDate2 for Kommunis is wrong. 2021 instead 2022. Corrected now!
+#d[d$AnimalName == "Kommunis", "LastDate2"] <- "2021-12-14"
 
 
 ## some individuals don't have An ImmigrationDate1 but have an ImmigrationGroup1. Here I will just add invidiuals
@@ -54,8 +54,8 @@ d[d$AnimalID == "Kommunis", "LastDate2"] <- "2021-12-14"
 # their natal groups. I will also filter for only the main groups
 # a<-d %>%filter(is.na(ImmigrationDate1) & !is.na(LastDate1) & !is.na(EmigrationNatalDate)) %>%filter(grepl('\\bCR\\b|\\bLT\\b|\\bAK\\b|\\bBD\\b|\\bKB\\b|\\bNH\\b', ImmigrationGroup1)) %>% mutate(ImmigrationDate1 = as.character(as.Date(EmigrationNatalDate) + 1))
 # I'll make the changes manually since is only two cases
-d[d$AnimalID == "Asseblief", "ImmigrationDate1"] <- as.character(as.Date(d[d$AnimalID == "Asseblief", "EmigrationNatalDate"]) + 1)
-d[d$AnimalID == "Gaaf", "ImmigrationDate1"] <- as.character(as.Date(d[d$AnimalID == "Gaaf", "EmigrationNatalDate"]) + 1)
+d[d$AnimalName == "Asseblief", "ImmigrationDate1"] <- as.character(as.Date(d[d$AnimalName == "Asseblief", "EmigrationNatalDate"]) + 1)
+d[d$AnimalName == "Gaaf", "ImmigrationDate1"] <- as.character(as.Date(d[d$AnimalName == "Gaaf", "EmigrationNatalDate"]) + 1)
 
 # 2. From birth to last seen, if last seen is empty i´ll asume today date ----------------------
 todaydate <- as.character(Sys.Date())
@@ -75,7 +75,7 @@ ceroGP <- d%>%
 
   # if it dosen´t have a last seen date must be they are still in the group
   mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
-  select(AnimalID, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
+  select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
 
 # 2.1 group slpits ----------------------------------------------------------------------
 # some are still not resolved becuase there is no immigration date. You can check this ->
@@ -95,7 +95,7 @@ gpsplits <- d %>%
   ) %>%
    # if it dosen´t have a last immigration date must be they are still in the group
   mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
-  select(AnimalID, Group_mb,StartDate_mb, EndDate_mb, Tenure_type) %>%
+  select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type) %>%
   mutate(Group_mb = str_replace_all(Group_mb, pattern = c("Ifamily"), replacement = "IFamily"))
 
 
@@ -109,7 +109,7 @@ emigrated <- d%>%
     Tenure_type = "BirthGroup"
 
   ) %>%
-  select(AnimalID, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
+  select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
 
 # 4. first inmigration ----------------------
 
@@ -123,7 +123,7 @@ firstimmi <- d%>%
   ) %>%
    # if it dosen´t have a last immigration date must be they are still in the group
   mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
-  select(AnimalID, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
+  select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
 
 
 
@@ -138,7 +138,7 @@ secondimmi <- d%>%
   ) %>%
    # if it dosen´t have a last immigration date must be they are still in the group
   mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
-  select(AnimalID, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
+  select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
 
 # 6. third immigration --------------------------
 thirdimmi <- d%>%
@@ -151,7 +151,7 @@ thirdimmi <- d%>%
   ) %>%
    # if it dosen´t have a last immigration date must be they are still in the group
   mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
-  select(AnimalID, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
+  select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
 
 # 7. fourth immigration ---------------------
 fourthimmi <- d%>%
@@ -164,7 +164,7 @@ fourthimmi <- d%>%
   ) %>%
    # if it dosen´t have a last immigration date must be they are still in the group
   mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
-  select(AnimalID, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
+  select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
 
 # 8. put all tables together ------------------
 
@@ -181,7 +181,7 @@ tbl_GroupMembership <- fourthimmi %>%
 # Manual data cleaning --------------------------
 View(tbl_GroupMembership%>%
   left_join(.,tbl_LifeHistory %>%
-  select(AnimalID_Std, Fate_probable), by = c("AnimalID" = "AnimalID_Std")) %>%
+  select(LH_AnimalName, Fate_probable), by = c("AnimalName" = "LH_AnimalName")) %>%
   filter(!is.na(Fate_probable)), "Unreliable data")
 
 # change Apa LT end date to 2022-07-26 becuase data in BGE
@@ -191,4 +191,4 @@ tbl_GroupMembership[73,4] <- "2022-07-26"
 tbl_GroupMembership[35,4] <- "2022-08-15"
 
 # write the csv -----------------------------
-write.csv(tbl_GroupMembership,"tbl_GroupMembership.csv",row.names = FALSE)
+#write.csv(tbl_GroupMembership,"tbl_GroupMembership.csv",row.names = FALSE)

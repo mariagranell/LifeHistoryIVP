@@ -2,24 +2,20 @@
 
 # General -----------------------------------------------------------------
 #Once the table is generated, it will have to be corrected here on its own 
-setwd("/Users/mariagranell/Repositories/phllipe_vulloid/tbl_Creation/tbl_maria/")
-
-#To generate the first table, it does not matter whether AnimalID_Std is taken from tbl_AnimalID or from tbl_LifeHistory as they were at that time the same 
-#However, the question will arise later on 
-
+setwd("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL")
 
 #If animal where first seen after 01-Jan 2014 in group AK, BD, NH, KB, LT we will assume that first date == Birth date 
 
 # Paths ------------------------------------------------------------------
 
-# input file is with animalID, animalCode
+# input file is with animalName, animalCode
 
 # tbl_AnimalID ------------------------------------------------------------
 tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
 head(tbl_AnimalID)
 
 # tbl_LifeHistory ---------------------------------------------------------
-tbl_LifeHistory <- read.csv("tbl_LifeHistory.csv")
+tbl_LifeHistory <- read.csv("tbl_LifeHistory_15112022.csv")
 str(tbl_LifeHistory)
 
 # Join AnimalID and LH Info -----------------------------------------------
@@ -27,12 +23,13 @@ names(tbl_LifeHistory)
 
 AnimalIDDOB <- tbl_AnimalID %>% 
   left_join(., tbl_LifeHistory %>% 
-              select(AnimalID_Std,
+              select(LH_AnimalCode,
+                     LH_AnimalName,
                      DOB,
                      FirstDate,
                      LH_MotherID,
                      BirthGroup,
-                     EmigrationNatalDate), by=c("AnimalID" = "AnimalID_Std")) %>%
+                     EmigrationNatalDate), by=c("AnimalCode"="LH_AnimalCode", "AnimalName" = "LH_AnimalName")) %>%
   #DATE FORMAT 
   mutate(DOB = ymd(DOB),
          FirstDate = ymd(FirstDate)) %>%
@@ -47,15 +44,15 @@ AnimalIDDOB <- tbl_AnimalID %>%
 
 # Missing DOB -------------------------------------------------------------
 
-#Animals that have a mother should have a date of birth
+#Animals that have a mother but no date of birth, that is normal, we are not there every day thus this happens
 #Mother no DOB
 Mother_NoDOB <- AnimalIDDOB %>% 
   filter(!is.na(LH_MotherID),
          is.na(DOB))
 nrow(Mother_NoDOB)
-#155 entries
+#198 entries
 
-#view(AnimalIDDOB %>% filter(is.na(FirstDate)))
+view(AnimalIDDOB %>% filter(is.na(FirstDate)))
 
 
 #Animals that have a mother should have a firstdate
@@ -66,6 +63,7 @@ Mother_NoFirstDate <- AnimalIDDOB %>%
 nrow(Mother_NoFirstDate)
 #4 animals that supposedly have a mother have no first date and no DOB
 #These should be checked
+#Mother_NoFirstDate
 
 
 #Animals that have a group of birth should have a DOB 
@@ -75,7 +73,7 @@ BirthGroup_NoDOB <- AnimalIDDOB %>%
          is.na(DOB),
          FirstDate > "2014-01-01")
 nrow(BirthGroup_NoDOB)
-#166 entries
+#224 entries
   
 
 
@@ -95,7 +93,7 @@ RelevantGroup_Births <- AnimalIDDOB %>%
                            "NH",
                            "LT") & DOB_Year > 2013)
 nrow(RelevantGroup_Births)
-#263 entries
+#292 entries
 
 
 #Birth in relevant groups and periods that lack DOB
@@ -107,27 +105,28 @@ nrow(RelevantGroup_Births_MissingDOB)
 
 
 # Unrelaiable birth date --------------------------------------------------
-#Babies not borm from Occtober to January
+#Babies not born from October to January
 
 ImpossibleDOB <- AnimalIDDOB %>% 
   filter(DOB_Month > 1,
          DOB_Month < 10) %>% 
   arrange(DOB_Month,
           DOB)
+# for the babies born in 2023, there was a crazy amaount that were premature, thus those dates are correct
 
 #Write csv for Miguel 
 #write.csv(ImpossibleDOB,"ImpossibleDOB_ForMiguelTocheck_20221109.csv",row.names = FALSE)
 
 #Bring back Miguel correction 
-ImpossibleDOB_MiguelCorrected_20221109 <- read.csv("/Users/mariagranell/Repositories/phllipe_vulloid/tbl_Creation/CSV/ImpossibleDOB_MiguelCorrected_20221109.csv")
+ImpossibleDOB_MiguelCorrected_20221109 <- read.csv("/tbl_Creation/CSV/Archive_CSV/ImpossibleDOB_MiguelCorrected_20221109.csv") %>%
+  rename(AnimalName = AnimalID)
 View(ImpossibleDOB_MiguelCorrected_20221109)
 
 
 #Unreliable DOB to remove 
 UnreliableDOB_ToRemove <- ImpossibleDOB_MiguelCorrected_20221109 %>% 
   filter(RemoveDOB == "yes") %>% 
-  select(AnimalID,
-         DOB) %>% 
+  select(AnimalName, DOB) %>%
   mutate(DOB = dmy(DOB))
 View(UnreliableDOB_ToRemove )
 
@@ -165,8 +164,8 @@ nrow(Mother_NoDOB)
 Mother_NoDOB_ToExclude <- Mother_NoDOB %>% 
   filter(FirstDate_Month > 1, 
          FirstDate_Month < 9) %>% 
-  select(AnimalID)
-#only 6 entries 
+  select(AnimalName)
+#only 5 entries
 #Miguel should have a look at them 
 
 
@@ -174,7 +173,7 @@ Mother_NoDOB_ToExclude <- Mother_NoDOB %>%
 Mother_NoDOB_AssignDOB <- Mother_NoDOB %>% 
   anti_join(.,Mother_NoDOB_ToExclude)
 nrow(Mother_NoDOB_AssignDOB)
-#58 entries
+#89 entries
 
 
 
@@ -186,7 +185,7 @@ nrow(Mother_NoDOB_AssignDOB)
 Mother_NoFirstDate_ToRemove <- AnimalIDDOB %>%
   filter(!is.na(LH_MotherID),
          is.na(FirstDate)) %>% 
-  select(AnimalID)
+  select(AnimalName)
 nrow(Mother_NoFirstDate)
 #4 animals that supposedly have a mother have no FirstDate
 #They can be removed because they also have no DOB
@@ -199,7 +198,7 @@ Mother_NoFirstDateNoDOB_ToRemove <- AnimalIDDOB %>%
   filter(!is.na(LH_MotherID),
          is.na(FirstDate),
          is.na(DOB)) %>% 
-  select(AnimalID)
+  select(AnimalName)
 View(Mother_NoFirstDateNoDOB_ToRemove)
 #4 animals that supposedly have a mother have no FirstDate and no DOB, same as above 
 
@@ -217,7 +216,7 @@ BirthGroup_NoDOBNoFirstDate <- AnimalIDDOB %>%
 
 #To Remove
 BirthGroup_NoDOBNoFirstDate_ToRemove <- BirthGroup_NoDOBNoFirstDate %>% 
-  select(AnimalID)
+  select(AnimalName)
 View(BirthGroup_NoDOBNoFirstDate_ToRemove)
          
 
@@ -238,13 +237,13 @@ BirthGroup_NoDOB <- AnimalIDDOB %>%
   
   #EXCLUDE GROUPS THAT HAD POOR COVERAGE
   #not often visited, thus no possibility to assess DOB
-  filter(!(BirthGroup %in% c ("CR", "IF", "RL"))) %>% 
+  filter(!(BirthGroup %in% c ("CR", "RL"))) %>%
   
   
   arrange(BirthGroup,
           FirstDate)
   
-  #FILTER GROUP THAT WERE FOLLOWED REGULARLY
+
 View(BirthGroup_NoDOB)
 #307 entries without date restriction
 #170 entries if date restricted to after 1st Jan 2014
@@ -262,7 +261,7 @@ write.csv(BirthGroup_NoDOB %>%
 
 #Bring back Miguel check
 #He has indicated as no when the first date should not be assigned as DOB 
-BirthGroup_NoDOB_MiguelChecked <- read.csv("/Users/mariagranell/Repositories/phllipe_vulloid/tbl_Creation/CSV/BirthGroup_NoDOB_MiguelCorrected_20221110.csv")
+BirthGroup_NoDOB_MiguelChecked <- read.csv("/tbl_Creation/CSV/Archive_CSV/BirthGroup_NoDOB_MiguelCorrected_20221110.csv")
 
 
 #Prepare file to be added into tbl_DOB using Miguel comments and correction
@@ -318,14 +317,21 @@ tbl_DOB_InConstruct <- AnimalIDDOB %>%
 # tbl_DOB -----------------------------------------------------------------
 
 tbl_DOB <- tbl_DOB_InConstruct %>% 
-  select(AnimalID,
+  select(AnimalCode,
          DOB3) %>% 
   filter(!is.na(DOB3)) %>% 
   rename(DOB = DOB3)
 View(tbl_DOB )
 nrow(tbl_DOB)
 
+# For the previous code, most of the corrections are done assigning First dates to DOB,
+# I would prefer not to do those changes for DOB.
+# Thus I will just keep the raw data
+nrow(AnimalIDDOB %>% filter(is.na(AnimalCode)&!is.na(DOB)))
+tbl_DOB <- AnimalIDDOB %>%
+  select(AnimalCode, AnimalName, DOB) %>%
+  filter(!is.na(DOB))
 
 # write csv tbl -----------------------------------------------------------
 
-write.csv(tbl_DOB,"tbl_DOB.csv",row.names = FALSE)
+#write.csv(tbl_DOB,"tbl_DOB.csv",row.names = FALSE)
