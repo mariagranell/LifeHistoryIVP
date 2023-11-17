@@ -3,6 +3,9 @@
 
 # Ignore Archive folders
 
+# remove all the files that are .csv
+*.csv
+
 Archive*/
 *.idea*
 tbl_Creation/.idea/
