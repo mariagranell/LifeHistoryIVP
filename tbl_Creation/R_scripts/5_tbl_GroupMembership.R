@@ -184,11 +184,11 @@ View(tbl_GroupMembership%>%
   select(LH_AnimalName, Fate_probable), by = c("AnimalName" = "LH_AnimalName")) %>%
   filter(!is.na(Fate_probable)), "Unreliable data")
 
-# change Apa LT end date to 2022-07-26 becuase data in BGE
-tbl_GroupMembership[73,4] <- "2022-07-26"
+# change Apa LT end date to 2022-07-26 becuase data in BGE. Corrected!
+#tbl_GroupMembership[] <- "2022-07-26"
 
-# lif date of brain extraction: 20.08.2022, 5 days before as approx of End_Date in NH
-tbl_GroupMembership[35,4] <- "2022-08-15"
+# lif date of brain extraction: 20.08.2022, 5 days before as approx of End_Date in NH. Corrected!
+#tbl_GroupMembership[] <- "2022-08-17"
 
 # write the csv -----------------------------
 #write.csv(tbl_GroupMembership,"tbl_GroupMembership.csv",row.names = FALSE)

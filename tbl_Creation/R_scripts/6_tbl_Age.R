@@ -60,34 +60,45 @@ d$DOB_estimate <- ifelse(!is.na(d$tbl_dob),d$tbl_dob, d$lh_dob)
 # number of individuals with no DOB and no Sex --------------
 # because of the data I can asume Jalitah and Corfu First dates can be DOB_estimated
 # the rest are too empty
-d[d$AnimalID == "Jalitah", "DOB_estimate"] <- d[d$AnimalID == "Jalitah", "FirstDate"]
-d[d$AnimalID == "Corfu", "DOB_estimate"] <- d[d$AnimalID == "Corfu", "FirstDate"]
+d[d$AnimalName == "Jalitah", "DOB_estimate"] <- d[d$AnimalName == "Jalitah", "FirstDate"]
+d[d$AnimalName == "Corfu", "DOB_estimate"] <- d[d$AnimalName == "Corfu", "FirstDate"]
 
 # from the comments this is the estimated DOB. when a year is given I will always choose xxxx-11-01 -------------------------
-d[d$AnimalID %in% c("Nkosikasi", "Queen"), "DOB_estimate"] <- "2005-11-01"
-d[d$AnimalID %in% c("Rissiepit", "Ulaka", "Elton"), "DOB_estimate"] <- "2006-11-01"
-d[d$AnimalID %in% c("Tipies", "Beminde", "Byron", "Gelosi", "Gino", "Hamlet", "Mfolozi", "Okucane"), "DOB_estimate"] <- "2007-11-01"
-d[d$AnimalID %in% c("Nala", "Heleza","Feekie","Drew","Charles", "Govu", "Izulu", "Mpukuvane", "Spotted", "Bougainville"), "DOB_estimate"] <- "2008-11-01"
-d[d$AnimalID %in% c("Engel", "Gesels", "Ghangaan", "Hleka", "Inhlanhla", "Charles", "Govu", "Izulu", "Mpukuvane", "Spotted",
+d[d$AnimalName %in% c("Nkosikasi", "Queen"), "DOB_estimate"] <- "2005-11-01"
+d[d$AnimalName %in% c("Rissiepit", "Ulaka", "Elton"), "DOB_estimate"] <- "2006-11-01"
+d[d$AnimalName %in% c("Tipies", "Beminde", "Byron", "Gelosi", "Gino", "Hamlet", "Mfolozi", "Okucane"), "DOB_estimate"] <- "2007-11-01"
+d[d$AnimalName %in% c("Nala", "Heleza","Feekie","Drew","Charles", "Govu", "Izulu", "Mpukuvane", "Spotted", "Bougainville"), "DOB_estimate"] <- "2008-11-01"
+d[d$AnimalName %in% c("Engel", "Gesels", "Ghangaan", "Hleka", "Inhlanhla", "Charles", "Govu", "Izulu", "Mpukuvane", "Spotted",
                     "Babelas", "Bingo", "Donsig", "Jackie", "Merlin", "Mnandi", "Mousse", "Pikito", "Styx","Pompon"), "DOB_estimate"] <- "2009-11-01"
-d[d$AnimalID %in% c("Laurel", "Curaco", "Darwin", "Dwergie", "Tweed", "Wolfie"), "DOB_estimate"] <- "2010-11-01" # anotherone
-d[d$AnimalID %in% c("Amur", "Camilla", "Lionel", "Nessie", "Raspberry", "Watnou",
+d[d$AnimalName %in% c("Laurel", "Curaco", "Darwin", "Dwergie", "Tweed", "Wolfie"), "DOB_estimate"] <- "2010-11-01" # anotherone
+d[d$AnimalName %in% c("Amur", "Camilla", "Lionel", "Nessie", "Raspberry", "Watnou",
                     "Cone", "Flatty", "Tugela", "Vincent", "Zambezi", "Curious"), "DOB_estimate"] <- "2011-11-01"
-d[d$AnimalID %in% c("Cuba", "Huge", "Java", "Mackanzie", "Moonie", "Nihau", "Tortuga", "Whiskers", "Handi", "Helmet", "Inner", "Pale"), "DOB_estimate"] <- "2012-11-01"
-d[d$AnimalID %in% "Pizza", "DOB_estimate"] <- "2013-11-01"
-d[d$AnimalID %in% c("Manhattan","Reindeer", "Alcatraz", "Bermuda", "Dokos",
+d[d$AnimalName %in% c("Cuba", "Huge", "Java", "Mackanzie", "Moonie", "Nihau", "Tortuga", "Whiskers", "Handi", "Helmet", "Inner", "Pale"), "DOB_estimate"] <- "2012-11-01"
+d[d$AnimalName %in% "Pizza", "DOB_estimate"] <- "2013-11-01"
+d[d$AnimalName %in% c("Manhattan","Reindeer", "Alcatraz", "Bermuda", "Dokos",
                     "Hamlet", "Ireland", "Seychelles", "Symetric", "Tasmania", "Umbrella"), "DOB_estimate"] <- "2014-11-01"
-d[d$AnimalID %in% "Cameron", "DOB_estimate"] <- "2016-11-01"
+d[d$AnimalName %in% "Cameron", "DOB_estimate"] <- "2016-11-01"
+# IF adults individuals. when first seen already adults, thus I will remove 4 yr from their DOB estimate (2022-06-28). I will put now 2018-06-28
+#Zeus, Hera, Meduda, Freyja, Athena, Circe, Pandora
+d[d$AnimalName %in% c("Zeus", "Hera", "Medusa", "Freyja", "Athena", "Circe", "Pandora"), "DOB_estimate"] <- "2018-06-28"
 
 # Females with no DOB --------------
 
-# the row BOD_estimated will only be used for age categories.
-# thus, as long as the first seen column considers them as an adut we can add it, that is 2023 -4 years, i.e. 2019.
-d[,"DOB_estimate"] <- ifelse(is.na(d$DOB_estimate) & d$tbl_sex == "F" & d$FirstDate < "2019-01-01", d$FirstDate, d$DOB_estimate)
+# the row DOB_estimated will only be used for age categories.
+# thus, as long as the first seen column considers them as an adut we can add it, that is for example 2023 -4 years, i.e. 2019.
+adult_min_age <- year(Sys.Date()) -4
+d[,"DOB_estimate"] <- ifelse(is.na(d$DOB_estimate) & d$tbl_sex == "F" & d$FirstDate < paste0(adult_min_age, "-01-01"), d$FirstDate, d$DOB_estimate)
 
-# if the data was collected after 2020 in anygroup except BirthGroup IF DOB can be approximated as FirstDate
+# if the data was collected after 2020 in anygroup, DOB can be approximated as FirstDate
 d[,"DOB_estimate"] <-
-  ifelse(is.na(d$DOB_estimate) & d$tbl_sex == "F" & d$FirstDate > "2020-01-01" & d$BirthGroup!= "IF", d$FirstDate, d$DOB_estimate)
+  ifelse(is.na(d$DOB_estimate) & d$tbl_sex == "F" & d$FirstDate > "2020-01-01", d$FirstDate, d$DOB_estimate)
+
+
+# Babies with no DOB -------------------------
+# Since we are doing the separation by Sex we miss estimating the age for those individuals (mostly BB) that
+# don´t have their sex determined. But is the same logic as before. we will only have individuals with BB in their names
+d <-d %>% mutate(DOB_estimate = ifelse(is.na(DOB_estimate) & is.na(tbl_sex) & str_detect(AnimalName, "BB|Baby"), FirstDate, DOB_estimate))
+
 
 # Males with no DOB -------------------------
 
@@ -119,6 +130,9 @@ d <- d%>%
 
 sum(is.na(d$DOB_estimate))
 View(d%>% filter(is.na(DOB_estimate) & tbl_sex == "M" & !is.na(BirthGroup) & !is.na(EmigrationNatalDate)), "diff")
+
+# Baby males ----------
+d <-d %>% mutate(DOB_estimate = ifelse(is.na(DOB_estimate) & tbl_sex == "M" & str_detect(AnimalName, "BB|Baby"), FirstDate, DOB_estimate))
 
 # Males with no BirthGroup ----------------
 
