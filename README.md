@@ -1,8 +1,8 @@
 # Linking Life History file to the IVP
 
-Original author: Phillipe Vulloid
-Modification and writer: Maria Granell Ruiz 14/02/2023
-Extra contributors: Josefien Tankink and Miguel Gareta
+Original author: Phillipe Vulloid <br/>
+Modification and writer: Maria Granell Ruiz 14/02/2023 <br/>
+Extra contributors: Josefien Tankink and Miguel Gareta <br/>
 
 ### Goal
 The goal of this workflow is to create a clean and legible Life history file to use as a base for further analysis.
@@ -13,7 +13,7 @@ Ideally this workflow will be used every time there is a need to use a new versi
 The idea is to start with the life history file sent to you by the IVP. 
 With that, you start going through the scripts from 1 to 8 (you can skip 7; it still needs to be completed). 
 Each script will generate a clean table on the topic. Step 8 will merge all the relevant information in the file ```factchecked_LH```. 
-You can use the "topic" tables independently or use ```factchecked_LH``` in your day-to-day analysis. Just be aware that the generated tables use the date you created them; for example, monkeys that were "Still present" in a group will now have the date when you ran the script. 
+You can use the "topic" tables independently or use ```factchecked_LH``` in your day-to-day analysis. Just be aware that the generated tables use the date you created them; for example, monkeys that were "Still present" in a group will now have the date when you ran the script.
 
 ## How to create the tables
 
@@ -23,6 +23,9 @@ the rest of the tables. Here you also have an Archive folder, that contains most
  - ```R_scripts```: Here you can find the R codes that will extract the relevant information from the IVP file and create
 individual tables, for instance, sex, age, tenure, etc.
  - ```TBL```: Here is where your tables will be generated, that you can later use to link with your studies and stats. Here you also have an Archive folder, that contains tables that are not updated but that you´d like to save
+
+*Data access*: the Source files and TBL generated files are not included in this public shared platform since they are property of the IVP.
+Email me at mgranellruiz@gmail.com if you would like to have them.
 
 ## Recommendations
 Always analyze data using the Code names as identifiers, since those are the ones use later for the behaviour.
