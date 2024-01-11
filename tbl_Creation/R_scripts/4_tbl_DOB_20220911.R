@@ -16,7 +16,7 @@ tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
 head(tbl_AnimalID)
 
 # tbl_LifeHistory ---------------------------------------------------------
-tbl_LifeHistory <- read.csv("tbl_LifeHistory_15112022.csv")
+tbl_LifeHistory <- read.csv("tbl_LifeHistory_171123.csv")
 str(tbl_LifeHistory)
 
 # Join AnimalID and LH Info -----------------------------------------------
@@ -51,7 +51,7 @@ Mother_NoDOB <- AnimalIDDOB %>%
   filter(!is.na(LH_MotherID),
          is.na(DOB))
 nrow(Mother_NoDOB)
-#198 entries
+#42 now, before 198 entries. Better!
 
 view(AnimalIDDOB %>% filter(is.na(FirstDate)))
 
@@ -62,7 +62,7 @@ Mother_NoFirstDate <- AnimalIDDOB %>%
   filter(!is.na(LH_MotherID),
          is.na(FirstDate))
 nrow(Mother_NoFirstDate)
-#4 animals that supposedly have a mother have no first date and no DOB
+#4 animals that supposedly have a mother have no first date and no DOB, same
 #These should be checked
 #Mother_NoFirstDate
 
@@ -74,7 +74,7 @@ BirthGroup_NoDOB <- AnimalIDDOB %>%
          is.na(DOB),
          FirstDate > "2014-01-01")
 nrow(BirthGroup_NoDOB)
-#224 entries
+#77 entries, more before! getting better
   
 
 
@@ -94,7 +94,7 @@ RelevantGroup_Births <- AnimalIDDOB %>%
                            "NH",
                            "LT") & DOB_Year > 2013)
 nrow(RelevantGroup_Births)
-#292 entries
+#291 entries, before 292
 
 
 #Birth in relevant groups and periods that lack DOB
@@ -119,13 +119,13 @@ ImpossibleDOB <- AnimalIDDOB %>%
 #write.csv(ImpossibleDOB,"ImpossibleDOB_ForMiguelTocheck_20221109.csv",row.names = FALSE)
 
 #Bring back Miguel correction 
-ImpossibleDOB_MiguelCorrected_20221109 <- read.csv("/tbl_Creation/CSV/Archive_CSV/ImpossibleDOB_MiguelCorrected_20221109.csv") %>%
+ImpossibleDOB_MiguelCorrected_20221109 <- read.csv("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/Source_files/Archive_CSV/ImpossibleDOB_MiguelCorrected_20221109.csv") %>%
   rename(AnimalName = AnimalID)
 View(ImpossibleDOB_MiguelCorrected_20221109)
 
 
 #Unreliable DOB to remove 
-UnreliableDOB_ToRemove <- ImpossibleDOB_MiguelCorrected_20221109 %>% 
+UnreliableDOB_ToRemove <- ImpossibleDOB_MiguelCorrected_20221109 %>%
   filter(RemoveDOB == "yes") %>% 
   select(AnimalName, DOB) %>%
   mutate(DOB = dmy(DOB))
@@ -155,7 +155,7 @@ Mother_NoDOB <- AnimalIDDOB %>%
                            "LT")) %>% 
   arrange(BirthGroup,
           FirstDate)
-nrow(Mother_NoDOB)
+nrow(Mother_NoDOB) # 24 now
 #146 entries if no restriction on first date
 #100 entries if restiction on first date 
 #64 entries if considering only group of interets 
@@ -262,11 +262,11 @@ write.csv(BirthGroup_NoDOB %>%
 
 #Bring back Miguel check
 #He has indicated as no when the first date should not be assigned as DOB 
-BirthGroup_NoDOB_MiguelChecked <- read.csv("/tbl_Creation/CSV/Archive_CSV/BirthGroup_NoDOB_MiguelCorrected_20221110.csv")
+BirthGroup_NoDOB_MiguelChecked <- read.csv("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/Source_files/Archive_CSV/BirthGroup_NoDOB_MiguelCorrected_20221110.csv")
 
 
 #Prepare file to be added into tbl_DOB using Miguel comments and correction
-BirthGroup_NoDOB_MiguelChecked_DOBToAdd <- BirthGroup_NoDOB_MiguelChecked %>% 
+BirthGroup_NoDOB_MiguelChecked_DOBToAdd <- BirthGroup_NoDOB_MiguelChecked %>%
   
   #EXCLUDE DOB ASSIGNEMENT FOR ANIMALS SELECTED BY MIGUEL
   filter(DOB_Assign != "no") %>% 
@@ -278,7 +278,9 @@ BirthGroup_NoDOB_MiguelChecked_DOBToAdd <- BirthGroup_NoDOB_MiguelChecked %>%
   select(AnimalID,
          DOB_ToAdd) %>% 
   
-  mutate(DOB_ToAdd = dmy(DOB_ToAdd))
+  mutate(DOB_ToAdd = dmy(DOB_ToAdd)) %>%
+
+  rename(AnimalName = AnimalID)
 
 
 View(BirthGroup_NoDOB_MiguelChecked_DOBToAdd)
@@ -292,13 +294,13 @@ tbl_DOB_InConstruct <- AnimalIDDOB %>%
   
   #REMOVE UNRELIABLE DOB (CHECKED BY MIGUEL)
   #6 rows removed
-  anti_join(., UnreliableDOB_ToRemove) %>% 
+  anti_join(., UnreliableDOB_ToRemove) %>%
   
   #REMOVE MOTHER NO DOB WITH CORRECTED BY MIGUEL
   anti_join(.,Mother_NoDOB_ToExclude) %>% 
   
   #ASSIGN FIRST DATE AS DOB 
-  mutate(DOB2 = case_when(AnimalID %in% Mother_NoDOB_AssignDOB$AnimalID ~ FirstDate,
+  mutate(DOB2 = case_when(AnimalName %in% Mother_NoDOB_AssignDOB$AnimalID ~ FirstDate,
                           TRUE ~ DOB)) %>% 
   
   #REMOVE MOTHER NO FIRST DATE
@@ -308,7 +310,7 @@ tbl_DOB_InConstruct <- AnimalIDDOB %>%
   anti_join(.,BirthGroup_NoDOBNoFirstDate_ToRemove) %>% 
   
   #ASSIGN DOB TO BIRTH GROUP NO DOB AS INSTRUCTED BY MIGUEL
-  left_join(., BirthGroup_NoDOB_MiguelChecked_DOBToAdd) %>% 
+  left_join(., BirthGroup_NoDOB_MiguelChecked_DOBToAdd) %>%
   mutate(DOB3 = case_when(!is.na(DOB_ToAdd) ~ DOB_ToAdd,
                           TRUE ~ DOB2))
 

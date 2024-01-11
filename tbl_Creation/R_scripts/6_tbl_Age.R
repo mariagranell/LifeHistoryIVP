@@ -13,6 +13,7 @@
 # adult: females- that gave birth to a live baby (miscarriage doesn´t counts) OR 4yr and older
 #        males- migrated OR 5yr old
 
+# TODO many babies are classied as adults because they were never named as last seen
 
 # Package -----------------------------------------------------------------
 library(tidyverse)
@@ -33,9 +34,10 @@ tbl_Sex <- read.csv("tbl_Sex.csv")
 tbl_DOB <- read.csv("tbl_DOB.csv")
 
 # tbl_LifeHistory
-tbl_LifeHistory <- read.csv("tbl_LifeHistory_15112022.csv")
+tbl_LifeHistory <- read.csv("tbl_LifeHistory_171123.csv")
 
 # MERGE DATAFRAMES --------------------
+# its fine to have several names
 d <- tbl_AnimalID %>%
   left_join(.,tbl_Sex, by = "AnimalName") %>%
   rename(tbl_sex = Sex) %>%
@@ -60,6 +62,7 @@ d$DOB_estimate <- ifelse(!is.na(d$tbl_dob),d$tbl_dob, d$lh_dob)
 # number of individuals with no DOB and no Sex --------------
 # because of the data I can asume Jalitah and Corfu First dates can be DOB_estimated
 # the rest are too empty
+# TODO there is no Jalitah
 d[d$AnimalName == "Jalitah", "DOB_estimate"] <- d[d$AnimalName == "Jalitah", "FirstDate"]
 d[d$AnimalName == "Corfu", "DOB_estimate"] <- d[d$AnimalName == "Corfu", "FirstDate"]
 

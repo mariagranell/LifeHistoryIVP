@@ -17,7 +17,7 @@ setwd("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL")
 tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
 
 # tbl_LifeHistory ---------------------------------------------------------
-tbl_LifeHistory <- read.csv("tbl_LifeHistory_15112022.csv")
+tbl_LifeHistory <- read.csv("tbl_LifeHistory_171123.csv")
 
 
 table(tbl_LifeHistory$Sex)

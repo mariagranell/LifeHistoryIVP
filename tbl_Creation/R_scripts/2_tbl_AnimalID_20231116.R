@@ -15,7 +15,7 @@
 setwd("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL")
 
 # tbl_LifeHistory ---------------------------------------------------------
-tbl_LifeHistory <- read.csv("tbl_LifeHistory_15112022.csv")
+tbl_LifeHistory <- read.csv("tbl_LifeHistory_171123.csv")
 str(tbl_LifeHistory)
 
 # tbl_AnimalID ------------------------------------------------------------
@@ -44,7 +44,7 @@ AnimalID_clean <- AnimalID %>%
 
 # There is another file that recorded a lot of names that were used wrong.
 # Add entries from Matias
-Matias_name_corrections <- read.csv("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/CSV/Mathia_NameCorrection_20211118.csv") %>%
+Matias_name_corrections <- read.csv("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/Source_files/Mathia_NameCorrection_20211118.csv") %>%
       mutate(bad_name = iconv(bad_name, to = "UTF-8"),
            good_name = iconv(good_name, to = "UTF-8")) %>%
       mutate(bad_name = str_trim(bad_name, side = "both"),
@@ -83,7 +83,8 @@ tbl_AnimalID <- AnimalID_clean %>%
   summarise(OtherID = if(all(is.na(Other_ID))) NA else paste(na.omit(Other_ID), collapse = ";"),
               .groups = 'drop')
 
-
+# Manual correction ----
+tbl_AnimalID <- tbl_AnimalID %>% mutate(AnimalName = ifelse(AnimalCode == "Nil", "Nile", AnimalName))
 
 #write csv
  #write.csv(tbl_AnimalID,"tbl_AnimalID.csv",row.names = FALSE)
