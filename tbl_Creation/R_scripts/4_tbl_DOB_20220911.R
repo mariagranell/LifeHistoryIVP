@@ -335,6 +335,13 @@ tbl_DOB <- AnimalIDDOB %>%
   select(AnimalCode, AnimalName, DOB) %>%
   filter(!is.na(DOB))
 
+# There are some individuals which date of bith iis incorrect.
+# All DOB cannot happen before we were there, i.e. 2010 IVP started.
+# I will remove rows for which the DOB is before 2009
+
+tbl_DOBc <- tbl_DOB %>% filter(DOB > "2009-12-01")
+
+
 # write csv tbl -----------------------------------------------------------
 
-#write.csv(tbl_DOB,"tbl_DOB.csv",row.names = FALSE)
+#write.csv(tbl_DOBc,"tbl_DOB.csv",row.names = FALSE)

@@ -81,7 +81,8 @@ tbl_AnimalID <- AnimalID_clean %>%
 
   group_by(LH_RowNumber, AnimalCode, AnimalName) %>%
   summarise(OtherID = if(all(is.na(Other_ID))) NA else paste(na.omit(Other_ID), collapse = ";"),
-              .groups = 'drop')
+              .groups = 'drop')%>%
+  filter(!is.na(AnimalCode) & !is.na(AnimalName))
 
 # Manual correction ----
 tbl_AnimalID <- tbl_AnimalID %>% mutate(AnimalName = ifelse(AnimalCode == "Nil", "Nile", AnimalName))

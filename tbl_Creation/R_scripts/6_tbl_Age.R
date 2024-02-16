@@ -59,6 +59,11 @@ d <- d%>%
 
 d$DOB_estimate <- ifelse(!is.na(d$tbl_dob),d$tbl_dob, d$lh_dob)
 
+# Some individuals have the DOB wrong, that is claimiing they were born in the 1900.
+# I will only allow in DOB_estimate, DOB bigger than 2009 (IVP started in 2010)
+d$DOB_estimate <-ifelse(d$DOB_estimate > "2009-12-01", d$DOB_estimate, NA )
+
+
 # number of individuals with no DOB and no Sex --------------
 # because of the data I can asume Jalitah and Corfu First dates can be DOB_estimated
 # the rest are too empty
@@ -132,7 +137,7 @@ d <- d%>%
             TRUE ~ DOB_estimate))
 
 sum(is.na(d$DOB_estimate))
-View(d%>% filter(is.na(DOB_estimate) & tbl_sex == "M" & !is.na(BirthGroup) & !is.na(EmigrationNatalDate)), "diff")
+#View(d%>% filter(is.na(DOB_estimate) & tbl_sex == "M" & !is.na(BirthGroup) & !is.na(EmigrationNatalDate)), "diff")
 
 # Baby males ----------
 d <-d %>% mutate(DOB_estimate = ifelse(is.na(DOB_estimate) & tbl_sex == "M" & str_detect(AnimalName, "BB|Baby"), FirstDate, DOB_estimate))
@@ -169,7 +174,8 @@ AnimalID_DOB_FD <- AnimalID_DOB %>%
                 AnimalName,
                 FirstDate,
                 DOB_estimate
-              ), by = "AnimalName") %>%
+              ), by = "AnimalName", relationship = "many-to-many") %>%
+  filter(!is.na(AnimalName)) %>%
   mutate(FirstDate = ymd(FirstDate))
 
 AnimalID_DOB_FD <- AnimalID_DOB_FD %>%
@@ -200,9 +206,11 @@ AnimalID_Age_Sex <- AnimalID_DOB_FD %>%
     Age_yr_estimate >= 5 ~ "adult"
   ))
 
+# I will also clean DOB collumn from entries that clain they were born before 2009.
+d$DOB <-ifelse(d$DOB > "2009-12-01", d$DOB, NA )
 
 # write csv tbl -----------------------------------------------------------
 tbl_Age <- AnimalID_Age_Sex %>% select(AnimalName,AnimalCode, DOB, FirstDate, DOB_estimate, Age_yr, Age_class)
 
-#  write.csv(tbl_Age,"tbl_Age.csv",row.names = FALSE)
+# write.csv(tbl_Age,"tbl_Age.csv",row.names = FALSE)
 
