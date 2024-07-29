@@ -16,7 +16,8 @@ tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
 head(tbl_AnimalID)
 
 # tbl_LifeHistory ---------------------------------------------------------
-tbl_LifeHistory <- read.csv("tbl_LifeHistory_171123.csv")
+tbl_LifeHistory <- read.csv("tbl_LifeHistory_180424.csv") %>%
+  filter(!(LH_AnimalName == "Dinosaur"& ReliableData == "NO")) # dirty fix!
 str(tbl_LifeHistory)
 
 # Join AnimalID and LH Info -----------------------------------------------
@@ -62,7 +63,7 @@ Mother_NoFirstDate <- AnimalIDDOB %>%
   filter(!is.na(LH_MotherID),
          is.na(FirstDate))
 nrow(Mother_NoFirstDate)
-#4 animals that supposedly have a mother have no first date and no DOB, same
+#5 animals that supposedly have a mother have no first date and no DOB, same
 #These should be checked
 #Mother_NoFirstDate
 
@@ -155,7 +156,7 @@ Mother_NoDOB <- AnimalIDDOB %>%
                            "LT")) %>% 
   arrange(BirthGroup,
           FirstDate)
-nrow(Mother_NoDOB) # 24 now
+nrow(Mother_NoDOB) # 2 now
 #146 entries if no restriction on first date
 #100 entries if restiction on first date 
 #64 entries if considering only group of interets 
@@ -174,7 +175,7 @@ Mother_NoDOB_ToExclude <- Mother_NoDOB %>%
 Mother_NoDOB_AssignDOB <- Mother_NoDOB %>% 
   anti_join(.,Mother_NoDOB_ToExclude)
 nrow(Mother_NoDOB_AssignDOB)
-#89 entries
+#2 entries
 
 
 
@@ -188,7 +189,7 @@ Mother_NoFirstDate_ToRemove <- AnimalIDDOB %>%
          is.na(FirstDate)) %>% 
   select(AnimalName)
 nrow(Mother_NoFirstDate)
-#4 animals that supposedly have a mother have no FirstDate
+#0 animals that supposedly have a mother have no FirstDate
 #They can be removed because they also have no DOB
 
 
@@ -200,8 +201,8 @@ Mother_NoFirstDateNoDOB_ToRemove <- AnimalIDDOB %>%
          is.na(FirstDate),
          is.na(DOB)) %>% 
   select(AnimalName)
-View(Mother_NoFirstDateNoDOB_ToRemove)
-#4 animals that supposedly have a mother have no FirstDate and no DOB, same as above 
+#View(Mother_NoFirstDateNoDOB_ToRemove)
+#0 animals that supposedly have a mother have no FirstDate and no DOB, same as above
 
 
 

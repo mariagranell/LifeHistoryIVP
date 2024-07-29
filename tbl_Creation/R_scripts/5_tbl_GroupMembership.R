@@ -18,12 +18,13 @@ tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
 # tbl_Sex
 tbl_Sex <- read.csv("tbl_Sex.csv")
 # tbl_LifeHistory
-tbl_LifeHistory <- read.csv("tbl_LifeHistory_171123.csv")
+tbl_LifeHistory <- read.csv("tbl_LifeHistory_180424.csv")%>%
+  filter(!(LH_AnimalName == "Dinosaur"& ReliableData == "NO"))
 
 # Create a joined data to work with
 d <- tbl_Sex %>%
   left_join(.,tbl_LifeHistory %>%
-            select(LH_AnimalCode, LH_AnimalName, CurrentGroup,
+            dplyr::select(LH_AnimalCode, LH_AnimalName, CurrentGroup,
                    DOB, FirstDate, BirthGroup,
                    EmigrationNatalDate,
                    ImmigrationDate1 ,ImmigrationGroup1, LastDate1,
@@ -36,7 +37,7 @@ d <- tbl_Sex %>%
   #mutate(ImmigrationDate1 = as.factor(ImmigrationDate1))
 
 # I want to create a table that melts down all the info of individuals. So only 4 columns:
-# Animal_ID, Start_date, Last_date, Group
+# Animal_ID, StartDate_mb, EndDate_mb, Group_mb
 
 # I will tackle this in cases
 
@@ -46,7 +47,7 @@ d <- tbl_Sex %>%
 d <- d[d$AnimalName != "Babyrenn2020",]
 
 # From comments. LastDate2 for Kommunis is wrong. 2021 instead 2022. Corrected now!
-#d[d$AnimalName == "Kommunis", "LastDate2"] <- "2021-12-14"
+d[d$AnimalName == "Kommunis", "LastDate2"] <- "2021-12-14"
 
 
 ## some individuals don't have An ImmigrationDate1 but have an ImmigrationGroup1. Here I will just add invidiuals
@@ -185,10 +186,7 @@ View(tbl_GroupMembership%>%
   filter(!is.na(Fate_probable)), "Unreliable data")
 
 # change Apa LT end date to 2022-07-26 becuase data in BGE. Corrected!
-#tbl_GroupMembership[] <- "2022-07-26"
-
 # lif date of brain extraction: 20.08.2022, 5 days before as approx of End_Date in NH. Corrected!
-#tbl_GroupMembership[] <- "2022-08-17"
 
 # write the csv -----------------------------
 #write.csv(tbl_GroupMembership,"tbl_GroupMembership.csv",row.names = FALSE)

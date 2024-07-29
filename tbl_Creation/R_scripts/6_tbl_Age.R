@@ -34,7 +34,8 @@ tbl_Sex <- read.csv("tbl_Sex.csv")
 tbl_DOB <- read.csv("tbl_DOB.csv")
 
 # tbl_LifeHistory
-tbl_LifeHistory <- read.csv("tbl_LifeHistory_171123.csv")
+tbl_LifeHistory <- read.csv("tbl_LifeHistory_180424.csv") %>%
+  filter(!(LH_AnimalName == "Dinosaur"& ReliableData == "NO"))
 
 # MERGE DATAFRAMES --------------------
 # its fine to have several names
@@ -51,7 +52,7 @@ d <- tbl_AnimalID %>%
 
 # Double check DOB ---------------------
 # if they have a DOB they have a Birthdaygroup and a mother.
-# wes and pun cannot have a DOB if they don+t have a BirthGroup.
+# wes and pun cannot have a DOB if they don´t have a BirthGroup.
 # Kaya from LT has a DOB but no mum.. but we will allow it since is a female
 d <- d%>%
   mutate(tbl_dob = case_when(LH_AnimalCode %in% c("Wes", "Pun") ~ NA, TRUE ~ tbl_dob),

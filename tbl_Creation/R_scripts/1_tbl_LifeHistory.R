@@ -4,7 +4,7 @@
  library(dplyr)
  library(lubridate)
  library(testthat)
- source("/Vervet_Functions.R")
+ source("/Users/mariagranell/Repositories/data/life_history/Vervet_Functions.R")
  source('/Users/mariagranell/Repositories/data/functions.R')
 
 
@@ -12,9 +12,7 @@
 
 
  #Load the LH file
- IVP_LH <- read.csv2('/Users/mariagranell/Repositories/data/life_history/tbl_Creation/CSV/IVP_Life_history_260523.csv',
-                     na.strings=c(""," ","NA")) # make blancs into NA
-  IVP_LH <- read.csv('/Users/mariagranell/Repositories/data/life_history/tbl_Creation/Source_files/IVP_Life_history_171123.csv',
+ IVP_LH <- read.csv2('/Users/mariagranell/Repositories/data/life_history/tbl_Creation/Source_files/IVP_Life_history_180424.csv',
                      na.strings=c(""," ","NA")) # make blancs into NA
 
  colnames(IVP_LH)
@@ -35,10 +33,10 @@
  # Ignore the warning message
   # remodel the format of the columns
  ivp_lh <- IVP_LH %>%
-   mutate_at(vars(DOB,FirstRecorded, DateAdult, DepartureNatalGp, DateImmigration1, LastSeen1,
+   mutate_at(vars(DOB, FirstRecorded, DateAdult, DepartureNatalGp, DateImmigration1, LastSeen1,
                   DateImmigration2, LastSeen2,
                   DateImmigration3, LastSeen3,
-                  DateImmigration4, LastSeen4), dmy) %>%
+                  DateImmigration4, LastSeen4), ymd) %>%
    mutate_at(vars(DOB,FirstRecorded, DateAdult, DepartureNatalGp, DateImmigration1, LastSeen1,
                   DateImmigration2, LastSeen2,
                   DateImmigration3, LastSeen3,
@@ -70,20 +68,20 @@ for (col in columns_to_check) {
  ### DOB # assuming the losses
  # empty_rows_IVP <- IVP_LH %>% filter(is.na(DOB)) ; view(ivp_lh%>% filter(is.na(DOB)) %>% anti_join(empty_rows_IVP, by ="Individual"))
  ### FirstRecorded
- # empty_rows_IVP <- IVP_LH %>% filter(is.na(FirstRecorded)) ; view(ivp_lh%>% filter(is.na(FirstRecorded)) %>% anti_join(empty_rows_IVP, by ="Individual"))
- # ivp_lh[ivp_lh$Individual == "Whidbey", "FirstRecorded" ] <- "2016-10-01" # invented date. It says 2016
+  empty_rows_IVP <- IVP_LH %>% filter(is.na(FirstRecorded)) ; view(ivp_lh%>% filter(is.na(FirstRecorded)) %>% anti_join(empty_rows_IVP, by ="Individual"))
+  #ivp_lh[ivp_lh$Individual == "Whidbey", "FirstRecorded" ] <- "2016-10-01" # invented date. It says 2016
  ### DateImmigration1
- # empty_rows_IVP <- IVP_LH %>% filter(is.na(DateImmigration1)) ; view(ivp_lh%>% filter(is.na(DateImmigration1)) %>% anti_join(empty_rows_IVP, by ="Individual"))
- # ivp_lh[ivp_lh$Individual == "Camilla", "DateImmigration1" ] <- "2015-02-01" # assume the day 01. Rest is the same
- #ivp_lh[ivp_lh$Individual == "Alcatraz", "ImmigrationGp1" ] <- "Jacaranda" # wrong place
+  empty_rows_IVP <- IVP_LH %>% filter(is.na(DateImmigration1)) ; view(ivp_lh%>% filter(is.na(DateImmigration1)) %>% anti_join(empty_rows_IVP, by ="Individual"))
+  #ivp_lh[ivp_lh$Individual == "Camilla", "DateImmigration1" ] <- "2015-02-01" # assume the day 01. Rest is the same
+  #ivp_lh[ivp_lh$Individual == "Alcatraz", "ImmigrationGp1" ] <- "Jacaranda" # wrong place
  ### LastSeen1
   empty_rows_IVP <- IVP_LH %>% filter(is.na(LastSeen1)) ; view(ivp_lh%>% filter(is.na(LastSeen1)) %>% anti_join(empty_rows_IVP, by ="Individual"))
  #ivp_lh[ivp_lh$Individual == "Halfy", "LastSeen1" ] <- "2015-07-09" # assume the day 01. Rest is the same
  #ivp_lh[ivp_lh$Individual == "Baby Siele 2016", "LastSeen1" ] <- "2017-01-01" # assume the day 01. Rest is the same
- ivp_lh[ivp_lh$Individual == "Spek", "LastSeen1" ] <- "2022-11-31"
+ #ivp_lh[ivp_lh$Individual == "Spek", "LastSeen1" ] <- "2022-11-31"
  ### LastSeen4
- # empty_rows_IVP <- IVP_LH %>% filter(is.na(LastSeen4)) ; view(ivp_lh%>% filter(is.na(LastSeen4)) %>% anti_join(empty_rows_IVP, by ="Individual"))
- #ivp_lh[ivp_lh$Individual == "Primavera", "ReliableData" ] <- "yes" # wrong place
+  empty_rows_IVP <- IVP_LH %>% filter(is.na(LastSeen4)) ; view(ivp_lh%>% filter(is.na(LastSeen4)) %>% anti_join(empty_rows_IVP, by ="Individual"))
+ #ivp_lh[ivp_lh$Individual == "Primavera", "ReliableData" ] <- "Yes" # wrong place
 
  # tblLifeHistory ----------------------------------------------------------
 
@@ -197,6 +195,6 @@ LH%>%
  LH[] <- lapply(LH, gsub, pattern = todaydate, replacement = "Stillpresent")
 
  # Generate tbl_LifeHistory ------------------------------------------------
- tbl_LifeHistory_171123 <- LH
+ tbl_LifeHistory_180424 <- LH
 
- #write.csv(tbl_LifeHistory_171123,"/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL/tbl_LifeHistory_171123.csv",row.names = FALSE)
+ # write.csv(tbl_LifeHistory_180424, "/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL/tbl_LifeHistory_180424.csv", row.names = FALSE)

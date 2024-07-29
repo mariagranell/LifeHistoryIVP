@@ -14,8 +14,15 @@
 # Paths ------------------------------------------------------------------
 setwd("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL")
 
+# Paths ------------------------------------------------------------------
+ library(tidyverse)
+ library(dplyr)
+ library(lubridate)
+ source('/Users/mariagranell/Repositories/data/functions.R')
+
+
 # tbl_LifeHistory ---------------------------------------------------------
-tbl_LifeHistory <- read.csv("tbl_LifeHistory_171123.csv")
+tbl_LifeHistory <- read.csv("tbl_LifeHistory_180424.csv")
 str(tbl_LifeHistory)
 
 # tbl_AnimalID ------------------------------------------------------------

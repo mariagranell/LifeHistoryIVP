@@ -17,7 +17,8 @@ setwd("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL")
 tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
 
 # tbl_LifeHistory ---------------------------------------------------------
-tbl_LifeHistory <- read.csv("tbl_LifeHistory_171123.csv")
+tbl_LifeHistory <- read.csv("tbl_LifeHistory_180424.csv") %>%
+  filter(!(LH_AnimalName == "Dinosaur"& ReliableData == "NO"))
 
 
 table(tbl_LifeHistory$Sex)
@@ -64,14 +65,14 @@ AnimalIDSex %>%
 
 # Add manually individuals ------------------------------------------------
 
-#AnimalIDSex[AnimalIDSex$AnimalCode %in% c("Apo","Pap","Tas"), 3] <- "M"
-#AnimalIDSex[AnimalIDSex$AnimalCode %in% c("Ekse","Naga"), 3] <- "F"
+AnimalIDSex[AnimalIDSex$AnimalCode %in% c("Apo","Pap","Tas"), 3] <- "M"
+AnimalIDSex[AnimalIDSex$AnimalCode %in% c("Ekse","Naga"), 3] <- "F"
 
 # Generate tbl_Sex --------------------------------------------------------
 
 tbl_Sex <- AnimalIDSex %>%
   select(LH_RowNumber, AnimalCode, AnimalName, Sex) %>%
-  filter(!(is.na(Sex)))
+  filter(!is.na(Sex))
 
 
 # write csv table ---------------------------------------------------------
