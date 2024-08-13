@@ -89,6 +89,7 @@ tbl_AnimalID <- AnimalID_clean %>%
   group_by(LH_RowNumber, AnimalCode, AnimalName) %>%
   summarise(OtherID = if(all(is.na(Other_ID))) NA else paste(na.omit(Other_ID), collapse = ";"),
               .groups = 'drop')%>%
+  mutate(OtherID = str_replace_all(OtherID, ",", ";")) %>%
   filter(!is.na(AnimalCode) & !is.na(AnimalName))
 
 # Manual correction ----
@@ -96,3 +97,11 @@ tbl_AnimalID <- tbl_AnimalID %>% mutate(AnimalName = ifelse(AnimalCode == "Nil",
 
 #write csv
  #write.csv(tbl_AnimalID,"tbl_AnimalID.csv",row.names = FALSE)
+
+KeyOtherID <- tbl_AnimalID %>%
+  dplyr::select(AnimalCode, OtherID) %>%
+  separate_rows(OtherID, sep = ";") %>%
+  filter(!is.na(OtherID)) %>% distinct() %>%
+  mutate(OtherID = str_trim(OtherID, side = "left"))
+
+write.csv(KeyOtherID,"KeyOtherID.csv",row.names = FALSE)

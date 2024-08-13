@@ -73,3 +73,32 @@ add_age <- function(birthdate, date = Sys.Date(), unit) {
   }
 }
 
+# Integrate OtherID ------------------------
+# For that you need to use the KeyOtherID file you creatte when creating lh
+KeyOtherID <- read.csv("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL/KeyOtherID.csv")
+
+integrate_otherid <- function(df, id_column) {
+
+  # Ensure the id_column is quoted (if passed unquoted)
+  id_column <- enquo(id_column)
+
+  # Define static columns
+  other_id_column <- "OtherID"
+  animal_code_column <- "AnimalCode"
+
+  # Remove spaces from the ID column in df
+  df <- df %>%
+    mutate(!!id_column := str_replace_all(!!id_column, " ", ""))
+
+  # Remove spaces from the OtherID column in KeyOtherID
+  key_df <- KeyOtherID %>%
+    mutate(OtherID = str_replace_all(OtherID, " ", ""))
+
+  # Perform the left join and replacement
+  df_corrected <- df %>%
+    left_join(key_df, by = setNames(other_id_column, quo_name(id_column))) %>%
+    mutate(!!id_column := coalesce(!!sym(animal_code_column), !!id_column)) %>%
+    dplyr::select(-!!sym(animal_code_column))
+
+  return(df_corrected)
+}
