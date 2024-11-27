@@ -22,7 +22,7 @@ setwd("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL")
 
 
 # tbl_LifeHistory ---------------------------------------------------------
-tbl_LifeHistory <- read.csv("tbl_LifeHistory_180424.csv")
+tbl_LifeHistory <- read.csv("../TBL/Archive_tbl/lh_181124/tbl_LifeHistory_181124.csv")
 str(tbl_LifeHistory)
 
 # tbl_AnimalID ------------------------------------------------------------
@@ -104,4 +104,20 @@ KeyOtherID <- tbl_AnimalID %>%
   filter(!is.na(OtherID)) %>% distinct() %>%
   mutate(OtherID = str_trim(OtherID, side = "left"))
 
-write.csv(KeyOtherID,"KeyOtherID.csv",row.names = FALSE)
+write.csv(KeyOtherID, "../TBL/Archive_tbl/lh_181124/KeyOtherID.csv", row.names = FALSE)
+
+# names that need changes in the original file:
+#Newale06.22
+#NewMale2
+#Newmale3; NewMale3
+#Malecollar
+#VHFCollarFemale
+#NewMale07/22;NewMale072022
+#Juv1
+#Juv2
+#Kneescab
+#Shorttailedguy
+#TriangularFace
+#OFamilyfaceMale
+#Newmale0424
+#Male1

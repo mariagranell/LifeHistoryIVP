@@ -12,11 +12,11 @@ setwd("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL")
 # input file is with animalName, animalCode
 
 # tbl_AnimalID ------------------------------------------------------------
-tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
+tbl_AnimalID <- read.csv("../TBL/Archive_tbl/lh_181124/tbl_AnimalID.csv")
 head(tbl_AnimalID)
 
 # tbl_LifeHistory ---------------------------------------------------------
-tbl_LifeHistory <- read.csv("tbl_LifeHistory_180424.csv") %>%
+tbl_LifeHistory <- read.csv("../TBL/Archive_tbl/lh_181124/tbl_LifeHistory_181124.csv") %>%
   filter(!(LH_AnimalName == "Dinosaur"& ReliableData == "NO")) # dirty fix!
 str(tbl_LifeHistory)
 
@@ -63,7 +63,7 @@ Mother_NoFirstDate <- AnimalIDDOB %>%
   filter(!is.na(LH_MotherID),
          is.na(FirstDate))
 nrow(Mother_NoFirstDate)
-#5 animals that supposedly have a mother have no first date and no DOB, same
+#4 animals that supposedly have a mother have no first date and no DOB, same
 #These should be checked
 #Mother_NoFirstDate
 
@@ -75,7 +75,7 @@ BirthGroup_NoDOB <- AnimalIDDOB %>%
          is.na(DOB),
          FirstDate > "2014-01-01")
 nrow(BirthGroup_NoDOB)
-#77 entries, more before! getting better
+#63 entries, more before! getting better
   
 
 

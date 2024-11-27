@@ -1,5 +1,9 @@
 
-library("stringr")
+library(dplyr)
+library(stringr)
+library(lubridate)
+library(tidyr)
+
 
 # Standardize name  -------------------------------------------------------
 # To be applied before joins 
@@ -75,8 +79,13 @@ add_age <- function(birthdate, date = Sys.Date(), unit) {
 
 # Integrate OtherID ------------------------
 # For that you need to use the KeyOtherID file you creatte when creating lh
-KeyOtherID <- read.csv("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL/KeyOtherID.csv")
+KeyOtherID <- read.csv("/tbl_Creation/TBL/Archive_tbl/lh_181124/KeyOtherID.csv")
 
+# function that works also to replcae names in a string
+# example of use
+# Applying the function
+# df_corrected <- integrate_otherid(df, IDActors)
+# %>%  integrate_otherid(., IDActors)
 integrate_otherid <- function(df, id_column) {
 
   # Ensure the id_column is quoted (if passed unquoted)
@@ -86,19 +95,25 @@ integrate_otherid <- function(df, id_column) {
   other_id_column <- "OtherID"
   animal_code_column <- "AnimalCode"
 
-  # Remove spaces from the ID column in df
+  # Remove spaces from the ID column in df (if needed)
   df <- df %>%
     mutate(!!id_column := str_replace_all(!!id_column, " ", ""))
 
-  # Remove spaces from the OtherID column in KeyOtherID
+  # Remove spaces from the OtherID column in KeyOtherID (if needed)
   key_df <- KeyOtherID %>%
     mutate(OtherID = str_replace_all(OtherID, " ", ""))
 
-  # Perform the left join and replacement
+  # Apply the replacement row by row
   df_corrected <- df %>%
-    left_join(key_df, by = setNames(other_id_column, quo_name(id_column))) %>%
-    mutate(!!id_column := coalesce(!!sym(animal_code_column), !!id_column)) %>%
-    dplyr::select(-!!sym(animal_code_column))
+    rowwise() %>%
+    mutate(!!id_column := {
+      id_value <- !!id_column
+      for (i in seq_len(nrow(key_df))) {
+        id_value <- str_replace_all(id_value, fixed(key_df$OtherID[i]), key_df$AnimalCode[i])
+      }
+      id_value
+    }) %>%
+    ungroup()
 
   return(df_corrected)
 }

@@ -25,13 +25,13 @@ source("/Users/mariagranell/Repositories/data/life_history/Vervet_Functions.R")
 setwd("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL")
 
 # tbl_AnimalID
-tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
+tbl_AnimalID <- read.csv("../TBL/Archive_tbl/lh_181124/tbl_AnimalID.csv")
 
 # tbl_Sex
-tbl_Sex <- read.csv("tbl_Sex.csv")
+tbl_Sex <- read.csv("../TBL/Archive_tbl/lh_181124/tbl_Sex.csv")
 
 # tbl_DOB
-tbl_DOB <- read.csv("tbl_DOB.csv")
+tbl_DOB <- read.csv("../TBL/Archive_tbl/lh_181124/tbl_DOB.csv")
 
 # tbl_LifeHistory
 tbl_LifeHistory <- read.csv("tbl_LifeHistory_180424.csv") %>%
@@ -207,11 +207,11 @@ AnimalID_Age_Sex <- AnimalID_DOB_FD %>%
     Age_yr_estimate >= 5 ~ "adult"
   ))
 
-# I will also clean DOB collumn from entries that clain they were born before 2009.
+# I will also clean DOB collumn from entries that claim they were born before 2009.
 d$DOB <-ifelse(d$DOB > "2009-12-01", d$DOB, NA )
 
 # write csv tbl -----------------------------------------------------------
 tbl_Age <- AnimalID_Age_Sex %>% select(AnimalName,AnimalCode, DOB, FirstDate, DOB_estimate, Age_yr, Age_class)
 
-# write.csv(tbl_Age,"tbl_Age.csv",row.names = FALSE)
+#write.csv(tbl_Age,"tbl_Age.csv",row.names = FALSE)
 

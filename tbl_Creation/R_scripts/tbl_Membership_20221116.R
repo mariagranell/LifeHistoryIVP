@@ -23,7 +23,7 @@ setwd("/Users/mariagranell/Repositories/phllipe_vulloid/tbl_Creation/tbl_maria")
 
 # tbl_AnimalID ------------------------------------------------------------
 
-tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
+tbl_AnimalID <- read.csv("../TBL/Archive_tbl/lh_181124/tbl_AnimalID.csv")
 
 
 # tbl_LifeHistory ---------------------------------------------------------
@@ -34,12 +34,12 @@ View(tbl_LifeHistory)
 
 # tbl_Sex -----------------------------------------------------------------
 
-tbl_Sex <- read.csv("tbl_Sex.csv")
+tbl_Sex <- read.csv("../TBL/Archive_tbl/lh_181124/tbl_Sex.csv")
 
 
 # tbl_DOB -----------------------------------------------------------------
 
-tbl_DOB <- read.csv("tbl_DOB.csv")
+tbl_DOB <- read.csv("../TBL/Archive_tbl/lh_181124/tbl_DOB.csv")
 
 
 # tbl_Natal ---------------------------------------------------------------

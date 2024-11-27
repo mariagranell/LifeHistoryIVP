@@ -12,7 +12,7 @@
 
 
  #Load the LH file
- IVP_LH <- read.csv2('/Users/mariagranell/Repositories/data/life_history/tbl_Creation/Source_files/IVP_Life_history_180424.csv',
+ IVP_LH <- read.csv2('/tbl_Creation/Source_files/Archive_CSV/IVP_Life_history_081124.csv',
                      na.strings=c(""," ","NA")) # make blancs into NA
 
  colnames(IVP_LH)
@@ -36,7 +36,7 @@
    mutate_at(vars(DOB, FirstRecorded, DateAdult, DepartureNatalGp, DateImmigration1, LastSeen1,
                   DateImmigration2, LastSeen2,
                   DateImmigration3, LastSeen3,
-                  DateImmigration4, LastSeen4), ymd) %>%
+                  DateImmigration4, LastSeen4), dmy) %>%
    mutate_at(vars(DOB,FirstRecorded, DateAdult, DepartureNatalGp, DateImmigration1, LastSeen1,
                   DateImmigration2, LastSeen2,
                   DateImmigration3, LastSeen3,
@@ -195,6 +195,6 @@ LH%>%
  LH[] <- lapply(LH, gsub, pattern = todaydate, replacement = "Stillpresent")
 
  # Generate tbl_LifeHistory ------------------------------------------------
- tbl_LifeHistory_180424 <- LH
+ tbl_LifeHistory_181124 <- LH
 
- # write.csv(tbl_LifeHistory_180424, "/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL/tbl_LifeHistory_180424.csv", row.names = FALSE)
+  #write.csv(tbl_LifeHistory_181124, "/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL/tbl_LifeHistory_181124.csv", row.names = FALSE)

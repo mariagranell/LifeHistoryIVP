@@ -5,10 +5,12 @@
 
 # remove all the files that are .csv
 *.csv
+*.txt
 
 Archive*/
 *.idea*
 tbl_Creation/.idea/
+tbl_Creation/Source_files/
 
 ### macOS ###
 # General

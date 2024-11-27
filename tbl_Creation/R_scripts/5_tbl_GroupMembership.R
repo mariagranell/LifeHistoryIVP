@@ -14,9 +14,9 @@ library(lubridate)
 setwd("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL")
 
 # tbl_AnimalName
-tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
+tbl_AnimalID <- read.csv("../TBL/Archive_tbl/lh_181124/tbl_AnimalID.csv")
 # tbl_Sex
-tbl_Sex <- read.csv("tbl_Sex.csv")
+tbl_Sex <- read.csv("../TBL/Archive_tbl/lh_181124/tbl_Sex.csv")
 # tbl_LifeHistory
 tbl_LifeHistory <- read.csv("tbl_LifeHistory_180424.csv")%>%
   filter(!(LH_AnimalName == "Dinosaur"& ReliableData == "NO"))
@@ -49,14 +49,13 @@ d <- d[d$AnimalName != "Babyrenn2020",]
 # From comments. LastDate2 for Kommunis is wrong. 2021 instead 2022. Corrected now!
 d[d$AnimalName == "Kommunis", "LastDate2"] <- "2021-12-14"
 
-
 ## some individuals don't have An ImmigrationDate1 but have an ImmigrationGroup1. Here I will just add invidiuals
 # that have an EmigrationNatalDate and approximate the entry date a day after they left
 # their natal groups. I will also filter for only the main groups
 # a<-d %>%filter(is.na(ImmigrationDate1) & !is.na(LastDate1) & !is.na(EmigrationNatalDate)) %>%filter(grepl('\\bCR\\b|\\bLT\\b|\\bAK\\b|\\bBD\\b|\\bKB\\b|\\bNH\\b', ImmigrationGroup1)) %>% mutate(ImmigrationDate1 = as.character(as.Date(EmigrationNatalDate) + 1))
 # I'll make the changes manually since is only two cases
-d[d$AnimalName == "Asseblief", "ImmigrationDate1"] <- as.character(as.Date(d[d$AnimalName == "Asseblief", "EmigrationNatalDate"]) + 1)
-d[d$AnimalName == "Gaaf", "ImmigrationDate1"] <- as.character(as.Date(d[d$AnimalName == "Gaaf", "EmigrationNatalDate"]) + 1)
+d[d$AnimalName == "Asseblief", "ImmigrationDate1"] <- as.character(ymd(d[d$AnimalName == "Asseblief", "EmigrationNatalDate"]) + 1)
+d[d$AnimalName == "Gaaf", "ImmigrationDate1"] <- as.character(ymd(d[d$AnimalName == "Gaaf", "EmigrationNatalDate"]) + 1)
 
 # 2. From birth to last seen, if last seen is empty i´ll asume today date ----------------------
 todaydate <- as.character(Sys.Date())
@@ -189,4 +188,4 @@ View(tbl_GroupMembership%>%
 # lif date of brain extraction: 20.08.2022, 5 days before as approx of End_Date in NH. Corrected!
 
 # write the csv -----------------------------
-#write.csv(tbl_GroupMembership,"tbl_GroupMembership.csv",row.names = FALSE)
+write.csv(tbl_GroupMembership, "../TBL/Archive_tbl/lh_181124/tbl_GroupMembership.csv", row.names = FALSE)

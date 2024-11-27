@@ -14,10 +14,10 @@ library(tidyverse)
 setwd("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL")
 
 # tbl_AnimalID ------------------------------------------------------------
-tbl_AnimalID <- read.csv("tbl_AnimalID.csv")
+tbl_AnimalID <- read.csv("../TBL/Archive_tbl/lh_181124/tbl_AnimalID.csv")
 
 # tbl_LifeHistory ---------------------------------------------------------
-tbl_LifeHistory <- read.csv("tbl_LifeHistory_180424.csv") %>%
+tbl_LifeHistory <- read.csv("../TBL/Archive_tbl/lh_181124/tbl_LifeHistory_181124.csv") %>%
   filter(!(LH_AnimalName == "Dinosaur"& ReliableData == "NO"))
 
 
@@ -27,6 +27,7 @@ table(tbl_LifeHistory$Sex)
 AnimalIDSex <- tbl_AnimalID %>%
   left_join(., tbl_LifeHistory %>%
     select(LH_AnimalCode, LH_AnimalName, Sex), by= c("AnimalCode"="LH_AnimalCode", "AnimalName" = "LH_AnimalName")) %>%
+  #AnimalIDSex <- LH%>%
 
   #MAKE SEX AS CAPTITAL 
   mutate(Sex = toupper(Sex)) %>%
