@@ -308,7 +308,7 @@ tbl_DOB_estimate <- d %>%
 }
 tbl_DOB_estimate <- AnimalID_Age_Sex %>%
   dplyr::select(LH_RowNumber, AnimalName, AnimalCode, OtherID,
-                Sex, DOB, DOBAccuracy, DOB_estimate , Age_class,
+                Sex, DOB, DOBAccuracy, DOB_estimate , Age_class, FirstDate,
                 MotherID, FatherID, Fate_probable, ReliableData, Comments)
 
 ## Group memebership -------
