@@ -13,14 +13,15 @@ library(stringr)
 library(tidyr)
 source("/Users/mariagranell/Repositories/data/life_history/Vervet_Functions.R")
 
-library(readODS)
-
 # path ------------------------
-setwd("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL")
+setwd("/Users/mariagranell/Repositories/data/life_history/tbl_Creation")
 
 # data ------------------------
-IVP_LH <- read_ods("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/Source_files/IVPLifeHistoryJakobMCleaning_27112024.ods", sheet=2) %>%
+IVP_LH <- read.csv2("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/Source_files/IVPLifeHistoryJakobMCleaning_20250401.csv") %>%
    mutate(across(where(is.character), ~na_if(.x, "NA")))
+
+# necessary due to R update
+IVP_LH[] <- lapply(IVP_LH, function(x) { if (is.character(x)) iconv(x, from = "latin1", to = "UTF-8", sub = "byte") else x })
 
 # I will create new data coluns in where there will not be data loss when appliying ymd(). However some data will
 # be approximated. I will still work with a ymd() format or the closest to that. I will include a column statisng if the data is approximated
@@ -50,7 +51,7 @@ ivp_lh <- IVP_LH %>%
           AnimalName = Individual,
           AnimalCode = Code,
           OtherID = Nicknames,
-          DOBAccuracy = "DOB Accuracy",
+          DOBAccuracy = DOB.Accuracy,
           FirstDate = FirstRecorded,
           MotherID = Mother,
           FatherID = Father,
@@ -69,7 +70,8 @@ ivp_lh <- IVP_LH %>%
           ImmigrationGroup2 = ImmigrationGp2,
           ImmigrationGroup3 = ImmigrationGp3,
           ImmigrationGroup4 = ImmigrationGp4,
-          CurrentGroup = PresentGp) %>%
+          CurrentGroup = PresentGp,
+          ReliableData = Reliable.data) %>%
 
    #DEAL WITH DUPLICATED ANIMALID
    filter(!(AnimalName == "Goose" & FirstDate == "2021-05-25"),
@@ -100,8 +102,8 @@ ivp_lh <- IVP_LH %>%
  #Checking from the comments seeing which animals are supposed to be where
  LH <- LH %>%
    mutate( Fate_probable = ifelse(grepl("Kill*|Dead|Died|kill*|dead|died|body|Body|decease*", Comments), "dead",
-                  ifelse(grepl("Dissap|diss", Comments),"dissapeared",
-                                  ifelse(grepl("migra*|Migra*", Comments), "migrated",
+                  ifelse(grepl("Dissap|diss|Disap|dissap|disap", Comments),"dissapeared",
+                                  ifelse(grepl("migra*|Migra*|Dispers|disper", Comments), "migrated",
                      "NA")))) %>%
    mutate( Fate_probable = na_if(Fate_probable, "NA"))
 
@@ -129,7 +131,7 @@ Matias_name_corrections <- read.csv("/Users/mariagranell/Repositories/data/life_
 
 
 # from this file I am only intrested in Code, Name and Other.
-extra_OtherID <- Matias_name_corrections %>% select(good_name, full_name, bad_name) %>%
+extra_OtherID <- Matias_name_corrections %>% dplyr::select(good_name, full_name, bad_name) %>%
   filter(str_trim(good_name) != "") %>%
   rename(AnimalCode = good_name,
          AnimalName = full_name,
@@ -145,14 +147,19 @@ tbl_AnimalID <- lh_AnimalIDclean %>%
   mutate(OtherID = str_replace_all(OtherID, ",", ";")) %>%
   filter(!is.na(AnimalCode) & !is.na(AnimalName))
 
+codes <- tbl_AnimalID %>% pull(AnimalCode)
+names <- tbl_AnimalID %>% pull(AnimalName)
+
 KeyOtherID <- tbl_AnimalID %>%
   dplyr::select(AnimalCode, OtherID) %>%
   separate_rows(OtherID, sep = ";") %>%
   filter(!is.na(OtherID)) %>% distinct() %>%
-  mutate(OtherID = str_trim(OtherID, side = "left"))
-
-write.csv(KeyOtherID, "../TBL/Archive_tbl/lh_181124/KeyOtherID.csv", row.names = FALSE)
+  mutate(OtherID = str_trim(OtherID, side = "left")) %>%
+  filter(!(OtherID %in% codes), #OtherID %in% names # Remove names that are code for other animals
+         OtherID != ""
+  )
 }
+write.csv(KeyOtherID, "/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL/KeyOtherID.csv", row.names = FALSE)
 
 # Select collumns that should be cleaned:
 # LH_RowNumber, AnimalName, AnimalCode, OtherID, Sex, DOB, DOBAccuracy, MotherID, FatherID, Fate_probable, ReliableData, Comments)
@@ -342,7 +349,7 @@ ceroGP <- d%>%
 
   # if it dosen´t have a last seen date must be they are still in the group
   mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
-  select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
+  dplyr::select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
 
 # 2.1 group slpits ----------------------------------------------------------------------
 # some are still not resolved becuase there is no immigration date. You can check this ->
@@ -362,7 +369,7 @@ gpsplits <- d %>%
   ) %>%
    # if it dosen´t have a last immigration date must be they are still in the group
   mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
-  select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type) %>%
+  dplyr::select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type) %>%
   mutate(Group_mb = str_replace_all(Group_mb, pattern = c("Ifamily"), replacement = "IFamily"))
 
 
@@ -376,7 +383,7 @@ emigrated <- d%>%
     Tenure_type = "BirthGroup"
 
   ) %>%
-  select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
+  dplyr::select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
 
 # 4. first inmigration ----------------------
 
@@ -390,7 +397,7 @@ firstimmi <- d%>%
   ) %>%
    # if it dosen´t have a last immigration date must be they are still in the group
   mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
-  select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
+  dplyr::select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
 
 
 
@@ -405,7 +412,7 @@ secondimmi <- d%>%
   ) %>%
    # if it dosen´t have a last immigration date must be they are still in the group
   mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
-  select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
+  dplyr::select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
 
 # 6. third immigration --------------------------
 thirdimmi <- d%>%
@@ -418,7 +425,7 @@ thirdimmi <- d%>%
   ) %>%
    # if it dosen´t have a last immigration date must be they are still in the group
   mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
-  select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
+  dplyr::select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
 
 # 7. fourth immigration ---------------------
 fourthimmi <- d%>%
@@ -431,7 +438,7 @@ fourthimmi <- d%>%
   ) %>%
    # if it dosen´t have a last immigration date must be they are still in the group
   mutate( EndDate_mb = ifelse(is.na(EndDate_mb), todaydate, EndDate_mb)) %>%
-  select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
+  dplyr::select(AnimalName, Group_mb,StartDate_mb, EndDate_mb, Tenure_type)
 
 # 8. put all tables together ------------------
 
@@ -453,4 +460,4 @@ factchecked_LH <- tbl_DOB_estimate %>%
   left_join(.,tbl_GroupMembership, by = "AnimalName", multiple = "all") %>% # the problem is mercury but don+t worry.
   distinct()
 
-write.csv(factchecked_LH, "/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL/fast_factchecked_LH_27112024.csv", row.names = FALSE)
+write.csv(factchecked_LH, "/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL/fast_factchecked_LH.csv", row.names = FALSE)

@@ -79,7 +79,7 @@ add_age <- function(birthdate, date = Sys.Date(), unit) {
 
 # Integrate OtherID ------------------------
 # For that you need to use the KeyOtherID file you creatte when creating lh
-KeyOtherID <- read.csv("/tbl_Creation/TBL/Archive_tbl/lh_181124/KeyOtherID.csv")
+KeyOtherID <- read.csv("/Users/mariagranell/Repositories/data/life_history/tbl_Creation/TBL/KeyOtherID.csv")
 
 # function that works also to replcae names in a string
 # example of use
